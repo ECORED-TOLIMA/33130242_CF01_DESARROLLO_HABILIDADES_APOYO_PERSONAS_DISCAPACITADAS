@@ -2,26 +2,64 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 75%
+    width: 90px
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: rotacion1 3.6s linear infinite
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 75%
+    right: 10%
+    width: 30px
+  &-3
+    animation: rotacion1 3.6s linear infinite
+    position: absolute
+    bottom: 15%
+    right: 93%
+    width: 30px
+
+@keyframes rotacion1 
+  from 
+    transform: rotate(0deg)  
+  to 
+    transform: rotate(360deg)
 
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
-    transform: translateY(0px)
-  
+    transform: translateY(0px) 
+
 .banner-principal
   .container.tarjeta
-    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-image: url("../assets/curso/portada/fondo-banner-principal.svg")
     background-size: cover
     background-position: center
-  
-.txt--green
-  color: #39A900 !important
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.svg")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.svg")
+.barra-avance__boton--regresar 
+  span
+    color: #000000 !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
+
+/*BLOQUES DE TEXTOS*/
+.bloque-texto-c.color-primario
+  background-color: #CDECEB !important
+.tarjeta.color1
+  background-color: #E5EAFF !important
+
+/*FONDOS TARJETAS */
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/intro/imgfondo.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important

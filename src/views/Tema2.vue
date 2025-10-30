@@ -5,9 +5,11 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 2
-      h1 Titulo_de_primer_nivel
-
-
+      h1 Conceptos y aspectos interdisciplinarios de la valoración de apoyos
+    
+    separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.1 Aspectos interdisciplinarios de la valoración de apoyos
 </template>
 
 <script>

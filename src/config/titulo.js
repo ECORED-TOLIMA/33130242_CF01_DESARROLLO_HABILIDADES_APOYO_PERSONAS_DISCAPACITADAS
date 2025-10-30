@@ -1,1 +1,1 @@
-module.exports = 'ECOBASE_SENA'
+module.exports = 'Discapacidad y valoración de apoyos: introducción y conceptualización'
