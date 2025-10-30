@@ -4,7 +4,7 @@ export default {
       'Discapacidad y valoración de apoyos: introducción y conceptualización',
     descripcionCurso:
       'En este componente formativo se aborda la conceptualización de la discapacidad, según la Convención sobre los Derechos de las Personas con Discapacidad de la ONU; desde los enfoques social y de derechos humanos, los modelos de diversidad funcional en clave filosófica, vida independiente y vida en comunidad. Además, se estudian los tipos de discapacidad y el concepto de valoración de apoyos.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
