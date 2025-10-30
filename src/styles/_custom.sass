@@ -45,12 +45,86 @@
     color: #000000 !important
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/imgbaner.png") !important
-
+// versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+    
 /*BLOQUES DE TEXTOS*/
-.bloque-texto-c.color-primario
+.bloque-texto-c.color-secundario
   background-color: #CDECEB !important
+.bloque-texto-c.color-primario
+  background-color: #F0F3FF !important
 .tarjeta.color1
   background-color: #E5EAFF !important
+.bloque-texto-c.color-secundario-oscuro
+  background-color: #5BC0BE !important
+.bloque-texto-c.color-primario-claro
+  background-color: #E5EAFF !important
+.bloque-texto-c.color-primario-medio
+  background-color: #EEF9F9 !important
+.bloque-texto-c.color-primario-oscuro
+  background-color: #A8B8FF !important
+.bloque-texto-c.color-primario-beige
+  background-color: #F8EFEA !important
+
+.bloque-texto-gg
+  position: relative
+  display: flex
+  justify-content: flex-end
+  &__img
+    width: 20%
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    background-position: center
+    background-size: cover
+  &__texto
+    position: relative
+    width: 80%
+    *
+      display: inline
+
+  &--inverso
+    justify-content: flex-start
+    .bloque-texto-gg
+      &__img
+        left: auto
+        right: 0
+
+  @media (max-width: $bp-max-md)
+    padding-top: 40% !important
+    &__img
+      width: 100%
+      height: 50%
+    &__texto
+      width: 100%
+
+  @media (max-width: $bp-max-xs)
+    padding-top: 200px !important
+    &__img
+      height: 250px
+
+  &.color-primario
+    background-color: $color-primario
+  &.color-secundario
+    background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones
+
 
 /*FONDOS TARJETAS */
 .tarjeta--BG01
@@ -63,3 +137,106 @@
     margin-inline: -1.5rem !important
   figure
     z-index: -1 !important
+
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/tema1/imgfondo2.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--BG03
+  background-image: url("../assets/curso/temas/tema1/imgfondo.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--BG04
+  background-color: #FDF5CE
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  text-align: center
+  .img1
+    background-image: url("../assets/curso/temas/tema1/img18.svg")
+  .img2
+    background-image: url("../assets/curso/temas/tema1/img19.svg")
+  .imgg2
+    width: 90px
+    height: 90px
+    background-size: contain
+    background-repeat: no-repeat
+  &:hover
+    color: black !important
+    .img1
+      background-image: url("../assets/curso/temas/tema1/img18_1.svg")
+    .img2
+      background-image: url("../assets/curso/temas/tema1/img19_1.svg")
+
+.tarjeta--BG05
+  background-color: #E5EAFF
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  text-align: center
+  .img3
+    background-image: url("../assets/curso/temas/tema1/img20.svg")
+  .imgg2
+    width: 90px
+    height: 90px
+    background-size: contain
+    background-repeat: no-repeat
+  &:hover
+    color: black !important
+    .img3
+      background-image: url("../assets/curso/temas/tema1/img20_1.svg")
+  
+.divcentrado
+  display: flex
+  justify-content: center
+
+.tarjeta.color-primario
+  background-color: #E5EAFF
+
+.tarjeta.tarjeta--gris.fondo
+  background-image: url("../assets/curso/temas/tema1/fondopasos.png")
+
+// Titulos
+
+.titulo
+  background-color:#E8EBFC
+  color: black
+  padding: 2px 10px
+  border-radius: 50px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  height: 44px
+.titulo h5
+  margin-right: 23px
+
+.titulo img
+  width: 45px
+  height: 45px
+  margin-right: 10px
+  margin-left: -10px
+
+//tablas
+table
+  thead
+    background-color: #F0F3FF
+  tbody
+    border: solid 1px #F0F3FF
+.lista-ul--color li
+  margin-bottom: 0px
+i.fas.fa-user
+  font-size: small

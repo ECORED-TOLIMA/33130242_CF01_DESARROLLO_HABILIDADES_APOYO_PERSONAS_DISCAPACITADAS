@@ -30,7 +30,7 @@
         figure
           img.img-fluid(src="@/assets/curso/temas/intro/img3.svg" alt="Icono 2")
       .col-lg-9
-        .bloque-texto-c.color-primario.p-4.mb-4(data-aos="fade-left")
+        .bloque-texto-c.color-secundario.p-4.mb-4(data-aos="fade-left")
           p.mb-0 En coherencia con lo anterior, es importante que, como persona encargada de la valoración de apoyos, se reconozca que no es solo un documento, sino también un instrumento que permite mostrar las habilidades y barreras que las personas con discapacidad enfrentan en los distintos entornos. Esta evaluación debe estar dada por una persona que comprenda no solo el fenómeno de la discapacidad, sino que entienda que las otras personas son seres humanos.
         .row
           .col-lg-1(data-aos="zoom-in")
