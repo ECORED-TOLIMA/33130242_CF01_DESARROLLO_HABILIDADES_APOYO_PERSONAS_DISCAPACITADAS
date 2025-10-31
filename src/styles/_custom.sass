@@ -1,36 +1,64 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 10%
-    right: 75%
     width: 90px
-  &-2
-    animation: rotacion1 3.6s linear infinite
+    animation: float1 6s ease-in-out infinite alternate
     position: absolute
-    bottom: 75%
-    right: 10%
-    width: 30px
+    top: 15%
+    right: 70%
+    z-index: 1
+  &-2
+    width: 90px
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    right: 85%
   &-3
-    animation: rotacion1 3.6s linear infinite
+    width: 90px
+    animation: scale 6.8s ease-in-out infinite alternate
+    position: absolute
+    top: 31%
+    right: 5%
+  &-4
+    width: 90px
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 8%
+    right: 77%
+  &-5
+    width: 70px
+    animation: rotation 4s infinite linear
     position: absolute
     bottom: 15%
-    right: 93%
-    width: 30px
+    left: 15%
+    z-index: -1
 
-@keyframes rotacion1 
+@-webkit-keyframes rotation 
   from 
-    transform: rotate(0deg)  
+    -webkit-transform: rotate(0deg)  
   to 
-    transform: rotate(360deg)
-
+    -webkit-transform: rotate(359deg)
 
 @keyframes float1
   0%
     transform: translateY(20px)
-  100%
-    transform: translateY(0px) 
 
+  100%
+    transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+  
 .banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.svg")
@@ -81,8 +109,6 @@
   background-color: #F8EFEA !important
 .bloque-texto-c.color-primario-claro2
   background-color: #E8EBFC !important
-
-
 
 .bloque-texto-gg
   position: relative
@@ -174,6 +200,8 @@
   text-align: center
   .img1
     background-image: url("../assets/curso/temas/tema1/img18.svg")
+  .img12
+    background-image: url("../assets/curso/temas/tema2/img12.svg")
   .img2
     background-image: url("../assets/curso/temas/tema1/img19.svg")
   .imgg2
@@ -185,6 +213,8 @@
     color: black !important
     .img1
       background-image: url("../assets/curso/temas/tema1/img18_1.svg")
+    .img12
+      background-image: url("../assets/curso/temas/tema2/img12_1.svg")
     .img2
       background-image: url("../assets/curso/temas/tema1/img19_1.svg")
 
@@ -196,6 +226,8 @@
   text-align: center
   .img3
     background-image: url("../assets/curso/temas/tema1/img20.svg")
+  .img22
+    background-image: url("../assets/curso/temas/tema2/img13.svg")
   .imgg2
     width: 90px
     height: 90px
@@ -205,6 +237,8 @@
     color: black !important
     .img3
       background-image: url("../assets/curso/temas/tema1/img20_1.svg")
+    .img22
+      background-image: url("../assets/curso/temas/tema2/img13_1.svg")
 
 
 .tarjeta--BG06
@@ -229,6 +263,50 @@
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+
+.tarjeta--BG08
+  background-image: url("../assets/curso/temas/tema2/imgfondo.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--BG09
+  background-color: #F0F3FF !important
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--BG10
+  background-color:#EEF9F9 !important
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--BG11
+  background-image: url("../assets/curso/temas/tema2/imgfondo2.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
 
 .tarjeta.clr--pink  
   background-color: #E5EAFF
@@ -263,7 +341,25 @@
   margin-right: 10px
   margin-left: -10px
 
+.titulo2
+  background-color:#E8EBFC
+  border-bottom: #A8B8FF 4px solid
+  color: black
+  padding: 2px 10px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  height: 44px
+.titulo2 h5
+  margin-right: 23px
+
 //tablas
+.tarjeta--tabla:nth-child(even)
+    background-color: #EEF9F9
+.tarjeta--tabla
+    background-color: #F0F3FF
+
+
 table
   thead
     background-color: #F0F3FF
