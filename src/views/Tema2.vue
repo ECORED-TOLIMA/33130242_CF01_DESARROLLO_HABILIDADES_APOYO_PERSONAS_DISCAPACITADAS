@@ -8,20 +8,20 @@
       h1 Conceptos y aspectos interdisciplinarios de la valoración de apoyos
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p(data-aos="fade-left") La valoración de apoyos es un instrumento propuesto por la Ley 1996 de 2019 “Por medio de la cual se establece el régimen para el ejercicio de la capacidad legal de las personas con discapacidad mayores de edad" de Colombia y está contemplado en los artículos 9 y posteriores. Si bien es un requisito de posibilidad para poder acudir a una adjudicación judicial de apoyos, no es solamente un documento o un requisito normativo, es un estudio y un informe de capacidad del funcionamiento de una persona con discapacidad, donde se analiza cuáles son sus actividades de la vida diaria y cómo ella las desempeña. De igual forma, se analiza cómo es el contacto de la persona con discapacidad en un núcleo familiar o en un núcleo laboral o educativo. 
         .row.justify-content-center.align-items-center
-          .col-lg-3.col-md-4.col-6.lg-mb-0(data-aos="zoom-in")
+          .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
             figure
               img.img-fluid(src="@/assets/curso/temas/tema2/img2.svg" alt="Icono 1")
           .col-lg-9
             p(data-aos="fade-left") Según el artículo 11 de la Ley 1996, la valoración de apoyos puede ser realizada por entidades públicas o privadas, siempre que se ajusten a los lineamientos y protocolos establecidos por el ente rector de la Política Nacional de Discapacidad. Cualquier persona puede solicitar gratuitamente este servicio ante las entidades públicas que lo ofrezcan. En todo caso, deberán garantizar la prestación del servicio, como mínimo, la Defensoría del Pueblo, las personerías, así como las entidades territoriales a través de las gobernaciones y alcaldías en los distritos.
-      .col-lg-3.col-md-6.lg-mb-0.mb-4(data-aos="zoom-in")
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img.img-fluid(src="@/assets/curso/temas/tema2/img1.png" alt="Introducción al curso")
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4
         figure
           img.img-fluid(src="@/assets/curso/temas/tema2/img3.png" alt="Icono 1")
       .col-lg-9
@@ -31,7 +31,7 @@
       .col-lg-10
         .tarjeta-BG07.tarjeta.p-4
           .row.justify-content-center.mb-2
-            .col-lg-1
+            .col-lg-1.d-none.d-lg-block
               figure
                 img.img-fluid(src="@/assets/curso/temas/tema2/img4.svg" alt="Introducción al curso")
           .row.justify-content-center
@@ -74,20 +74,20 @@
     p.mb-4 En Colombia, la expedición de la Ley 1996 de 2019 marcó un avance significativo en el reconocimiento de la capacidad legal de las personas con discapacidad, al establecer un cambio de paradigma: estas personas dejaron de ser consideradas únicamente como sujetos de derechos para ser reconocidas como sujetos con capacidad jurídica plena. No obstante, como advierte Zemelman (2010), la promulgación de la norma no necesariamente se traduce en una transformación inmediata de la realidad social, ya que la construcción cultural y práctica de este nuevo enfoque avanza a un ritmo distinto al del desarrollo normativo.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p Aunque el país ratificó la Convención sobre los Derechos de las Personas con Discapacidad, mediante la Ley 1346 de 2009, fue solo hasta una década después, en 2019, que se concretaron figuras jurídicas como la directiva anticipada, los acuerdos de apoyo y la adjudicación judicial. Estas herramientas permiten que las personas con discapacidad ejerzan su capacidad jurídica de manera autónoma y efectiva. Sin embargo, la implementación de la ley ha enfrentado múltiples desafíos, tanto para las familias como para las personas facilitadoras de las valoraciones de apoyo y las entidades designadas para tal fin. Estos retos se deben, en parte, a la falta de conocimiento técnico claro sobre los procedimientos establecidos, pero también al enfoque predominante que aún persiste en algunos sectores: una visión médica y rehabilitadora de la discapacidad.
         .row.align-items-center.bloque-texto-c.color-primario-medio.p-3.mb-4
-          .col-2(data-aos="zoom-in")
+          .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema2/img8.svg', alt='Imagen decorativa')
-          .col-10
+          .col-lg-10
             p.mb-0 Este modelo médico concibe la discapacidad como un diagnóstico clínico o una enfermedad que debe ser tratada o corregida, enfocándose en las pérdidas funcionales. Si bien este enfoque ha contribuido en ciertos aspectos a mejorar la calidad de vida desde el punto de vista del funcionamiento físico o cognitivo, su permanencia como único marco interpretativo tiene consecuencias graves. Al reducir la discapacidad a una deficiencia, se tiende a negar la capacidad legal de la persona, delegando sus decisiones a terceros. Esta lógica perpetúa la exclusión y vulnera directamente sus derechos fundamentales.
-      .col-lg-3
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen')
 
     .row.justify-content-center.mb-4
-      .col-lg-1(data-aos="zoom-in")
+      .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imagen decorativa')
       .col-lg-11
@@ -110,7 +110,7 @@
 
     .tarjeta--BG08.p-4
       .row.justify-content-center.mb-4
-        .col-lg-3(data-aos="zoom-in")
+        .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema2/img11.svg', alt='Imagen decorativa')
         .col-lg-9
@@ -118,7 +118,7 @@
           p.mb-0(data-aos="fade-left") Estas barreras familiares suelen ubicarse en dos extremos: 
 
       .row.justify-content-center.mb-lg-5.mb-4
-        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+        .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
           .tarjeta--boton.color-acento-botones.tarjeta--BG04.p-4.h-100
             .row.justify-content-center.align-items-center.mb-3
               .col-12
@@ -126,7 +126,7 @@
                   .imgg2.img12
             h5.text-center Sobreprotección
             p Por un lado, existen patrones de sobreprotección, caracterizados por un cuidado excesivo que, aunque bien intencionado, puede terminar por incapacitar simbólicamente a la persona con discapacidad.
-        .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="flip-right")
+        .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="flip-right")
           .tarjeta--boton.color-primario.tarjeta--BG05.p-4.h-100
             .row.justify-content-center.align-items-center.mb-3
               .col-12
@@ -137,15 +137,15 @@
     p.mb-4 Ambos enfoques, aunque opuestos, comparten una visión que limita la autonomía y el ejercicio pleno de derechos.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p Como consecuencia, muchas familias tienden a asumir una posición de autoridad sobre la persona con discapacidad, basándose en el historial de cuidado brindado. Esto las lleva a considerar que son, por defecto, la mejor opción para ejercer el rol de apoyo, incluso cuando no cuentan con la idoneidad necesaria. Esta percepción puede generar conflictos de interés, especialmente de tipo económico, que son, de hecho, los más frecuentes en estos procesos.
         .row.justify-content-center
-          .col-lg-3
+          .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema2/img15.svg', alt='Imagen decorativa')
           .col-lg-9
             p.mb-0 Las barreras actitudinales se tornan especialmente complejas cuando se parte de la idea de que el vínculo de consanguinidad o afinidad garantiza automáticamente la idoneidad para ser persona de apoyo. Esta creencia ignora la preferencia y el derecho de elección de la persona con discapacidad, lo que convierte la labor del facilitador en una tarea delicada. Si el informe de valoración concluye que la persona idónea para brindar apoyo no pertenece al núcleo familiar, las reacciones suelen ser negativas, generando incomodidad, rechazo, temor o, en algunos casos, respuestas agresivas hacia el facilitador.
-      .col-lg-3
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img14.png', alt='Imagen decorativa')
 
@@ -166,22 +166,22 @@
 
     .tarjeta--BG09.p-4.mb-4
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-9
+        .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
           p Otro desafío relevante que enfrenta la persona facilitadora en el proceso de valoración de apoyos es la falta de un conocimiento técnico claro y preciso sobre cómo, cuándo y qué elementos deben considerarse para llevar a cabo dicha valoración. Esta incertidumbre puede generar temor o dudas al momento de realizar el procedimiento, afectando la calidad y efectividad del acompañamiento.
           .row.justify-content-center.align-items-center
-            .col-lg-3
+            .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema2/img18.png', alt='Imagen decorativa')
             .col-lg-9
               p En algunos contextos, persiste la creencia errónea de que la valoración de apoyos equivale a un diagnóstico médico o a una simple formalización de los apoyos, lo cual distorsiona el propósito real de esta herramienta. La valoración de apoyos no busca etiquetar ni patologizar, sino identificar las condiciones necesarias para que la persona con discapacidad pueda ejercer plenamente su capacidad jurídica, en función de sus propias decisiones y preferencias.
           .tarjeta--FBG06.p-2
             .row.justify-content-center.align-items-center
-              .col-lg-2
+              .col-lg-2.col-sm-6.col-8.mb-lg-0.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema2/img19.svg', alt='Imagen decorativa')
               .col-lg-9
                 p.mb-0 A esta confusión conceptual se suma la resistencia institucional. Algunas personas funcionarias públicas manifiestan que ya tienen una carga laboral excesiva, lo que dificulta asumir la valoración de apoyos como una función adicional. Esta postura evidencia la necesidad de fortalecer la formación técnica y sensibilización sobre el enfoque de derechos, así como de revisar los esquemas de asignación de responsabilidades dentro de las entidades. 
-        .col-lg-3
+        .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img17.png', alt='Imagen decorativa')
       p Reconocer estos desafíos es fundamental para situarlos en el debate y reflexionar sobre las estrategias necesarias para enfrentarlos. Solo así será posible avanzar hacia una implementación efectiva de la Ley 1996 de 2019, que garantice el respeto a la autonomía y dignidad de las personas con discapacidad.
@@ -203,24 +203,24 @@
           img(src='@/assets/curso/temas/tema2/img20.svg', alt='Descripción: La imagen muestra un grupo diverso de personas reunidas sobre un fondo blanco. Es una representación ilustrada, con figuras que incluyen hombres y mujeres de diferentes edades y condiciones físicas. Algunas de estas personas están utilizando dispositivos de ayuda como sillas de ruedas, un andador y un bastón, lo que sugiere inclusión y accesibilidad. En el centro, hay una mujer mayor con cabello blanco vestida con una chaqueta azul y falda verde, sosteniendo un andador, mientras que a su izquierda hay una persona sentada en una silla de ruedas con una camiseta naranja. A la derecha, también se aprecia a alguien en una silla de ruedas que lleva una camiseta verde. ')
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p Se busca para lograr estos diálogos, un fortalecimiento conceptual de derechos y enfoques de la discapacidad que permitan el desarrollo de competencias y habilidades en clave de enfrentar los retos de la realización de la valoración de apoyos.
         p.mb-0 Para comprender con mayor claridad el origen de la figura de la valoración de apoyos, es necesario realizar un breve recorrido por el marco legal general de la discapacidad en Colombia y el modelo conceptual desde el cual se fundamenta. En este sentido, se parte de la Convención sobre los Derechos de las Personas con Discapacidad, adoptada por la Organización de las Naciones Unidas en 2006, que establece el Modelo Social de la discapacidad. Este modelo plantea un enfoque basado en derechos, en el que la discapacidad no se ubica en la persona ni en sus características corporales, sino en las barreras del entorno. Según este enfoque, la discapacidad se configura a partir de tres elementos: una deficiencia, la interacción de dicha deficiencia con las barreras actitudinales y estructurales del entorno, y la participación en la sociedad en condiciones de igualdad.
-      .col-lg-3
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img21.png', alt='Imagen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img22.png', alt='Imagen decorativa')
       .col-lg-9
         p Este planteamiento representa un cambio de paradigma, al trasladar la responsabilidad de la inclusión desde la persona hacia el entorno social. Desde esta perspectiva, se exige a los Estados adoptar modelos que reconozcan las capacidades y potencialidades de las personas con discapacidad, promoviendo su vida en comunidad y evitando enfoques centrados exclusivamente en la deficiencia. La discapacidad se entiende como una construcción social que limita la autonomía, la toma de decisiones y el diseño de un proyecto de vida en igualdad de condiciones (Victoria, 2013).
         .row.align-items-center.p-3.mb-4
-          .col-2(data-aos="zoom-in")
+          .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imagen decorativa')
-          .col-10
+          .col-lg-10
             p.mb-0 El modelo social también implica dejar atrás la visión de las personas con discapacidad, como pacientes que deben superar sus carencias para adaptarse a una sociedad que no está diseñada para ellas. En lugar de ello, se reconoce que la sociedad debe transformarse para acoger la diversidad humana en todas sus formas. Este cambio en la percepción de la discapacidad ha impulsado la necesidad de construir entornos más inclusivos y equitativos (Victoria, 2013).
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -258,7 +258,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .row.justify-content-center.align-items-center.bloque-texto-c.color-primario-claro.tarjeta
-          .col-lg-1
+          .col-lg-1.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen decorativa')
           .col-lg-10
@@ -288,7 +288,7 @@
     .tarjeta--BG10.p-4.mb-4
       p Es necesario tener en cuenta que como personas facilitadoras de la valoración de apoyos se debe realizar un trabajo de articulación, conocimiento y reconocimiento de la persona con discapacidad y en este sentido es fundamental:
       .row.justify-content-center.align-items-center
-        .col-lg-10
+        .col-lg-10.order-lg-1.order-2.mb-lg-0.mb-4
           ul.lista-ul--color
               li 
                 i.fas.fa-user
@@ -305,7 +305,7 @@
               li 
                 i.fas.fa-user
                 | Comprender los requerimientos de apoyo que tiene la persona con discapacidad.
-        .col-lg-2
+        .col-lg-2.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img29.svg', alt='Imagen decorativa')
 
@@ -330,7 +330,7 @@
         .col-lg-10
           .bloque-texto-c.color-primario-medio.p-4
             .row.justify-content-center.align-items-center
-              .col-lg-9
+              .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
                 ul.lista-ul--color
                   li 
                     i.fas.fa-user
@@ -357,13 +357,13 @@
                     i.fas.fa-user
                     | Vida en comunidad y espacios de inclusión en los que participa la persona con discapacidad.
 
-              .col-lg-3
+              .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema2/img32.svg', alt='Imagen decorativa')
 
     
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4
+        .col-lg-4.col-sm-6.col-8.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img33.png', alt='Imagen decorativa')
         .col-lg-8
@@ -371,9 +371,9 @@
       p.mb-4 En esta misma línea, una contextualización sociofamiliar de las personas con discapacidad, facilita el reconocimiento de las necesidades, motivaciones e intereses de quienes solicitan el informe de valoración de apoyos, permitiendo una comprensión más profunda del entorno en el que se desarrolla la vida cotidiana.
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p Asimismo, al considerar la interrelación entre la dinámica familiar y los condicionantes de la discapacidad, se comprende que esta puede ejercer una influencia positiva o negativa en el proceso de inclusión. La capacidad interna de la familia para reorganizarse funcionalmente será determinante para superar los obstáculos que surgen a raíz de la discapacidad, tales como barreras físicas, comunicativas, actitudinales, arquitectónicas y socioculturales. Superar estas barreras implica establecer acciones incluyentes que promuevan el ejercicio pleno de los derechos de todas las personas que integran el núcleo familiar (Abad, 2016).
-      .col-lg-3
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img34.svg', alt='Imagen decorativa')
 
@@ -409,7 +409,7 @@
               i.fas.fa-quote-right.ms-2        
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img36.png', alt='Imagen decorativa')
       .col-lg-9
@@ -428,13 +428,98 @@
         figure
           img(src='@/assets/curso/temas/tema2/img37.svg', alt='Descripción: La imagen es una ilustración que presenta a una mujer pensativa rodeada de bocadillos con preguntas relacionadas con la diversidad de género, la discapacidad y el conocimiento de protocolos y normativas. La composición de la escena se centra en una mujer en el centro, con la mano en la barbilla y una expresión de duda. Alrededor de ella, se distribuyen cuatro bocadillos que contienen preguntas en español. Estos bocadillos varían en tamaño y forma, pero todos tienen bordes en negro que contrastan con el fondo blanco. La posición de la mujer en el centro, rodeada por las preguntas, sugiere una reflexión sobre los temas planteados. La disposición de los elementos crea una sensación de diálogo interno y búsqueda de respuestas. El personaje principal es una mujer joven, con cabello largo y rojizo y un flequillo ligero. Su expresión es reflexiva, con las cejas ligeramente levantadas y los ojos mirando hacia abajo. Viste una blusa verde, lo que contrasta con el color de su cabello. Su pose, con la mano en la barbilla, indica un estado de contemplación y duda. La imagen parece ser una ilustración digital con un estilo sencillo y claro. El uso de líneas negras para definir los contornos y el relleno plano de colores en la figura de la mujer y el fondo blanco crean una estética limpia y moderna. La paleta de colores es limitada, lo que contribuye a la claridad de la imagen. Los bocadillos, con sus bordes irregulares, añaden un elemento de dinamismo y conversación a la composición. El entorno es simple y carece de detalles, lo que permite que la atención se centre en la mujer y las preguntas. El fondo blanco contribuye a la limpieza de la imagen y facilita la lectura de los textos en los bocadillos. La ausencia de detalles ambientales enfatiza la importancia del tema de la reflexión y el diálogo interno.') 
 
+    .bloque-texto-c.color-primario-medio.tarjeta.mb-4
+      .row.justify-content-center.align-items-center
+        .col-lg-8.order-lg-1.order-2.mb-lg-0.mb-4
+          .px-4
+            p Acompañar a una persona con discapacidad en la garantía de sus derechos sexuales y reproductivos; por ejemplo, exige una mirada con enfoque de género que reconozca sus particularidades dentro de los contextos social, familiar, de pareja y personal. Este enfoque permite promover, fortalecer y asegurar su autonomía, independientemente del tipo de apoyos que requiera. En este sentido, el análisis sociofamiliar desde una perspectiva interdisciplinaria facilita la identificación de situaciones susceptibles de mejora y la activación de rutas de atención tanto para la persona con discapacidad como para su entorno familiar o cuidadores.
+            p.mb-0 En conclusión, el trabajo interdisciplinario posibilita una atención y acompañamiento oportunos y efectivos en el marco de procesos de adjudicación judicial de apoyos. Cada disciplina aporta elementos valiosos para la construcción integral de insumos que orientan la valoración y garantizan un abordaje respetuoso, contextualizado y centrado en la persona.
 
-
+        .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+          figure
+            img(src='@/assets/curso/temas/tema2/img38.png', alt='Imagen decorativa')
 
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0  El papel de la interdisciplinariedad en la valoración de apoyos
- 
+
+
+    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+      h5 Figura 15.
+      i  Interdisciplinariedad en los actores de la valoración de apoyos
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.movil(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema2/img39_1.svg', alt='Descripción: La imagen muestra una escena en interiores donde varias personas están trabajando juntas alrededor de una mesa. Hay tres figuras principales: dos están sentadas mientras escriben en cuadernos y la tercera figura está de pie inclinada hacia la mesa, interactuando con las otras dos. A la izquierda, hay una mujer con el cabello oscuro recogido en una coleta, vestida con una chaqueta azul y una camiseta roja; ella parece estar revisando o tomando notas. En el centro, está un hombre con cabello corto y vestimenta verde, concentrado mientras escribe en un cuaderno abierto frente a él. A la derecha, hay otra figura masculina con cabello oscuro, que lleva una camisa azul y un identificador colgado del cuello; parece estar ofreciendo instrucciones o explicaciones mientras señala o interactúa con la persona del centro. Sobre la mesa hay elementos como hojas de papel y un ordenador portátil de color rosa, lo que sugiere que están realizando una actividad académica o de trabajo colaborativo. En la pared detrás de ellos hay papeles y notas de colores, posiblemente carteles o recordatorios, que agregan un toque organizativo y profesional al ambiente. Los colores predominantes en la imagen son tonos pastel como azul, rosa, amarillo y verde, lo que genera una atmósfera agradable y tranquila. ') 
+      .col-lg-10.desktop(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema2/img39.svg', alt='Descripción: La imagen muestra una escena en interiores donde varias personas están trabajando juntas alrededor de una mesa. Hay tres figuras principales: dos están sentadas mientras escriben en cuadernos y la tercera figura está de pie inclinada hacia la mesa, interactuando con las otras dos. A la izquierda, hay una mujer con el cabello oscuro recogido en una coleta, vestida con una chaqueta azul y una camiseta roja; ella parece estar revisando o tomando notas. En el centro, está un hombre con cabello corto y vestimenta verde, concentrado mientras escribe en un cuaderno abierto frente a él. A la derecha, hay otra figura masculina con cabello oscuro, que lleva una camisa azul y un identificador colgado del cuello; parece estar ofreciendo instrucciones o explicaciones mientras señala o interactúa con la persona del centro. Sobre la mesa hay elementos como hojas de papel y un ordenador portátil de color rosa, lo que sugiere que están realizando una actividad académica o de trabajo colaborativo. En la pared detrás de ellos hay papeles y notas de colores, posiblemente carteles o recordatorios, que agregan un toque organizativo y profesional al ambiente. Los colores predominantes en la imagen son tonos pastel como azul, rosa, amarillo y verde, lo que genera una atmósfera agradable y tranquila. ') 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        p.mb-0 En el marco del tema de la interdisciplinariedad, se comparte el siguiente podcast, el cual aborda perspectivas diversas y complementarias con respecto al tema:
+
+
+    .row.justify-content-center.mb-4
+      .col-lg-8(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema1/img91.svg', alt='Texto que describa la imagen')
+      .col-lg-8(data-aos="zoom-in")
+        .tarjeta.clr--pink.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4
+            TarjetaAudio.color-acento-contenido.mb-3(
+              texto="Entiendo la discapacidad paso a paso"
+              :audio="require('@/assets/actividad/audio/Podcast_02.mp3')"
+              @audio-hover="mostrarIndicadorTarjetaAudio = false"
+          )
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img41.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0  La valoración de apoyos requiere un enfoque interdisciplinario que permita comprender integralmente las condiciones de vida de las personas con discapacidad. En Colombia, la Resolución 113 de 2020, emitida por el Ministerio de Salud y Protección Social, modificó las condiciones para la certificación de discapacidad, proponiendo que esta evaluación no sea realizada por una sola persona profesional, sino por un equipo interdisciplinario. Esta disposición se alinea con el modelo social de la discapacidad, el cual plantea que no es únicamente una cuestión de deficiencias físicas o mentales, sino también de barreras sociales, físicas y actitudinales que limitan el ejercicio pleno de derechos.
+
+    .row.justify-content-center.mb-4
+      .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imagen decorativa')
+      .col-lg-11
+        p.mb-0(data-aos="fade-left") Desde esta perspectiva, las barreras son las que generan la discapacidad. Por ello, tanto la Resolución 113 de 2020 como su modificación y la Resolución 1197 de 2024, insisten en que la discapacidad debe ser analizada desde múltiples áreas del conocimiento. Aunque la valoración de apoyos no certifica ni clasifica tipos de discapacidad, es fundamental que se realice bajo este mismo enfoque, partiendo de un diagnóstico médico, pero integrando otras disciplinas que contribuyan al análisis de habilidades, necesidades y barreras.
+    p.mb-4 A continuación, se presentan algunas disciplinas clave en este proceso y sus aportes específicos: 
+    
+    .tarjeta.tarjeta--gris.fondo.p-5.mb-5(data-aos="zoom-in")
+      SlyderA(tipo="b")
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
+            h4 Psicología
+            p Aporta significativamente en el diagnóstico y evaluación de la discapacidad, así como en el diseño de intervenciones psicoterapéuticas que mejoren la calidad de vida. Además, permite comprender y abordar situaciones de maltrato o violencia que pueden surgir cuando los comportamientos de niñas, niños, niñes y personas adultas con discapacidad no se ajustan a las expectativas sociales. También es esencial en el análisis de las discapacidades psicosociales, que suelen ser invisibles, pero generan profundas experiencias de discriminación. Contar con profesionales de esta disciplina en el proceso de valoración es clave para una comprensión más humana y contextualizada.
+            
+          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema2/img42.png' alt="Imagen decorativa")
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
+            h4 Trabajo social
+            p Permite analizar el comportamiento humano en comunidad, abordando tanto el entorno familiar como el social. Esta disciplina cumple un rol fundamental en el acompañamiento a las familias para comprender y aceptar la discapacidad, así como en la promoción de entornos comunitarios más inclusivos. El trabajo social también identifica las limitaciones que enfrentan las personas con discapacidad en espacios públicos y privados, como la participación en procesos escolares, el acceso a servicios o la movilidad en la ciudad. Su mirada permite proponer ajustes razonables que favorezcan la inclusión y el ejercicio de derechos.
+            
+          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema2/img43.png' alt="Imagen decorativa")
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
+            h4 Arquitectura e ingeniería civil
+            p Aunque a primera vista puedan parecer disciplinas alejadas del ámbito social, la arquitectura y la ingeniería civil son esenciales para analizar cómo los entornos físicos afectan la vida cotidiana de las personas con discapacidad. Por ejemplo, una persona usuaria de silla de ruedas que no puede acceder al baño familiar por una puerta estrecha o una escalera, enfrenta una barrera que impacta directamente en su autonomía y dignidad. La adecuación de espacios físicos es determinante para evitar situaciones de exclusión, como tener que bañarse en un patio por falta de accesibilidad en el baño. Estas disciplinas permiten identificar y transformar los entornos para que sean verdaderamente inclusivos.
+            
+          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema2/img44.png' alt="Imagen decorativa")
+    
+    
+    p.mb-4 Considerando lo anterior, se presenta el siguiente video, que muestra ejemplos de barreras según los distintos tipos de discapacidad, junto con posibles ajustes y adaptaciones para garantizar el derecho a la accesibilidad:
+    .row.justify-content-center.align-items-center           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="1312" height="738" src="https://www.youtube.com/embed/u14sviQTgoA" title="Rights, autonomy and support in disability" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+
 </template>
 
 <script>
