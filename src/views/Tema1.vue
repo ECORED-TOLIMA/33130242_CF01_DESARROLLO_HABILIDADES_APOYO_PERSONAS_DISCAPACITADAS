@@ -735,6 +735,17 @@
     p(data-aos="fade-left") Este cuarto pilar representa una ruptura definitiva con la tradición occidental en materia de derechos humanos, la cual históricamente ha excluido a las personas con discapacidad bajo argumentos relacionados con la razón. Su incorporación obliga a reformar las legislaciones internas, promoviendo el uso de un lenguaje inclusivo y reconociendo la voz y agencia de las personas con discapacidad.
     p(data-aos="fade-left") Este pilar plantea una pregunta fundamental: 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tarjeta-BG07.tarjeta.p-4
+          .row.justify-content-center.mb-2
+            .col-lg-1
+              figure
+                img.img-fluid(src="@/assets/curso/temas/tema2/img4.svg" alt="Introducción al curso")
+          .row.justify-content-center
+            .col-lg-6
+              h4.text-center ¿Qué implica realmente la capacidad jurídica?
+
     p.mb-4(data-aos="fade-left") La Convención sobre los Derechos de las Personas con Discapacidad, como desarrollo normativo en el ámbito de los derechos humanos, propone una visión integral del ser humano. No se trata únicamente de reconocer a las personas con discapacidad como receptoras de derechos, sino también como creadoras de oportunidades y agentes activos en la sociedad.
     
     .bloque-texto-c.color-primario-medio
@@ -868,7 +879,16 @@
           .pe-4
             p Aunque el modelo social plantea que la discapacidad se origina en el entorno —y que, al modificar dicho entorno, la discapacidad desaparece— esta visión puede resultar reduccionista. Ignora que las personas continúan enfrentando deficiencias que no se eliminan simplemente con la instalación de una rampa o un lector de pantalla. En contraste, el modelo de diversidad funcional pone énfasis en las condiciones únicas y personales de cada individuo. Busca que se reconozcan sus vivencias, emociones y percepciones, independientemente de si el entorno está adaptado o no. Su objetivo es devolver a la persona con discapacidad su dimensión ética y moral, y reivindicarla como un ser libre, sensible y autónomo (Palacios & Romañach, 2007).
     p.mb-4(data-aos="fade-left") Tras este recorrido conceptual, resulta fundamental reflexionar: 
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tarjeta-BG07.tarjeta.p-4
+          .row.justify-content-center.mb-2
+            .col-lg-1
+              figure
+                img.img-fluid(src="@/assets/curso/temas/tema2/img4.svg" alt="Introducción al curso")
+          .row.justify-content-center
+            .col-lg-6
+              h4.text-center ¿Qué modelo se privilegia al recibir y atender a personas con discapacidad en el ejercicio como persona facilitadora de la valoración de apoyos?
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         p(data-aos="fade-left") Esta pregunta es clave, ya que el enfoque adoptado determinará la calidad y la integralidad de la atención brindada.
