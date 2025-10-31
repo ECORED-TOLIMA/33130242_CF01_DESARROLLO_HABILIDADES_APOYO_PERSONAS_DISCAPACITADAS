@@ -400,7 +400,8 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
@@ -414,9 +415,53 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Cargo_Experto',
-          centro: 'Regional_Experto',
+          nombre: 'Leidy Castillo Pérez',
+          cargo: 'Experto temática',
+          centro: 'Universidad de Antioquia ',
+        },
+        {
+          nombre: 'Johan Andrey Rodríguez Rodríguez ',
+          cargo: 'Experto temático',
+          centro: 'Universidad de Antioquia ',
+        },
+        {
+          nombre: 'Mary Blanca Ángel Franco ',
+          cargo: 'Experto temática',
+          centro: 'Universidad de Antioquia ',
+        },
+        {
+          nombre: 'Martha Cecilia Builes Alzate ',
+          cargo: 'Experto temática',
+          centro: 'Universidad de Antioquia ',
+        },
+        {
+          nombre: 'María Patricia Sarmiento ',
+          cargo: 'Directora',
+          centro:
+            'Dirección para la Garantía de los Derechos de las Personas con Discapacidad',
+        },
+        {
+          nombre: 'Jenny Elizabeth Tibocha Julio',
+          cargo: 'Profesional especializada',
+          centro:
+            'Dirección para la Garantía de los Derechos de las Personas con Discapacidad',
+        },
+        {
+          nombre: 'Angie Vanessa Soto Arango ',
+          cargo: 'Profesional especializada',
+          centro:
+            'Dirección para la Garantía de los Derechos de las Personas con Discapacidad',
+        },
+        {
+          nombre: 'Eliana Milena Buitrago Umaña',
+          cargo: 'Asesora metodológica ',
+          centro:
+            'Centro de Talento Humano en Salud - Regional Distrito Capital ',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -424,17 +469,33 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+
+        {
+          nombre: 'Veimar Celis Meléndez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -444,12 +505,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
