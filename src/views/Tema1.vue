@@ -22,27 +22,29 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Modelo prescindencia
     
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 1.
       i Representación del modelo de prescindencia
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img2_1.svg', alt='En la imagen se observa una ilustración de estilo caricaturesco ambientada en un escenario al aire libre. A la derecha, hay una persona sentada en una silla de ruedas vestida con una camiseta blanca y zapatillas azules, aparentemente en una situación de vulnerabilidad. A la izquierda, un personaje vestido como un soldado romano, con armadura, túnica amarilla y una capa roja, se encuentra empujando la silla de ruedas hacia un precipicio. Este personaje lleva un casco típico romano con una cresta roja en la parte superior. El fondo presenta un paisaje con tonos amarillos y marrones que representan rocas y tierra, sugiriendo un terreno árido. Sobre el soldado romano aparece un globo de diálogo con el texto: "Para que no sufras mucho, mejor te despeñamos", lo cual añade un tono satírico y oscuro a la imagen. La escena parece ser una crítica o representación humorística de una situación trágica, y el ambiente general transmite una mezcla entre ironía y dramatismo. La ilustración no incluye elementos de naturaleza como árboles o agua, enfocándose totalmente en los personajes.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img2.svg', alt='En la imagen se observa una ilustración de estilo caricaturesco ambientada en un escenario al aire libre. A la derecha, hay una persona sentada en una silla de ruedas vestida con una camiseta blanca y zapatillas azules, aparentemente en una situación de vulnerabilidad. A la izquierda, un personaje vestido como un soldado romano, con armadura, túnica amarilla y una capa roja, se encuentra empujando la silla de ruedas hacia un precipicio. Este personaje lleva un casco típico romano con una cresta roja en la parte superior. El fondo presenta un paisaje con tonos amarillos y marrones que representan rocas y tierra, sugiriendo un terreno árido. Sobre el soldado romano aparece un globo de diálogo con el texto: "Para que no sufras mucho, mejor te despeñamos", lo cual añade un tono satírico y oscuro a la imagen. La escena parece ser una crítica o representación humorística de una situación trágica, y el ambiente general transmite una mezcla entre ironía y dramatismo. La ilustración no incluye elementos de naturaleza como árboles o agua, enfocándose totalmente en los personajes.')
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img2_1.svg', alt='En la imagen se observa una ilustración de estilo caricaturesco ambientada en un escenario al aire libre. A la derecha, hay una persona sentada en una silla de ruedas vestida con una camiseta blanca y zapatillas azules, aparentemente en una situación de vulnerabilidad. A la izquierda, un personaje vestido como un soldado romano, con armadura, túnica amarilla y una capa roja, se encuentra empujando la silla de ruedas hacia un precipicio. Este personaje lleva un casco típico romano con una cresta roja en la parte superior. El fondo presenta un paisaje con tonos amarillos y marrones que representan rocas y tierra, sugiriendo un terreno árido. Sobre el soldado romano aparece un globo de diálogo con el texto: "Para que no sufras mucho, mejor te despeñamos", lo cual añade un tono satírico y oscuro a la imagen. La escena parece ser una crítica o representación humorística de una situación trágica, y el ambiente general transmite una mezcla entre ironía y dramatismo. La ilustración no incluye elementos de naturaleza como árboles o agua, enfocándose totalmente en los personajes.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='En la imagen se observa una ilustración de estilo caricaturesco ambientada en un escenario al aire libre. A la derecha, hay una persona sentada en una silla de ruedas vestida con una camiseta blanca y zapatillas azules, aparentemente en una situación de vulnerabilidad. A la izquierda, un personaje vestido como un soldado romano, con armadura, túnica amarilla y una capa roja, se encuentra empujando la silla de ruedas hacia un precipicio. Este personaje lleva un casco típico romano con una cresta roja en la parte superior. El fondo presenta un paisaje con tonos amarillos y marrones que representan rocas y tierra, sugiriendo un terreno árido. Sobre el soldado romano aparece un globo de diálogo con el texto: "Para que no sufras mucho, mejor te despeñamos", lo cual añade un tono satírico y oscuro a la imagen. La escena parece ser una crítica o representación humorística de una situación trágica, y el ambiente general transmite una mezcla entre ironía y dramatismo. La ilustración no incluye elementos de naturaleza como árboles o agua, enfocándose totalmente en los personajes.')
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.mb-4.mb-lg-0
         p(data-aos="fade-left") Este modelo está guiado por las concepciones de la eugenesia en la antigua Grecia y Roma, donde la discapacidad era percibida desde una perspectiva social y religiosa como un castigo divino o una posesión demoníaca. Esta visión dio origen a dos prácticas predominantes: por un lado, la marginación, que se manifestaba en la pobreza, la exclusión y el aislamiento de las personas con discapacidad en las afueras de las ciudades; y por otro lado, la muerte, aplicada especialmente a niños, niñas y niñes que no cumplían con los patrones esperados por la sociedad.
         .bloque-texto-c.color-secundario.p-4
           p.mb-0(data-aos="fade-left") En la #[b antigüedad], las personas con discapacidad fueron tratadas de maneras distintas, según la cultura a la que pertenecían; por ejemplo, en Grecia ante la aparición de una pérdida funcional o comportamiento distinto de la forma de procesar la información de una persona, se optaba por la muerte. Este comportamiento de eliminar a los niños que no cumplían con las características físicas y mentales, que en Grecia consideraban como comunes a su cultura, es denominado #[b Modelo de prescindencia]. Este modelo, no se agota en la idea de las meras características físicas o mentales, se le atribuye también ideas religiosas, ya que se consideraban las diferencias físicas y mentales como un castigo. Aristóteles le daba una conexión a las deficiencias físicas con respecto a los procedimientos de la mente:
-      .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-3.col-6.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img3.png', alt='Imagen decorativa')
-    .tarjeta--BG02.p-4
+    .tarjeta--BG02.p-5
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
           .bloque-texto-c.color-primario.p-4
@@ -77,10 +79,10 @@
         .col-lg-9
           p(data-aos="fade-left") En el anterior fragmento, Amnistía Internacional, muestra cómo los países actualmente no tienen en todos los casos, un trato diferencial con las personas con discapacidad que han cometido delitos y siguen prescindiendo de ellas como se realizaba históricamente en Grecia y Roma.
           .row.align-items-center.bloque-texto-c.color-primario-claro.p-4.mb-4
-            .col-lg-2.col-6.mb-4.mb-lg-0(data-aos="zoom-in")
+            .col-lg-2.col-8.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa')
-            .col-10
+            .col-lg-10
               p.mb-0(data-aos="fade-left") De igual forma, las personas con discapacidad continúan enfrentando múltiples formas de exclusión. Así lo evidencia el estudio realizado por la Organización de Naciones Unidas (ONU), citado por la relatora Devandas (2015), quien señala las brechas persistentes y las diversas exclusiones que afectan a esta población en todo el mundo.
           p.mb-0(data-aos="fade-left") Las personas con discapacidad representan más de mil millones en el mundo; es decir, una de cada siete personas. La gran mayoría vive en países en vías de desarrollo y más del 80 % se encuentra en situación de pobreza. Sin embargo, esta condición no se limita únicamente a los países en desarrollo, ya que, en las naciones más ricas, las personas con discapacidad también están desproporcionadamente representadas entre los grupos más desfavorecidos.
 
@@ -103,7 +105,7 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0  Modelo médico o rehabilitador
     
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 2.
       i Representación del modelo médico o rehabilitador
 
@@ -122,7 +124,7 @@
       .col-lg-11
         p.mb-0(data-aos="fade-left") Modelo centrado en la persona, el cual considera la discapacidad como un problema individual, causado por una enfermedad o condición de salud. Bajo esta perspectiva, las prácticas también eran de exclusión y aislamiento, ya que las personas con discapacidad eran llevadas a escuelas y centros especiales que buscaban su rehabilitación con el objetivo de “normalizarlas”. Se les ofrecían tratamientos para lograr una cura, pues eran vistas como incapaces de resolver situaciones cotidianas y de enfrentarse a la sociedad, lo que generaba una percepción de minusvalía (Palacios, 2008).
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen decorativa')
       .col-lg-9
@@ -154,10 +156,10 @@
         .bloque-texto-c.color-primario-medio.p-4.mb-4
           p.mb-0 Esta visión de la discapacidad como algo que debe ser tratado o corregido se mantuvo en el modelo médico, que busca sanar y remediar las pérdidas funcionales. No obstante, también ha contribuido a mejorar las condiciones de vida de las personas con discapacidad. Al permitirles vivir, se les reconoció como personas, y los tratamientos y medicamentos les brindaron una mejor calidad de vida. Estos avances han permitido que las personas con discapacidad puedan exigir sus derechos, reflexionar sobre sí mismas y sus familias, y ser reconocidas como sujetos de derechos (Palacios, 2008). 
         .row.justify-content-center.mb-4
-          .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
+          .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen decorativa')
-          .col-lg-11
+          .col-lg-10
             p.mb-0(data-aos="fade-left") En este punto, es importante hacer una descripción del concepto de discapacidad, el cual ha tenido variaciones según el ente que lo haya dado, el momento histórico, social y en especial el propósito y la función que tiene cada una de las organizaciones que los han emitido. La Organización Internacional del Trabajo (OIT), cuyo enfoque está basado en la relación empleado- empleador y Estado, ha puesto en su definición elementos dirigidos a clasificar el grado de discapacidad que posee una persona para ser empleada:
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
@@ -190,7 +192,7 @@
     
     .row.mb-lg-5.mb-4
       .col-sm-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-        .tarjeta--boton.color-acento-botones.tarjeta--BG04.p-4.h-100
+        .tarjeta--boton.color-primario.tarjeta--BG04.p-4.h-100
           .row.justify-content-center.align-items-center.mb-3
             .col-12
               .divcentrado
@@ -198,7 +200,7 @@
           h5.text-center Deficiencia
           p Es toda pérdida o anormalidad de una estructura o función psicológica, fisiológica o anatómica.
       .col-sm-10.col-lg-4.mb-4.mb-lg-0(data-aos="flip-right")
-        .tarjeta--boton.color-acento-botones.tarjeta--BG04.p-4.h-100
+        .tarjeta--boton.color-primario.tarjeta--BG04.p-4.h-100
           .row.justify-content-center.align-items-center.mb-3
             .col-12
               .divcentrado
@@ -206,7 +208,7 @@
           h5.text-center Discapacidad
           p Es toda restricción o ausencia (debida a una deficiencia) de la capacidad de realizar una actividad en la forma o dentro del margen que se considera normal para un ser humano.
       .col-sm-10.col-lg-4.mb-4.mb-lg-0(data-aos="flip-left")
-        .tarjeta--boton.color-primario.tarjeta--BG05.p-4.h-100
+        .tarjeta--boton.color-primario.tarjeta--BG04.p-4.h-100
           .row.justify-content-center.align-items-center.mb-3
             .col-12
               .divcentrado
@@ -231,9 +233,9 @@
 
     p.mb-4(data-aos="fade-left") Hasta aquí se ha desarrollado el análisis de los dos primeros modelos que han influido en la forma de pensar la discapacidad: el #[b Modelo de prescindencia] y el #[b Modelo médico]. La concepción de la discapacidad en estos enfoques puede sintetizarse de la siguiente manera, destacando en sus respectivas épocas:  
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
-        .tabla-b.color-acento-botones.mb-5
+        .tabla-b.color-acento-botones
           table
             thead
               tr
@@ -295,7 +297,7 @@
       h2 1.2 Enfoque de derechos: alcances y limitantes
     p.mb-4(data-aos="fade-left") En la actualidad, el enfoque de derechos se ha convertido en un eje central cuando se habla de atención a personas con discapacidad. Este modelo, también conocido como modelo social, plantea una transformación profunda en la forma de entender la discapacidad, alejándose de visiones centradas en la deficiencia o la enfermedad.
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 3.
       i Representación del modelo social
 
@@ -307,9 +309,9 @@
         figure
           img(src='@/assets/curso/temas/tema1/img22_2.svg', alt='Esta imagen muestra un grupo de niños jugando al aire libre en un círculo mientras se toman de las manos. Están ubicados en un espacio verde, probablemente un campo o parque y todos parecen estar disfrutando del momento juntos. Los niños representan una diversidad de habilidades físicas, destacando inclusividad. Por ejemplo, uno de ellos está sentado en una silla de ruedas en el centro del círculo, otro utiliza muletas y hay uno con un bastón. Sus expresiones faciales y posturas transmiten alegría, cooperación y unidad. Las vestimentas de los niños son coloridas, incluyendo tonos de rojo, azul, verde y rosa, y el diseño de sus atuendos es informal y amigable, adaptado a la escena infantil de juego. Los trazos de la ilustración son caricaturescos, con líneas suaves que sugieren un ambiente amistoso y accesible. También hay un fondo que combina gradientes de verde y amarillo suave, con curvas blancas que enmarcan la escena. En general, la atmósfera es cálida, positiva y transmite un mensaje de inclusión y diversión compartida.')
     .row.justify-content-center.mb-4
-      .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
+      .col-lg-9.mb-4.mb-lg-0
         p(data-aos="fade-left") Según Victoria (2013) este modelo surge de disciplinas y prácticas sociales y políticas, con un enfoque de derechos; da cuenta que la discapacidad no tiene origen ni religioso ni científico, sino que en gran medida corresponde a factores sociales. Considera que la discapacidad no es un asunto de la persona, es más consecuencia de las barreras y la exclusión que impone la sociedad a todo aquel que considera “distinto” e “incapaz”; resalta la definición de la discapacidad como un asunto social, que deviene de la interacción entre las personas y las condiciones que le ofrece a su favor o no, una sociedad. De igual manera, está enfocado en la dignidad humana, la autonomía, la independencia, la libertad y la capacidad de decisión de las personas con discapacidad. Desde esta concepción, las prácticas sociales están centradas en el diseño de un mundo para todos, todas y todes, siendo la accesibilidad factor determinante en la eliminación de barreras y que conlleva a la inclusión de las personas en igualdad de oportunidades y a la participación plena en la sociedad.
-      .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-3.col-6.d-none.d-lg-block.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img23.png', alt='Imagen decorativa')
 
@@ -338,7 +340,7 @@
               i.fas.fa-quote-right.ms-2
     
     .row.justify-content-center.mb-4
-      .col-lg-4.col-6.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img26.png', alt='Imagen decorativa')
       .col-lg-8
@@ -354,7 +356,7 @@
             .d-flex.justify-content-end.align-items-center
               span - (Declaración de los derechos del hombre, 1789).
               i.fas.fa-quote-right.ms-2
-    .bloque-texto-c.color-primario-medio
+    .bloque-texto-c.color-primario-medio.px-lg-0.px-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5(data-aos="zoom-in")
           figure
@@ -381,7 +383,8 @@
               img(src='@/assets/curso/temas/tema1/img30.svg', alt='Imagen decorativa')
           .col-10
             p.mb-0(data-aos="fade-left") También hay que mencionar que la evolución de los Derechos Humanos de 1948, ha sido evidente y notoria, en tanto se amplió el concepto a cada una de las personas que habita la tierra, al menos desde el punto de vista de las legislaciones y en especial de los tratados internacionales de naciones unidas. se encuentran así declaraciones, tratados y convenciones y, a su vez, textos vinculantes y no vinculantes para los 
-              a.lnk(@click="modal1 = true") Estados . 
+              a.lnk(@click="modal1 = true") Estados.
+              sup 1 
 
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
@@ -390,9 +393,11 @@
     
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center.bloque-texto-c.color-primario-claro.p-4
-        .col-md-6.mb-4.mb-md-0
-          p En este punto se alude a la vinculación de algunos Estados para tener en cuenta en su ordenamiento jurídico, los documentos no vinculantes, son recomendaciones que guían, pero que su eficacia depende de la buena voluntad de cada uno de los Estados.
-    .tarjeta--BG02.p-4
+        .col-12.mb-md-0
+          p
+            sup 1
+            |  En este punto se alude a la vinculación de algunos Estados para tener en cuenta en su ordenamiento jurídico, los documentos no vinculantes, son recomendaciones que guían, pero que su eficacia depende de la buena voluntad de cada uno de los Estados.
+    .tarjeta--BG02.p-5
       p.mb-4(data-aos="fade-left") Los documentos vinculantes son:
       SlyderF.color-acento-botones.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.color-primario.p-4
@@ -569,7 +574,7 @@
 
     p.mb-4(data-aos="fade-left") Un instrumento vinculante, relevante para las personas con discapacidad, es la Convención sobre Derechos de las Personas con Discapacidad, la cual trae en su articulado lo que se denomina, #[b Modelo social de la discapacidad], que fue el resultado de una lucha permanente, de estas personas, en el mundo, para ser consideradas y valoradas como seres humanos. En ella, se sitúa a las personas con discapacidad como sujetos de derecho. Al respecto, Naciones Unidas en la Convención de 2006 explica lo que ella entiende por modelo social de la discapacidad:
 
-    .tarjeta--BG02.p-4
+    .tarjeta--BG02.p-4.px-lg-0.px-4
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
           .bloque-texto-c.color-primario.p-4
@@ -582,9 +587,9 @@
                 i.fas.fa-quote-right.ms-2
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
-          .bloque-texto-c.color-primario-beige
-            .row.align-items-center
-              .col-lg-3.col-6.mb-4.mb-lg-0
+          .bloque-texto-c.color-primario-beige.px-4.px-lg-0
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-10.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img47.png', alt='Texto que describa la imagen')
               .col-lg-9
@@ -595,7 +600,7 @@
         p(data-aos="fade-left") La anterior definición introduce en la discusión significativos elementos. Entendiendo que la discapacidad es un concepto en construcción, no propone una verdad, sino que muestra una situación actual, donde la deficiencia y la discapacidad son dos cosas distintas: la primera la poseen las personas y, la segunda, las genera el entorno; así, al referirse a barreras actitudinales y físicas, se dirá que la discapacidad puede ser generada por las personas que integran la sociedad, con sus comportamientos y exclusiones, reconoce igualmente las barreras físicas que pone en medio, a las personas con discapacidad para su adecuado desplazamiento y trabajo, entre otros. 
         p.mb-0(data-aos="fade-left") A continuación, se presentan dos situaciones, que permiten reflexionar sobre el tema:
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 4.
       i  Diálogo entre personas con discapacidad
 
@@ -609,7 +614,7 @@
     
     p.mb-4(data-aos="fade-left") Estos elementos permiten asegurar que la Convención de Naciones Unidas, introduce un nuevo nivel de exigibilidad y de responsabilidad con el otro y la otra, implicando no solamente a los Estados, sino también a las instituciones públicas y privadas, a las sociedades y a las personas individualmente consideradas. Es por ello que el cambio no consiste solo en abandonar un modelo de enfermedad, sino más bien, enfatizar en la promoción de las potencialidades y el reconocimiento de las capacidades, así, se deja de pensar en lo que no se tiene y se explota lo que si se posee. 
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 5.
       i  Diálogo sobre la promoción de las discapacidades
 
@@ -714,24 +719,28 @@
         p(data-aos="fade-left") Todas estas dificultades relacionadas con la accesibilidad generan vulneraciones en otros derechos fundamentales, como la movilidad, la educación y el empleo. Esto ocurre porque, actualmente, no existe una obligación para los particulares de adaptar sus entornos y puestos de trabajo conforme a los principios del diseño universal. En consecuencia, cualquier iniciativa estatal orientada a fomentar la contratación de personas con discapacidad resulta ineficaz si no se acompañan de adecuaciones estructurales y funcionales en estos espacios.
         p(data-aos="fade-left") El cuarto gran pilar de la convención es el artículo 12, en el que se cambia la terminología, se deja de hablar de discapacidad y se comienza a hablar de capacidad.
         p.mb-0(data-aos="fade-left") Según el artículo 12, se igual reconocimiento como persona ante la ley por las siguientes acciones: 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5 
-        .tarjeta--boton.color-primario.p-4
+    .row.justify-content-center.mb-5
+      .col-lg-5.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.tarjeta--BG05.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-3
+            .col-lg-3
               figure
                 img(src='@/assets/curso/temas/tema1/img56.svg', alt='Texto que describa la imagen')
-          h3.text-center  Acción 1
-          p  Los Estados Parte reafirman que las personas con discapacidad tienen derecho en todas partes al reconocimiento de su personalidad jurídica.
+          .row.justify-content-center.mb-3
+            .col-lg-3.fondoh3.p-2
+              h4.mb-0.text-center.text-white  Acción 1
+          p.text-center  Los Estados Parte reafirman que las personas con discapacidad tienen derecho en todas partes al reconocimiento de su personalidad jurídica.
 
       .col-lg-5 
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.tarjeta--BG05.p-4.h-100
           .row.justify-content-center.mb-3
             .col-lg-3.col-6.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img57.svg', alt='Texto que describa la imagen')
-          h3.text-center  Acción 2
-          p  Los Estados Parte reconocerán que las personas con discapacidad tienen capacidad jurídica en igualdad de condiciones con las demás en todos los aspectos de la vida. (ONU, 2006).
+          .row.justify-content-center.mb-3
+            .col-lg-3.fondoh3.p-2
+              h4.mb-0.text-center.text-white Acción 2
+          p.text-center  Los Estados Parte reconocerán que las personas con discapacidad tienen capacidad jurídica en igualdad de condiciones con las demás en todos los aspectos de la vida. (ONU, 2006).
     p(data-aos="fade-left") Este cuarto pilar representa una ruptura definitiva con la tradición occidental en materia de derechos humanos, la cual históricamente ha excluido a las personas con discapacidad bajo argumentos relacionados con la razón. Su incorporación obliga a reformar las legislaciones internas, promoviendo el uso de un lenguaje inclusivo y reconociendo la voz y agencia de las personas con discapacidad.
     p(data-aos="fade-left") Este pilar plantea una pregunta fundamental: 
 
@@ -748,7 +757,7 @@
 
     p.mb-4(data-aos="fade-left") La Convención sobre los Derechos de las Personas con Discapacidad, como desarrollo normativo en el ámbito de los derechos humanos, propone una visión integral del ser humano. No se trata únicamente de reconocer a las personas con discapacidad como receptoras de derechos, sino también como creadoras de oportunidades y agentes activos en la sociedad.
     
-    .bloque-texto-c.color-primario-medio
+    .bloque-texto-c.color-primario-medio.px-4.px-lg-0
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-6.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
@@ -770,7 +779,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        .bloque-texto-c.color-primario        
+        .bloque-texto-c.color-primario.tarjeta.h-100       
           figure
             img(src='@/assets/curso/temas/tema1/img61.png', alt='Imagen decorativa')
           .p-4
@@ -778,84 +787,84 @@
             ul.lista-ul
               li
                 ul
-                  li 
+                  li.mb--44
                     i.lista-ul__vineta
-                    | Goce pleno y condiciones de igualdad en todos los derechos y libertades fundamentales.
-                  li 
+                    p.mb--44 Goce pleno y condiciones de igualdad en todos los derechos y libertades fundamentales.
+                  li.mb--44
                     i.lista-ul__vineta
-                    | Respeto por la dignidad humana.
-                  li 
+                    p.mb--44 Respeto por la dignidad humana.
+                  li.mb--44
                     i.lista-ul__vineta
-                    | Autodeterminación.
+                    p.mb--44 Autodeterminación.
       .col-lg-6
-        .bloque-texto-c.color-primario       
+        .bloque-texto-c.color-primario.tarjeta.h-100
           figure
             img(src='@/assets/curso/temas/tema1/img62.png', alt='Imagen decorativa')
           .p-4
             p.text-bold Igualdad
             ul.lista-ul
-              li
+              li.mb--44
                 ul
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | No discriminación.
             p.mb-0 Diferencias entre:
             ul.lista-ul
-              li
+              li.mb--44
                 ul
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Igualdad formal: ante la ley, ej: la ley dice que Carlos, con discapacidad mental tiene derecho al empleo.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Igualdad material: en la realidad, se requiere exigencia de garantía ante el Estado, ej: Carlos es excluido del sistema laboral.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        .bloque-texto-c.color-primario        
+        .bloque-texto-c.color-primario.tarjeta.h-100
           figure
             img(src='@/assets/curso/temas/tema1/img63.png', alt='Imagen decorativa')
           .p-4
             p.text-bold Accesibilidad
             ul.lista-ul
-              li
+              li.mb--44
                 ul
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Adaptaciones físicas.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Adaptaciones en sistemas de transporte.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Adaptaciones en sistemas de información y comunicación.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Ajustes razonables.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Acciones afirmativas.
       .col-lg-6
-        .bloque-texto-c.color-primario       
+        .bloque-texto-c.color-primario.tarjeta.h-100
           figure
             img(src='@/assets/curso/temas/tema1/img64.png', alt='Imagen decorativa')
           .p-4
             p.text-bold Cambio de términos
             ul.lista-ul
-              li
+              li.mb--44
                 ul
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | En lugar de discapacidad se habla de capacidad.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Reconocimiento de la capacidad jurídica (libertad y autonomía para elegir y tomar decisiones).
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Lenguaje inclusivo.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Voz personas con discapacidad.
-                  li 
+                  li.mb--44 
                     i.lista-ul__vineta
                     | Apoyo para toma de decisiones.
 
@@ -870,7 +879,7 @@
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema1/img65.svg', alt='Imagen decorativa')
-    .bloque-texto-c.color-primario-claro2.mb-4
+    .bloque-texto-c.color-primario-claro2.mb-4.px-4.px-lg-0
       .row.align-items-center.justify-content-center
         .col-lg-3.col-6.mb-lg-0.mb-4
           figure
@@ -992,6 +1001,10 @@
       .col-lg-10
         figure
           img(src='@/assets/curso/temas/tema1/img70.svg', alt='Texto que describa la imagen')
+      .col-lg-10
+        .bloque-texto-c.color-primario.p-4
+          p.mb-0 Dos personas sienten hambre. La primera no tiene recursos para adquirir alimentos; la segunda está en ayuno voluntario por razones religiosas. Aunque ambas experimentan la misma sensación física, la diferencia radica en que una lo hace por imposición y la otra por elección. 
+    
     p.mb-4(data-aos="fade-left") Este ejemplo evidencia que el desarrollo económico no siempre se correlaciona directamente con la satisfacción de las necesidades humanas. Existen países con altos niveles de riqueza donde las necesidades básicas no se satisfacen, y otros con menos recursos que logran atenderlas adecuadamente.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
@@ -1004,7 +1017,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-c.bloque-texto-c.color-primario-medio.mb-4
+        .bloque-texto-c.bloque-texto-c.color-primario-medio.mb-4.p-4.p-lg-0
           .row.justify-content-center.align-items-center
             .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4
               figure
@@ -1027,7 +1040,7 @@
           img(src='@/assets/curso/temas/tema1/img73.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .bloque-texto-c.color-primario-claro.mb-4
+        .bloque-texto-c.color-primario-claro.mb-4.p-4.p-lg-0
           .row.justify-content-center.align-items-center
             .col-lg-4      
               figure
@@ -1071,7 +1084,7 @@
     p.mb-4(data-aos="fade-left") Lo anterior revela una propuesta moral de alcance global que podría denominarse ética, en tanto que posee una pretensión universal: busca fundamentar las instituciones, las sociedades y los individuos, y al mismo tiempo, que estos últimos sean los encargados de construir y sostener una moral. No se trata, sin embargo, de una moral plausible en el sentido que plantea Tugendhat (2001) en sus Lecciones de moral y Lecciones de ética, donde la moral se edifica a partir de valores compartidos, pero carece de eficacia práctica al no existir instituciones capaces de materializarla. En contraste, el Enfoque de Capacidades propone una moral concreta y liberadora, orientada a transformar las condiciones reales de vida.
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
+      .col-lg-7.order-lg-1.order-2.mb-lg-0.mb-4
         p(data-aos="fade-left") Ahora bien, ¿y las personas con discapacidad? En un modelo que promueve la libertad y el desarrollo, no debería ser necesario establecer distinciones entre personas o poblaciones. Tanto Sen (2000) como Nussbaum (2019), sostienen que cada individuo, con o sin discapacidad, debe tener la posibilidad de elegir libremente lo que desea. El entorno y el desarrollo deben proveer los elementos necesarios para que esa elección sea posible. Por ejemplo, las tecnologías de apoyo no hacen libres a las personas simplemente porque estén disponibles, sino porque estas han decidido utilizarlas, y el desarrollo debe garantizar su acceso como expresión de autonomía.
       .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
@@ -1081,7 +1094,7 @@
       .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img78.png', alt='Texto que describa la imagen')
-      .col-lg-9
+      .col-lg-7
         p.mb-0(data-aos="fade-left") No obstante, el debate no se agota allí. Aunque Nussbaum (2007) propone una revisión crítica de la Teoría del Contrato de Rawls, incorporando a grupos históricamente excluidos de la deliberación pública y del ejercicio de sus derechos, tanto el enfoque de capacidades como el contractualismo parten de la existencia de derechos previamente otorgados, ya sea por medio de un pacto social o a través de instituciones como el Estado y su constitución. En este sentido, el modelo de capacidades reconoce y privilegia ciertos derechos fundamentales vinculados a la libertad, pero estos están predeterminados desde el inicio. Aunque ofrecen un mayor margen de acción para los individuos, no permiten afirmar que puedan surgir nuevos derechos en función de las necesidades emergentes de las personas.
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
@@ -1178,7 +1191,7 @@
       .col-lg-10
         p.mb-0(data-aos="fade-left") Si bien estas son las siete discapacidades consideradas en Colombia, es importante anotar acá que por la Ley 1275 de 2009, las personas de talla baja también fueron incluidas dentro de los tipos de discapacidad y se les dio su distinción en términos de derechos en dicha ley.
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 6.
       i Dudas sobre personas con discapacidad
 
@@ -1189,7 +1202,7 @@
       .col-lg-10.desktop(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img90.svg', alt='Descripción: Una ilustración de estilo gráfico presenta a una mujer pensativa junto a un bocadillo que plantea una pregunta sobre las barreras para las personas con discapacidad. La composición se organiza en dos elementos principales: un bocadillo de diálogo negro con un texto en español y una ilustración de una mujer a la derecha. El bocadillo ocupa gran parte del lado izquierdo, con una forma que sugiere una conversación. La mujer está posicionada en la parte inferior derecha, mirando hacia el bocadillo, creando una conexión visual. La composición está equilibrada y la distribución del espacio es armónica. El personaje principal es una mujer joven, con pelo largo y rojizo. Se le muestra con una expresión de reflexión, sosteniendo su barbilla con la mano. Viste una blusa verde. Sobre su cabeza, aparecen dos signos de interrogación amarillos, lo que sugiere que la mujer está pensando o tiene dudas. El bocadillo contiene texto en español. El estilo artístico es simple, plano y gráfico, con líneas negras gruesas que definen los contornos y los elementos. Los colores son planos, con una paleta de tonos suaves y sin gradientes. El fondo es blanco. La ejecución técnica es sencilla y funcional, con un diseño de estilo de ilustración de libro de texto. El entorno es mínimo, sin detalles que distraigan. La iluminación es suave, sin sombras marcadas. La atmósfera general es directa y concisa, con la intención de presentar la información de forma clara.')
-    p.mb-4(data-aos="fade-left") Para concluir este apartado, se recomienda escuchar el siguiente podcast, el cual complementa los contenidos abordados:
+    p.mb-4(data-aos="fade-left") Para concluir este apartado, se recomienda escuchar el siguiente #[i podcast], el cual complementa los contenidos abordados:
     
     .row.justify-content-center
       .col-lg-8(data-aos="zoom-in")
@@ -1199,7 +1212,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="Entiendo la discapacidad paso a paso"
+              texto="Entendiendo la discapacidad paso a paso"
               :audio="require('@/assets/actividad/audio/Podcast_01.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )

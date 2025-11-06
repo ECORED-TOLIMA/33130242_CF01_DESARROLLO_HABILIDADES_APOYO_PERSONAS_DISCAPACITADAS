@@ -73,7 +73,8 @@
     color: #000000 !important
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/imgbaner.png") !important
-// versión escritorio/movil
+  
+  // versión escritorio/movil
 @media (min-width:1400px)
   .movil2
     display: inline
@@ -204,6 +205,10 @@
     background-image: url("../assets/curso/temas/tema2/img12.svg")
   .img2
     background-image: url("../assets/curso/temas/tema1/img19.svg")
+  .img3
+    background-image: url("../assets/curso/temas/tema1/img20_1.svg")
+  .img22
+    background-image: url("../assets/curso/temas/tema2/img13_1.svg")
   .imgg2
     width: 90px
     height: 90px
@@ -217,29 +222,20 @@
       background-image: url("../assets/curso/temas/tema2/img12_1.svg")
     .img2
       background-image: url("../assets/curso/temas/tema1/img19_1.svg")
+    .img3
+      background-image: url("../assets/curso/temas/tema1/img20.svg")
+    .img22
+      background-image: url("../assets/curso/temas/tema2/img13.svg")
+    
 
 .tarjeta--BG05
-  background-color: #E5EAFF
-  background-size: cover
+  background-image: url("../assets/curso/temas/tema1/imgfondoaccion1.svg")
+  background-size: cover 
   background-repeat: no-repeat
   background-position: center
-  text-align: center
-  .img3
-    background-image: url("../assets/curso/temas/tema1/img20.svg")
-  .img22
-    background-image: url("../assets/curso/temas/tema2/img13.svg")
-  .imgg2
-    width: 90px
-    height: 90px
-    background-size: contain
-    background-repeat: no-repeat
-  &:hover
-    color: black !important
-    .img3
-      background-image: url("../assets/curso/temas/tema1/img20_1.svg")
-    .img22
-      background-image: url("../assets/curso/temas/tema2/img13_1.svg")
-
+  
+.fondoh3
+  background-color: #2142DC
 
 .tarjeta--BG06
   background-image: url("../assets/curso/temas/tema1/bgfondopasos_2.svg")
@@ -308,6 +304,13 @@
   figure
     z-index: -1 !important
 
+.tarjeta--BG12
+  background-image: url("../assets/curso/temas/tema1/imgfondofigura.svg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+
 .tarjeta.clr--pink  
   background-color: #E5EAFF
 
@@ -320,7 +323,8 @@
 
 .tarjeta.tarjeta--gris.fondo
   background-image: url("../assets/curso/temas/tema1/fondopasos.png")
-
+.tarjeta--boton.color-primario:hover
+  background-color: #E5EAFF
 // Titulos
 
 .titulo
@@ -392,3 +396,24 @@ i.fas.fa-user
 .slyder-a__bullets__item--active
   background-color: #F9DC5C
   border-color: #F9DC5C
+.pasos-b__header__item--before .pasos-b__header__item__dot
+    border-color: #2142DC
+    background-color: #2142DC
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+    background-color: #2142DC
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+    background-color: #2142DC
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, li i.lista-ul__vineta
+  display: flex
+.lnk
+  background-color:#F9DC5C
+  text-decoration: none
+
+.mb--6
+  margin-bottom: -6px !important
+
+.mb--4
+  margin-bottom: -8px !important
+.mb--44
+  margin-bottom: -4px !important

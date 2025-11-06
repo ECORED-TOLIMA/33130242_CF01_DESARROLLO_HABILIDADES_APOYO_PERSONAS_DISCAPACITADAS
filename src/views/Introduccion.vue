@@ -54,7 +54,7 @@
           img(src='@/assets/curso/temas/intro/img6.svg' alt='AvatarTop')
           .tarjeta.color-primario.tarjeta.color1.w-100
             .text-black.p-4
-              h4.text-center “Nadie puede cuidarlo o cuidarla mejor que yo, yo soy su madre y sé mejor que nadie que qué necesita, obvio que tengo que ser yo la persona de apoyo".
+              h4.text-center “Nadie puede cuidarlo o cuidarla mejor que yo, yo soy su madre y sé mejor que nadie qué necesita, obvio que tengo que ser yo la persona de apoyo".
       .col-lg-4.mb-4.col-md-6.col-sm-8.mb-4(data-aos="fade-left")
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/intro/img7.svg' alt='AvatarTop')
@@ -71,7 +71,7 @@
               figure
                 img.img-fluid(src="@/assets/curso/temas/intro/img8.svg" alt="")
             .col-lg-9
-              .bloque-texto-c.color-primario.p-4.mb-4(data-aos="fade-left")
+              .bloque-texto-c.color-secundario.p-4.mb-4(data-aos="fade-left")
                 p.mb-0 El abordaje de estas dificultades y el asumir estos retos, es posible siempre y cuando se realice un trabajo de carácter interdisciplinario, permitiendo así, establecer un diálogo tendiente a realizar una valoración de apoyos que responda realmente a los requerimientos de las personas con discapacidad.
           p.mb-0(data-aos="fade-left") De acuerdo con todo lo anterior, los aspectos revisados en este componente formativo le permitirán tener un acercamiento a algunos aspectos fundamentales de la discapacidad, de los derechos de las personas con discapacidad y de la valoración de apoyos. La idea es que se pueda contrastar los elementos que aquí se plantean, los aspectos revisados le permitirán tener un panorama más amplio de la realidad y buscar alternativas para abordar las dificultades y los retos que implica esta valoración de apoyos.
         .col-lg-3.col-md-4.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
@@ -83,7 +83,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="1312" height="738" src="https://www.youtube.com/embed/u14sviQTgoA" title="Rights, autonomy and support in disability" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1312" height="738" src="https://www.youtube.com/embed/r6A3TRxWXqA" title="Rights, autonomy and support in disability" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 </template>
 
 <script>

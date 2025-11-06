@@ -8,15 +8,15 @@
       h1 Conceptos y aspectos interdisciplinarios de la valoración de apoyos
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
+      .col-lg-8.order-lg-1.order-2.mb-lg-0.mb-4
         p(data-aos="fade-left") La valoración de apoyos es un instrumento propuesto por la Ley 1996 de 2019 “Por medio de la cual se establece el régimen para el ejercicio de la capacidad legal de las personas con discapacidad mayores de edad" de Colombia y está contemplado en los artículos 9 y posteriores. Si bien es un requisito de posibilidad para poder acudir a una adjudicación judicial de apoyos, no es solamente un documento o un requisito normativo, es un estudio y un informe de capacidad del funcionamiento de una persona con discapacidad, donde se analiza cuáles son sus actividades de la vida diaria y cómo ella las desempeña. De igual forma, se analiza cómo es el contacto de la persona con discapacidad en un núcleo familiar o en un núcleo laboral o educativo. 
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.bloque-texto-c.color-primario.tarjeta.align-items-center.p-3
           .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
             figure
               img.img-fluid(src="@/assets/curso/temas/tema2/img2.svg" alt="Icono 1")
           .col-lg-9
-            p(data-aos="fade-left") Según el artículo 11 de la Ley 1996, la valoración de apoyos puede ser realizada por entidades públicas o privadas, siempre que se ajusten a los lineamientos y protocolos establecidos por el ente rector de la Política Nacional de Discapacidad. Cualquier persona puede solicitar gratuitamente este servicio ante las entidades públicas que lo ofrezcan. En todo caso, deberán garantizar la prestación del servicio, como mínimo, la Defensoría del Pueblo, las personerías, así como las entidades territoriales a través de las gobernaciones y alcaldías en los distritos.
-      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
+            p.mb-0(data-aos="fade-left") Según el artículo 11 de la Ley 1996, la valoración de apoyos puede ser realizada por entidades públicas o privadas, siempre que se ajusten a los lineamientos y protocolos establecidos por el ente rector de la Política Nacional de Discapacidad. Cualquier persona puede solicitar gratuitamente este servicio ante las entidades públicas que lo ofrezcan. En todo caso, deberán garantizar la prestación del servicio, como mínimo, la Defensoría del Pueblo, las personerías, así como las entidades territoriales a través de las gobernaciones y alcaldías en los distritos.
+      .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img.img-fluid(src="@/assets/curso/temas/tema2/img1.png" alt="Introducción al curso")
     
@@ -108,7 +108,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img10.svg', alt='Descripción: La imagen muestra una escena cálida y acogedora en un entorno interior donde cuatro personas interactúan en un contexto de asistencia y cuidado. A la izquierda, una mujer afrodescendiente lleva una camiseta naranja y pantalones oscuros mientras ayuda a una mujer mayor con cabello gris y recogido. La señora mayor tiene puesta una blusa verde con estampado y una falda negra y está de pie apoyada en un andador metálico. Junto a ellas, hacia el centro de la derecha de la imagen, se encuentra un hombre mayor sentado en un sillón verde, con cabello gris y ropa informal: lleva un suéter marrón con patrones geométricos y pantalones ocre. A la derecha, un hombre joven con cabello naranja viste una camiseta verde y pantalones negros mientras le ofrece una taza al hombre mayor sentado. En el extremo izquierdo, se observa una planta verde en un macetero marrón colocada sobre un pequeño banco de madera. La composición utiliza tonos tierra y verdes suaves, lo que genera una atmósfera tranquila y afectuosa, transmitiendo la idea de cuidado, apoyo y comunidad.')
 
-    .tarjeta--BG08.p-4
+    .tarjeta--BG08.p-5
       .row.justify-content-center.mb-4
         .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
           figure
@@ -119,7 +119,7 @@
 
       .row.justify-content-center.mb-lg-5.mb-4
         .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-          .tarjeta--boton.color-acento-botones.tarjeta--BG04.p-4.h-100
+          .tarjeta--boton.color-primario.tarjeta--BG04.p-4.h-100
             .row.justify-content-center.align-items-center.mb-3
               .col-12
                 .divcentrado
@@ -127,7 +127,7 @@
             h5.text-center Sobreprotección
             p Por un lado, existen patrones de sobreprotección, caracterizados por un cuidado excesivo que, aunque bien intencionado, puede terminar por incapacitar simbólicamente a la persona con discapacidad.
         .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="flip-right")
-          .tarjeta--boton.color-primario.tarjeta--BG05.p-4.h-100
+          .tarjeta--boton.color-primario.tarjeta--BG04.p-4.h-100
             .row.justify-content-center.align-items-center.mb-3
               .col-12
                 .divcentrado
@@ -164,7 +164,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img16.svg', alt='Descripción: En la imagen se muestra a una persona sentada en un sillón moderno de color rosa con patas negras y diseño minimalista. La figura parece ser masculina y está leyendo un libro de color amarillo, sosteniéndolo con ambas manos, lo cual sugiere una actividad tranquila y relajada. Lleva puesto un suéter azul oscuro, pantalones negros y zapatillas rojas, lo que da una apariencia casual y cómoda. A su derecha, sobre el suelo, hay una pequeña mesa auxiliar de color amarillo con patas delgadas donde se encuentran apilados varios libros de diferentes colores, predominantemente azul, verde y blanco. El fondo tiene ilustraciones de hojas en tonos azul claro y verde pastel, lo que añade un ambiente fresco y sereno. La escena parece ser interior debido al diseño del sillón y la decoración minimalista. Transmite una sensación de calma y enfoque, ideal para un momento de lectura personal y desconexión del entorno.')
 
-    .tarjeta--BG09.p-4.mb-4
+    .tarjeta--BG09.p-5.mb-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
           p Otro desafío relevante que enfrenta la persona facilitadora en el proceso de valoración de apoyos es la falta de un conocimiento técnico claro y preciso sobre cómo, cuándo y qué elementos deben considerarse para llevar a cabo dicha valoración. Esta incertidumbre puede generar temor o dudas al momento de realizar el procedimiento, afectando la calidad y efectividad del acompañamiento.
@@ -174,8 +174,8 @@
                 img(src='@/assets/curso/temas/tema2/img18.png', alt='Imagen decorativa')
             .col-lg-9
               p En algunos contextos, persiste la creencia errónea de que la valoración de apoyos equivale a un diagnóstico médico o a una simple formalización de los apoyos, lo cual distorsiona el propósito real de esta herramienta. La valoración de apoyos no busca etiquetar ni patologizar, sino identificar las condiciones necesarias para que la persona con discapacidad pueda ejercer plenamente su capacidad jurídica, en función de sus propias decisiones y preferencias.
-          .tarjeta--FBG06.p-2
-            .row.justify-content-center.align-items-center
+          .tarjeta--FBG06.p-2.p-4.p-lg-0
+            .row.justify-content-center.align-items-center.p-2
               .col-lg-2.col-sm-6.col-8.mb-lg-0.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema2/img19.svg', alt='Imagen decorativa')
@@ -285,7 +285,7 @@
       .col-lg-10
         p En la atención a personas con discapacidad, tal vez se haya encontrado con que si bien, hay asuntos que competen a su disciplina, hay otros en los cuales requiere apoyo de otras, como por ejemplo; la psicología, el trabajo social y en general las profesiones relacionadas con las ciencias sociales y humanas. Esto es importante identificarlo, porque cuando se realiza la valoración de apoyos, hay unos aspectos que se deben tener en cuenta por parte de la persona facilitadora y son los denominados aspectos interdisciplinarios.
 
-    .tarjeta--BG10.p-4.mb-4
+    .tarjeta--BG10.p-5.mb-4
       p Es necesario tener en cuenta que como personas facilitadoras de la valoración de apoyos se debe realizar un trabajo de articulación, conocimiento y reconocimiento de la persona con discapacidad y en este sentido es fundamental:
       .row.justify-content-center.align-items-center
         .col-lg-10.order-lg-1.order-2.mb-lg-0.mb-4
@@ -319,7 +319,7 @@
           img(src='@/assets/curso/temas/tema2/img30_1.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con el apoyo social y la discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan cinco burbujas de diálogo que contienen preguntas relacionadas con la red de apoyo familiar, comunitario, las capacidades para tomar decisiones, la persona con discapacidad y los requerimientos de apoyo. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. Las burbujas de diálogo contienen texto claro y legible, formulando preguntas sobre la red de apoyo, la persona con discapacidad y sus necesidades, sugiriendo un contexto de reflexión sobre el apoyo y la inclusión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
       .col-lg-10.desktop(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema2/img30.svg', alt='Descripción: La imagen muestra una escena en interiores donde un grupo de cinco personas, aparentemente de género mixto, está reunido en círculo, sentadas en sillas negras. La habitación tiene paredes de color beige y grandes ventanas con paneles que permiten la entrada de luz natural, creando un ambiente cálido y acogedor. Dos plantas en macetas rojas con hojas verdes están dispuestas en los extremos izquierdo y derecho, dando un toque de frescura y decoración al espacio.')
+          img(src='@/assets/curso/temas/tema2/img30.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con el apoyo social y la discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan cinco burbujas de diálogo que contienen preguntas relacionadas con la red de apoyo familiar, comunitario, las capacidades para tomar decisiones, la persona con discapacidad y los requerimientos de apoyo. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. Las burbujas de diálogo contienen texto claro y legible, formulando preguntas sobre la red de apoyo, la persona con discapacidad y sus necesidades, sugiriendo un contexto de reflexión sobre el apoyo y la inclusión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -414,7 +414,8 @@
           img(src='@/assets/curso/temas/tema2/img36.png', alt='Imagen decorativa')
       .col-lg-9
         p En este sentido, integrar el enfoque de género junto con el trabajo interdisciplinario desde las ciencias sociales permite identificar posibles situaciones de violencia y desarrollar intervenciones preventivas, incluso en espacios concretos de atención y durante entrevistas individuales o familiares.
-        p.mb-0 Este enfoque no solo amplía la comprensión de las dinámicas que atraviesan a las personas con discapacidad, sino que también fortalece la capacidad institucional para responder de manera justa, equitativa y respetuosa de la diversidad.
+        p Este enfoque no solo amplía la comprensión de las dinámicas que atraviesan a las personas con discapacidad, sino que también fortalece la capacidad institucional para responder de manera justa, equitativa y respetuosa de la diversidad.
+        p.mb-0 De acuerdo con ello, algunas preguntas para la persona facilitadora de apoyos, son:
 
     .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
       h5 Figura 14.
@@ -457,7 +458,7 @@
           img(src='@/assets/curso/temas/tema2/img39.svg', alt='Descripción: La imagen muestra una escena en interiores donde varias personas están trabajando juntas alrededor de una mesa. Hay tres figuras principales: dos están sentadas mientras escriben en cuadernos y la tercera figura está de pie inclinada hacia la mesa, interactuando con las otras dos. A la izquierda, hay una mujer con el cabello oscuro recogido en una coleta, vestida con una chaqueta azul y una camiseta roja; ella parece estar revisando o tomando notas. En el centro, está un hombre con cabello corto y vestimenta verde, concentrado mientras escribe en un cuaderno abierto frente a él. A la derecha, hay otra figura masculina con cabello oscuro, que lleva una camisa azul y un identificador colgado del cuello; parece estar ofreciendo instrucciones o explicaciones mientras señala o interactúa con la persona del centro. Sobre la mesa hay elementos como hojas de papel y un ordenador portátil de color rosa, lo que sugiere que están realizando una actividad académica o de trabajo colaborativo. En la pared detrás de ellos hay papeles y notas de colores, posiblemente carteles o recordatorios, que agregan un toque organizativo y profesional al ambiente. Los colores predominantes en la imagen son tonos pastel como azul, rosa, amarillo y verde, lo que genera una atmósfera agradable y tranquila. ') 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        p.mb-0 En el marco del tema de la interdisciplinariedad, se comparte el siguiente podcast, el cual aborda perspectivas diversas y complementarias con respecto al tema:
+        p.mb-0 En el marco del tema de la interdisciplinariedad, se comparte el siguiente #[i podcast], el cual aborda perspectivas diversas y complementarias con respecto al tema:
 
 
     .row.justify-content-center.mb-4
@@ -468,7 +469,7 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="Entiendo la discapacidad paso a paso"
+              texto="Entendiendo la discapacidad paso a paso"
               :audio="require('@/assets/actividad/audio/Podcast_02.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
@@ -491,25 +492,25 @@
     .tarjeta.tarjeta--gris.fondo.p-5.mb-5(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
+          .col-lg-7.order-lg-1.order-2
             h4 Psicología
             p Aporta significativamente en el diagnóstico y evaluación de la discapacidad, así como en el diseño de intervenciones psicoterapéuticas que mejoren la calidad de vida. Además, permite comprender y abordar situaciones de maltrato o violencia que pueden surgir cuando los comportamientos de niñas, niños, niñes y personas adultas con discapacidad no se ajustan a las expectativas sociales. También es esencial en el análisis de las discapacidades psicosociales, que suelen ser invisibles, pero generan profundas experiencias de discriminación. Contar con profesionales de esta disciplina en el proceso de valoración es clave para una comprensión más humana y contextualizada.
             
-          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/temas/tema2/img42.png' alt="Imagen decorativa")
         .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
+          .col-lg-7.order-lg-1.order-2
             h4 Trabajo social
             p Permite analizar el comportamiento humano en comunidad, abordando tanto el entorno familiar como el social. Esta disciplina cumple un rol fundamental en el acompañamiento a las familias para comprender y aceptar la discapacidad, así como en la promoción de entornos comunitarios más inclusivos. El trabajo social también identifica las limitaciones que enfrentan las personas con discapacidad en espacios públicos y privados, como la participación en procesos escolares, el acceso a servicios o la movilidad en la ciudad. Su mirada permite proponer ajustes razonables que favorezcan la inclusión y el ejercicio de derechos.
             
-          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/temas/tema2/img43.png' alt="Imagen decorativa")
         .row.justify-content-center
-          .col-lg-6.order-lg-1.order-2
+          .col-lg-7.order-lg-1.order-2
             h4 Arquitectura e ingeniería civil
             p Aunque a primera vista puedan parecer disciplinas alejadas del ámbito social, la arquitectura y la ingeniería civil son esenciales para analizar cómo los entornos físicos afectan la vida cotidiana de las personas con discapacidad. Por ejemplo, una persona usuaria de silla de ruedas que no puede acceder al baño familiar por una puerta estrecha o una escalera, enfrenta una barrera que impacta directamente en su autonomía y dignidad. La adecuación de espacios físicos es determinante para evitar situaciones de exclusión, como tener que bañarse en un patio por falta de accesibilidad en el baño. Estas disciplinas permiten identificar y transformar los entornos para que sean verdaderamente inclusivos.
             
-          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+          .col-lg-5.col-12.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/temas/tema2/img44.png' alt="Imagen decorativa")
     
     
