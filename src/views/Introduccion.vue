@@ -83,7 +83,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="1312" height="738" src="https://www.youtube.com/embed/r6A3TRxWXqA" title="Rights, autonomy and support in disability" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1312" height="738" src="https://www.youtube.com/embed/EUos8Y6TQKg" title="Discapacidad y valoración de apoyos: introducción y conceptualización" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 </template>
 
 <script>
