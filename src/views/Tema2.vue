@@ -60,17 +60,19 @@
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0  Falta de legitimación y credibilidad en las normas
     
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 7.
       i Capacidad legal en la discapacidad
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img6_1.svg', alt='Descripción: En esta imagen, se representa una situación ilustrativa con un fondo blanco y una composición simbólica. En la parte izquierda de la imagen, aparece una mano grande estilizada que sostiene un mazo judicial de color marrón claro, con el mango marrón y el cabezal rectangular amarillo. La mano lleva una manga azul oscura que sugiere que pertenece a una figura formal, posiblemente un juez o una autoridad legal. En oposición a esta mano, en la parte derecha de la imagen, se encuentra una figura pequeña de una persona que parece estar empujando o resistiendo el mazo judicial. Esta persona, cuyo género no está claramente definido debido al estilo simplificado de la ilustración, viste una camisa púrpura y pantalones verde agua con zapatos oscuros. La figura está de pie sobre la base del mazo, inclinada hacia atrás mientras levanta las manos y coloca los brazos contra el mazo, mostrando esfuerzo y resistencia. La escena transmite una atmósfera de conflicto o lucha, representando posiblemente una interpretación artística de resistencia ante la autoridad o el poder judicial. La ilustración está diseñada de manera estilizada y minimalista, utilizando colores brillantes y formas simples, sin detalles texturales o realismo. La composición genera un impacto visual que, aunque no muestra movimiento real, sugiere un choque dinámico entre el poder representado por el mazo judicial y la acción de resistencia de la persona.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img6.svg', alt='Descripción: En esta imagen, se representa una situación ilustrativa con un fondo blanco y una composición simbólica. En la parte izquierda de la imagen, aparece una mano grande estilizada que sostiene un mazo judicial de color marrón claro, con el mango marrón y el cabezal rectangular amarillo. La mano lleva una manga azul oscura que sugiere que pertenece a una figura formal, posiblemente un juez o una autoridad legal. En oposición a esta mano, en la parte derecha de la imagen, se encuentra una figura pequeña de una persona que parece estar empujando o resistiendo el mazo judicial. Esta persona, cuyo género no está claramente definido debido al estilo simplificado de la ilustración, viste una camisa púrpura y pantalones verde agua con zapatos oscuros. La figura está de pie sobre la base del mazo, inclinada hacia atrás mientras levanta las manos y coloca los brazos contra el mazo, mostrando esfuerzo y resistencia. La escena transmite una atmósfera de conflicto o lucha, representando posiblemente una interpretación artística de resistencia ante la autoridad o el poder judicial. La ilustración está diseñada de manera estilizada y minimalista, utilizando colores brillantes y formas simples, sin detalles texturales o realismo. La composición genera un impacto visual que, aunque no muestra movimiento real, sugiere un choque dinámico entre el poder representado por el mazo judicial y la acción de resistencia de la persona.')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img6_1.svg', alt='Descripción: En esta imagen, se representa una situación ilustrativa con un fondo blanco y una composición simbólica. En la parte izquierda de la imagen, aparece una mano grande estilizada que sostiene un mazo judicial de color marrón claro, con el mango marrón y el cabezal rectangular amarillo. La mano lleva una manga azul oscura que sugiere que pertenece a una figura formal, posiblemente un juez o una autoridad legal. En oposición a esta mano, en la parte derecha de la imagen, se encuentra una figura pequeña de una persona que parece estar empujando o resistiendo el mazo judicial. Esta persona, cuyo género no está claramente definido debido al estilo simplificado de la ilustración, viste una camisa púrpura y pantalones verde agua con zapatos oscuros. La figura está de pie sobre la base del mazo, inclinada hacia atrás mientras levanta las manos y coloca los brazos contra el mazo, mostrando esfuerzo y resistencia. La escena transmite una atmósfera de conflicto o lucha, representando posiblemente una interpretación artística de resistencia ante la autoridad o el poder judicial. La ilustración está diseñada de manera estilizada y minimalista, utilizando colores brillantes y formas simples, sin detalles texturales o realismo. La composición genera un impacto visual que, aunque no muestra movimiento real, sugiere un choque dinámico entre el poder representado por el mazo judicial y la acción de resistencia de la persona.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img6.svg', alt='Descripción: En esta imagen, se representa una situación ilustrativa con un fondo blanco y una composición simbólica. En la parte izquierda de la imagen, aparece una mano grande estilizada que sostiene un mazo judicial de color marrón claro, con el mango marrón y el cabezal rectangular amarillo. La mano lleva una manga azul oscura que sugiere que pertenece a una figura formal, posiblemente un juez o una autoridad legal. En oposición a esta mano, en la parte derecha de la imagen, se encuentra una figura pequeña de una persona que parece estar empujando o resistiendo el mazo judicial. Esta persona, cuyo género no está claramente definido debido al estilo simplificado de la ilustración, viste una camisa púrpura y pantalones verde agua con zapatos oscuros. La figura está de pie sobre la base del mazo, inclinada hacia atrás mientras levanta las manos y coloca los brazos contra el mazo, mostrando esfuerzo y resistencia. La escena transmite una atmósfera de conflicto o lucha, representando posiblemente una interpretación artística de resistencia ante la autoridad o el poder judicial. La ilustración está diseñada de manera estilizada y minimalista, utilizando colores brillantes y formas simples, sin detalles texturales o realismo. La composición genera un impacto visual que, aunque no muestra movimiento real, sugiere un choque dinámico entre el poder representado por el mazo judicial y la acción de resistencia de la persona.')
     p.mb-4 En Colombia, la expedición de la Ley 1996 de 2019 marcó un avance significativo en el reconocimiento de la capacidad legal de las personas con discapacidad, al establecer un cambio de paradigma: estas personas dejaron de ser consideradas únicamente como sujetos de derechos para ser reconocidas como sujetos con capacidad jurídica plena. No obstante, como advierte Zemelman (2010), la promulgación de la norma no necesariamente se traduce en una transformación inmediata de la realidad social, ya que la construcción cultural y práctica de este nuevo enfoque avanza a un ritmo distinto al del desarrollo normativo.
 
     .row.justify-content-center.align-items-center.mb-4
@@ -96,17 +98,19 @@
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0  Barreras actitudinales en la familia, la sociedad y el Estado
     
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 8.
       i  Personas facilitadoras en la familia
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img10_1.svg', alt='Descripción: La imagen muestra una escena cálida y acogedora en un entorno interior donde cuatro personas interactúan en un contexto de asistencia y cuidado. A la izquierda, una mujer afrodescendiente lleva una camiseta naranja y pantalones oscuros mientras ayuda a una mujer mayor con cabello gris y recogido. La señora mayor tiene puesta una blusa verde con estampado y una falda negra y está de pie apoyada en un andador metálico. Junto a ellas, hacia el centro de la derecha de la imagen, se encuentra un hombre mayor sentado en un sillón verde, con cabello gris y ropa informal: lleva un suéter marrón con patrones geométricos y pantalones ocre. A la derecha, un hombre joven con cabello naranja viste una camiseta verde y pantalones negros mientras le ofrece una taza al hombre mayor sentado. En el extremo izquierdo, se observa una planta verde en un macetero marrón colocada sobre un pequeño banco de madera. La composición utiliza tonos tierra y verdes suaves, lo que genera una atmósfera tranquila y afectuosa, transmitiendo la idea de cuidado, apoyo y comunidad.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img10.svg', alt='Descripción: La imagen muestra una escena cálida y acogedora en un entorno interior donde cuatro personas interactúan en un contexto de asistencia y cuidado. A la izquierda, una mujer afrodescendiente lleva una camiseta naranja y pantalones oscuros mientras ayuda a una mujer mayor con cabello gris y recogido. La señora mayor tiene puesta una blusa verde con estampado y una falda negra y está de pie apoyada en un andador metálico. Junto a ellas, hacia el centro de la derecha de la imagen, se encuentra un hombre mayor sentado en un sillón verde, con cabello gris y ropa informal: lleva un suéter marrón con patrones geométricos y pantalones ocre. A la derecha, un hombre joven con cabello naranja viste una camiseta verde y pantalones negros mientras le ofrece una taza al hombre mayor sentado. En el extremo izquierdo, se observa una planta verde en un macetero marrón colocada sobre un pequeño banco de madera. La composición utiliza tonos tierra y verdes suaves, lo que genera una atmósfera tranquila y afectuosa, transmitiendo la idea de cuidado, apoyo y comunidad.')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img10_1.svg', alt='Descripción: La imagen muestra una escena cálida y acogedora en un entorno interior donde cuatro personas interactúan en un contexto de asistencia y cuidado. A la izquierda, una mujer afrodescendiente lleva una camiseta naranja y pantalones oscuros mientras ayuda a una mujer mayor con cabello gris y recogido. La señora mayor tiene puesta una blusa verde con estampado y una falda negra y está de pie apoyada en un andador metálico. Junto a ellas, hacia el centro de la derecha de la imagen, se encuentra un hombre mayor sentado en un sillón verde, con cabello gris y ropa informal: lleva un suéter marrón con patrones geométricos y pantalones ocre. A la derecha, un hombre joven con cabello naranja viste una camiseta verde y pantalones negros mientras le ofrece una taza al hombre mayor sentado. En el extremo izquierdo, se observa una planta verde en un macetero marrón colocada sobre un pequeño banco de madera. La composición utiliza tonos tierra y verdes suaves, lo que genera una atmósfera tranquila y afectuosa, transmitiendo la idea de cuidado, apoyo y comunidad.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img10.svg', alt='Descripción: La imagen muestra una escena cálida y acogedora en un entorno interior donde cuatro personas interactúan en un contexto de asistencia y cuidado. A la izquierda, una mujer afrodescendiente lleva una camiseta naranja y pantalones oscuros mientras ayuda a una mujer mayor con cabello gris y recogido. La señora mayor tiene puesta una blusa verde con estampado y una falda negra y está de pie apoyada en un andador metálico. Junto a ellas, hacia el centro de la derecha de la imagen, se encuentra un hombre mayor sentado en un sillón verde, con cabello gris y ropa informal: lleva un suéter marrón con patrones geométricos y pantalones ocre. A la derecha, un hombre joven con cabello naranja viste una camiseta verde y pantalones negros mientras le ofrece una taza al hombre mayor sentado. En el extremo izquierdo, se observa una planta verde en un macetero marrón colocada sobre un pequeño banco de madera. La composición utiliza tonos tierra y verdes suaves, lo que genera una atmósfera tranquila y afectuosa, transmitiendo la idea de cuidado, apoyo y comunidad.')
 
     .tarjeta--BG08.p-5
       .row.justify-content-center.mb-4
@@ -117,23 +121,24 @@
           p(data-aos="fade-left") Uno de los grandes retos que enfrenta la persona facilitadora en el proceso de valoración de apoyos está relacionado con las barreras actitudinales. Estas se manifiestan tanto en los entornos laborales —donde aún existen personas funcionaras que consideran que el modelo de interdicción era, e incluso sigue siendo, una mejor alternativa— como en los núcleos familiares de las personas con discapacidad. En este último caso, es importante advertir que, lamentablemente, la familia suele ser el primer espacio donde se desconocen sus derechos, lo que da lugar a dinámicas que pueden convertirse en obstáculos significativos.
           p.mb-0(data-aos="fade-left") Estas barreras familiares suelen ubicarse en dos extremos: 
 
-      .row.justify-content-center.mb-lg-5.mb-4
-        .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+      .row.justify-content-center
+        .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           .tarjeta--boton.color-primario.tarjeta--BG04.p-4.h-100
-            .row.justify-content-center.align-items-center.mb-3
+            .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .divcentrado
                   .imgg2.img12
             h5.text-center Sobreprotección
-            p Por un lado, existen patrones de sobreprotección, caracterizados por un cuidado excesivo que, aunque bien intencionado, puede terminar por incapacitar simbólicamente a la persona con discapacidad.
-        .col-10.col-lg-4.mb-4.mb-lg-0(data-aos="flip-right")
+            p.mb-0 Por un lado, existen patrones de sobreprotección, caracterizados por un cuidado excesivo que, aunque bien intencionado, puede terminar por incapacitar simbólicamente a la persona con discapacidad.
+        .col-lg-5.mb-4.mb-lg-0(data-aos="flip-right")
           .tarjeta--boton.color-primario.tarjeta--BG04.p-4.h-100
-            .row.justify-content-center.align-items-center.mb-3
+            .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .divcentrado
                   .imgg2.img22
             h5.text-center Cuidado pasivo 
-            p Por otro lado, se observa un cuidado pasivo, marcado por bajas expectativas y una carga emocional que lleva a algunos núcleos familiares a excluir progresivamente a la persona. 
+            p.mb-0 Por otro lado, se observa un cuidado pasivo, marcado por bajas expectativas y una carga emocional que lleva a algunos núcleos familiares a excluir progresivamente a la persona. 
+    
     p.mb-4 Ambos enfoques, aunque opuestos, comparten una visión que limita la autonomía y el ejercicio pleno de derechos.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -152,17 +157,19 @@
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0  Falta de un conocimiento técnico claro y preciso
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 9.
       i  Conocimiento del facilitador
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img16_1.svg', alt='Descripción: En la imagen se muestra a una persona sentada en un sillón moderno de color rosa con patas negras y diseño minimalista. La figura parece ser masculina y está leyendo un libro de color amarillo, sosteniéndolo con ambas manos, lo cual sugiere una actividad tranquila y relajada. Lleva puesto un suéter azul oscuro, pantalones negros y zapatillas rojas, lo que da una apariencia casual y cómoda. A su derecha, sobre el suelo, hay una pequeña mesa auxiliar de color amarillo con patas delgadas donde se encuentran apilados varios libros de diferentes colores, predominantemente azul, verde y blanco. El fondo tiene ilustraciones de hojas en tonos azul claro y verde pastel, lo que añade un ambiente fresco y sereno. La escena parece ser interior debido al diseño del sillón y la decoración minimalista. Transmite una sensación de calma y enfoque, ideal para un momento de lectura personal y desconexión del entorno.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img16.svg', alt='Descripción: En la imagen se muestra a una persona sentada en un sillón moderno de color rosa con patas negras y diseño minimalista. La figura parece ser masculina y está leyendo un libro de color amarillo, sosteniéndolo con ambas manos, lo cual sugiere una actividad tranquila y relajada. Lleva puesto un suéter azul oscuro, pantalones negros y zapatillas rojas, lo que da una apariencia casual y cómoda. A su derecha, sobre el suelo, hay una pequeña mesa auxiliar de color amarillo con patas delgadas donde se encuentran apilados varios libros de diferentes colores, predominantemente azul, verde y blanco. El fondo tiene ilustraciones de hojas en tonos azul claro y verde pastel, lo que añade un ambiente fresco y sereno. La escena parece ser interior debido al diseño del sillón y la decoración minimalista. Transmite una sensación de calma y enfoque, ideal para un momento de lectura personal y desconexión del entorno.')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img16_1.svg', alt='Descripción: En la imagen se muestra a una persona sentada en un sillón moderno de color rosa con patas negras y diseño minimalista. La figura parece ser masculina y está leyendo un libro de color amarillo, sosteniéndolo con ambas manos, lo cual sugiere una actividad tranquila y relajada. Lleva puesto un suéter azul oscuro, pantalones negros y zapatillas rojas, lo que da una apariencia casual y cómoda. A su derecha, sobre el suelo, hay una pequeña mesa auxiliar de color amarillo con patas delgadas donde se encuentran apilados varios libros de diferentes colores, predominantemente azul, verde y blanco. El fondo tiene ilustraciones de hojas en tonos azul claro y verde pastel, lo que añade un ambiente fresco y sereno. La escena parece ser interior debido al diseño del sillón y la decoración minimalista. Transmite una sensación de calma y enfoque, ideal para un momento de lectura personal y desconexión del entorno.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img16.svg', alt='Descripción: En la imagen se muestra a una persona sentada en un sillón moderno de color rosa con patas negras y diseño minimalista. La figura parece ser masculina y está leyendo un libro de color amarillo, sosteniéndolo con ambas manos, lo cual sugiere una actividad tranquila y relajada. Lleva puesto un suéter azul oscuro, pantalones negros y zapatillas rojas, lo que da una apariencia casual y cómoda. A su derecha, sobre el suelo, hay una pequeña mesa auxiliar de color amarillo con patas delgadas donde se encuentran apilados varios libros de diferentes colores, predominantemente azul, verde y blanco. El fondo tiene ilustraciones de hojas en tonos azul claro y verde pastel, lo que añade un ambiente fresco y sereno. La escena parece ser interior debido al diseño del sillón y la decoración minimalista. Transmite una sensación de calma y enfoque, ideal para un momento de lectura personal y desconexión del entorno.')
 
     .tarjeta--BG09.p-5.mb-4
       .row.justify-content-center.align-items-center.mb-5
@@ -190,17 +197,18 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0  Diálogos alrededor del marco legal de la discapacidad
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 10.
       i  Valoración de apoyos en la discapacidad 
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img20_1.svg', alt='Descripción: La imagen muestra un grupo diverso de personas reunidas sobre un fondo blanco. Es una representación ilustrada, con figuras que incluyen hombres y mujeres de diferentes edades y condiciones físicas. Algunas de estas personas están utilizando dispositivos de ayuda como sillas de ruedas, un andador y un bastón, lo que sugiere inclusión y accesibilidad. En el centro, hay una mujer mayor con cabello blanco vestida con una chaqueta azul y falda verde, sosteniendo un andador, mientras que a su izquierda hay una persona sentada en una silla de ruedas con una camiseta naranja. A la derecha, también se aprecia a alguien en una silla de ruedas que lleva una camiseta verde. ')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img20.svg', alt='Descripción: La imagen muestra un grupo diverso de personas reunidas sobre un fondo blanco. Es una representación ilustrada, con figuras que incluyen hombres y mujeres de diferentes edades y condiciones físicas. Algunas de estas personas están utilizando dispositivos de ayuda como sillas de ruedas, un andador y un bastón, lo que sugiere inclusión y accesibilidad. En el centro, hay una mujer mayor con cabello blanco vestida con una chaqueta azul y falda verde, sosteniendo un andador, mientras que a su izquierda hay una persona sentada en una silla de ruedas con una camiseta naranja. A la derecha, también se aprecia a alguien en una silla de ruedas que lleva una camiseta verde. ')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img20_1.svg', alt='Descripción: La imagen muestra un grupo diverso de personas reunidas sobre un fondo blanco. Es una representación ilustrada, con figuras que incluyen hombres y mujeres de diferentes edades y condiciones físicas. Algunas de estas personas están utilizando dispositivos de ayuda como sillas de ruedas, un andador y un bastón, lo que sugiere inclusión y accesibilidad. En el centro, hay una mujer mayor con cabello blanco vestida con una chaqueta azul y falda verde, sosteniendo un andador, mientras que a su izquierda hay una persona sentada en una silla de ruedas con una camiseta naranja. A la derecha, también se aprecia a alguien en una silla de ruedas que lleva una camiseta verde. ')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img20.svg', alt='Descripción: La imagen muestra un grupo diverso de personas reunidas sobre un fondo blanco. Es una representación ilustrada, con figuras que incluyen hombres y mujeres de diferentes edades y condiciones físicas. Algunas de estas personas están utilizando dispositivos de ayuda como sillas de ruedas, un andador y un bastón, lo que sugiere inclusión y accesibilidad. En el centro, hay una mujer mayor con cabello blanco vestida con una chaqueta azul y falda verde, sosteniendo un andador, mientras que a su izquierda hay una persona sentada en una silla de ruedas con una camiseta naranja. A la derecha, también se aprecia a alguien en una silla de ruedas que lleva una camiseta verde. ')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
@@ -210,13 +218,13 @@
         figure
           img(src='@/assets/curso/temas/tema2/img21.png', alt='Imagen decorativa')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-sm-6.col-8.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img22.png', alt='Imagen decorativa')
       .col-lg-9
         p Este planteamiento representa un cambio de paradigma, al trasladar la responsabilidad de la inclusión desde la persona hacia el entorno social. Desde esta perspectiva, se exige a los Estados adoptar modelos que reconozcan las capacidades y potencialidades de las personas con discapacidad, promoviendo su vida en comunidad y evitando enfoques centrados exclusivamente en la deficiencia. La discapacidad se entiende como una construcción social que limita la autonomía, la toma de decisiones y el diseño de un proyecto de vida en igualdad de condiciones (Victoria, 2013).
-        .row.align-items-center.p-3.mb-4
+        .row.align-items-center.p-3
           .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img8.svg', alt='Imagen decorativa')
@@ -269,17 +277,19 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0  Aspectos interdisciplinarios que deben tenerse en cuenta en la valoración de apoyos
     
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 11.
       i  Socialización de conocimientos 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img28_1.svg', alt='Descripción: La imagen muestra una escena en interiores donde un grupo de cinco personas, aparentemente de género mixto, está reunido en círculo, sentadas en sillas negras. La habitación tiene paredes de color beige y grandes ventanas con paneles que permiten la entrada de luz natural, creando un ambiente cálido y acogedor. Dos plantas en macetas rojas con hojas verdes están dispuestas en los extremos izquierdo y derecho, dando un toque de frescura y decoración al espacio.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img28.svg', alt='Descripción: La imagen muestra una escena en interiores donde un grupo de cinco personas, aparentemente de género mixto, está reunido en círculo, sentadas en sillas negras. La habitación tiene paredes de color beige y grandes ventanas con paneles que permiten la entrada de luz natural, creando un ambiente cálido y acogedor. Dos plantas en macetas rojas con hojas verdes están dispuestas en los extremos izquierdo y derecho, dando un toque de frescura y decoración al espacio.')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img28_1.svg', alt='Descripción: La imagen muestra una escena en interiores donde un grupo de cinco personas, aparentemente de género mixto, está reunido en círculo, sentadas en sillas negras. La habitación tiene paredes de color beige y grandes ventanas con paneles que permiten la entrada de luz natural, creando un ambiente cálido y acogedor. Dos plantas en macetas rojas con hojas verdes están dispuestas en los extremos izquierdo y derecho, dando un toque de frescura y decoración al espacio.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img28.svg', alt='Descripción: La imagen muestra una escena en interiores donde un grupo de cinco personas, aparentemente de género mixto, está reunido en círculo, sentadas en sillas negras. La habitación tiene paredes de color beige y grandes ventanas con paneles que permiten la entrada de luz natural, creando un ambiente cálido y acogedor. Dos plantas en macetas rojas con hojas verdes están dispuestas en los extremos izquierdo y derecho, dando un toque de frescura y decoración al espacio.')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -309,17 +319,21 @@
           figure
             img(src='@/assets/curso/temas/tema2/img29.svg', alt='Imagen decorativa')
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 12.
       i  Inquietudes sobre la red de apoyo familiar
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img30_1.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con el apoyo social y la discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan cinco burbujas de diálogo que contienen preguntas relacionadas con la red de apoyo familiar, comunitario, las capacidades para tomar decisiones, la persona con discapacidad y los requerimientos de apoyo. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. Las burbujas de diálogo contienen texto claro y legible, formulando preguntas sobre la red de apoyo, la persona con discapacidad y sus necesidades, sugiriendo un contexto de reflexión sobre el apoyo y la inclusión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img30.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con el apoyo social y la discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan cinco burbujas de diálogo que contienen preguntas relacionadas con la red de apoyo familiar, comunitario, las capacidades para tomar decisiones, la persona con discapacidad y los requerimientos de apoyo. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. Las burbujas de diálogo contienen texto claro y legible, formulando preguntas sobre la red de apoyo, la persona con discapacidad y sus necesidades, sugiriendo un contexto de reflexión sobre el apoyo y la inclusión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+          
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img30_1.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con el apoyo social y la discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan cinco burbujas de diálogo que contienen preguntas relacionadas con la red de apoyo familiar, comunitario, las capacidades para tomar decisiones, la persona con discapacidad y los requerimientos de apoyo. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. Las burbujas de diálogo contienen texto claro y legible, formulando preguntas sobre la red de apoyo, la persona con discapacidad y sus necesidades, sugiriendo un contexto de reflexión sobre el apoyo y la inclusión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img30.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con el apoyo social y la discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan cinco burbujas de diálogo que contienen preguntas relacionadas con la red de apoyo familiar, comunitario, las capacidades para tomar decisiones, la persona con discapacidad y los requerimientos de apoyo. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. Las burbujas de diálogo contienen texto claro y legible, formulando preguntas sobre la red de apoyo, la persona con discapacidad y sus necesidades, sugiriendo un contexto de reflexión sobre el apoyo y la inclusión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -381,17 +395,18 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0  Aplicación del enfoque de género en la valoración de apoyos
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 13.
       i  Enfoque de género 
-
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img35_1.svg', alt='Descripción: La imagen muestra una ilustración colorida de varias mujeres agrupadas en un entorno abstracto con un fondo en tonos morados y lilas. Las figuras están dispuestas en diferentes posiciones, creando una composición armoniosa y dinámica. Cada mujer está representada con estilos de cabello y colores que varían, destacando una diversidad visual. Algunas tienen el cabello largo y oscuro, mientras que otras tienen cabello corto o de colores claros como el blanco. Hay pequeños detalles florales decorativos añadidos al cabello de algunas figuras, lo que da un toque delicado y primaveral a la imagen. Las vestimentas de las mujeres incluyen tonos cálidos como rojo y naranja, contrastando con los colores fríos del fondo. ') 
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img35.svg', alt='Descripción: La imagen muestra una ilustración colorida de varias mujeres agrupadas en un entorno abstracto con un fondo en tonos morados y lilas. Las figuras están dispuestas en diferentes posiciones, creando una composición armoniosa y dinámica. Cada mujer está representada con estilos de cabello y colores que varían, destacando una diversidad visual. Algunas tienen el cabello largo y oscuro, mientras que otras tienen cabello corto o de colores claros como el blanco. Hay pequeños detalles florales decorativos añadidos al cabello de algunas figuras, lo que da un toque delicado y primaveral a la imagen. Las vestimentas de las mujeres incluyen tonos cálidos como rojo y naranja, contrastando con los colores fríos del fondo. ') 
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img35_1.svg', alt='Descripción: La imagen muestra una ilustración colorida de varias mujeres agrupadas en un entorno abstracto con un fondo en tonos morados y lilas. Las figuras están dispuestas en diferentes posiciones, creando una composición armoniosa y dinámica. Cada mujer está representada con estilos de cabello y colores que varían, destacando una diversidad visual. Algunas tienen el cabello largo y oscuro, mientras que otras tienen cabello corto o de colores claros como el blanco. Hay pequeños detalles florales decorativos añadidos al cabello de algunas figuras, lo que da un toque delicado y primaveral a la imagen. Las vestimentas de las mujeres incluyen tonos cálidos como rojo y naranja, contrastando con los colores fríos del fondo. ') 
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img35.svg', alt='Descripción: La imagen muestra una ilustración colorida de varias mujeres agrupadas en un entorno abstracto con un fondo en tonos morados y lilas. Las figuras están dispuestas en diferentes posiciones, creando una composición armoniosa y dinámica. Cada mujer está representada con estilos de cabello y colores que varían, destacando una diversidad visual. Algunas tienen el cabello largo y oscuro, mientras que otras tienen cabello corto o de colores claros como el blanco. Hay pequeños detalles florales decorativos añadidos al cabello de algunas figuras, lo que da un toque delicado y primaveral a la imagen. Las vestimentas de las mujeres incluyen tonos cálidos como rojo y naranja, contrastando con los colores fríos del fondo. ') 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -417,17 +432,18 @@
         p Este enfoque no solo amplía la comprensión de las dinámicas que atraviesan a las personas con discapacidad, sino que también fortalece la capacidad institucional para responder de manera justa, equitativa y respetuosa de la diversidad.
         p.mb-0 De acuerdo con ello, algunas preguntas para la persona facilitadora de apoyos, son:
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 14.
       i  Inquietudes relacionadas con la diversidad de género
-
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img37_1.svg', alt='Descripción: La imagen es una ilustración que presenta a una mujer pensativa rodeada de bocadillos con preguntas relacionadas con la diversidad de género, la discapacidad y el conocimiento de protocolos y normativas. La composición de la escena se centra en una mujer en el centro, con la mano en la barbilla y una expresión de duda. Alrededor de ella, se distribuyen cuatro bocadillos que contienen preguntas en español. Estos bocadillos varían en tamaño y forma, pero todos tienen bordes en negro que contrastan con el fondo blanco. La posición de la mujer en el centro, rodeada por las preguntas, sugiere una reflexión sobre los temas planteados. La disposición de los elementos crea una sensación de diálogo interno y búsqueda de respuestas. El personaje principal es una mujer joven, con cabello largo y rojizo y un flequillo ligero. Su expresión es reflexiva, con las cejas ligeramente levantadas y los ojos mirando hacia abajo. Viste una blusa verde, lo que contrasta con el color de su cabello. Su pose, con la mano en la barbilla, indica un estado de contemplación y duda. La imagen parece ser una ilustración digital con un estilo sencillo y claro. El uso de líneas negras para definir los contornos y el relleno plano de colores en la figura de la mujer y el fondo blanco crean una estética limpia y moderna. La paleta de colores es limitada, lo que contribuye a la claridad de la imagen. Los bocadillos, con sus bordes irregulares, añaden un elemento de dinamismo y conversación a la composición. El entorno es simple y carece de detalles, lo que permite que la atención se centre en la mujer y las preguntas. El fondo blanco contribuye a la limpieza de la imagen y facilita la lectura de los textos en los bocadillos. La ausencia de detalles ambientales enfatiza la importancia del tema de la reflexión y el diálogo interno.') 
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img37.svg', alt='Descripción: La imagen es una ilustración que presenta a una mujer pensativa rodeada de bocadillos con preguntas relacionadas con la diversidad de género, la discapacidad y el conocimiento de protocolos y normativas. La composición de la escena se centra en una mujer en el centro, con la mano en la barbilla y una expresión de duda. Alrededor de ella, se distribuyen cuatro bocadillos que contienen preguntas en español. Estos bocadillos varían en tamaño y forma, pero todos tienen bordes en negro que contrastan con el fondo blanco. La posición de la mujer en el centro, rodeada por las preguntas, sugiere una reflexión sobre los temas planteados. La disposición de los elementos crea una sensación de diálogo interno y búsqueda de respuestas. El personaje principal es una mujer joven, con cabello largo y rojizo y un flequillo ligero. Su expresión es reflexiva, con las cejas ligeramente levantadas y los ojos mirando hacia abajo. Viste una blusa verde, lo que contrasta con el color de su cabello. Su pose, con la mano en la barbilla, indica un estado de contemplación y duda. La imagen parece ser una ilustración digital con un estilo sencillo y claro. El uso de líneas negras para definir los contornos y el relleno plano de colores en la figura de la mujer y el fondo blanco crean una estética limpia y moderna. La paleta de colores es limitada, lo que contribuye a la claridad de la imagen. Los bocadillos, con sus bordes irregulares, añaden un elemento de dinamismo y conversación a la composición. El entorno es simple y carece de detalles, lo que permite que la atención se centre en la mujer y las preguntas. El fondo blanco contribuye a la limpieza de la imagen y facilita la lectura de los textos en los bocadillos. La ausencia de detalles ambientales enfatiza la importancia del tema de la reflexión y el diálogo interno.') 
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img37_1.svg', alt='Descripción: La imagen es una ilustración que presenta a una mujer pensativa rodeada de bocadillos con preguntas relacionadas con la diversidad de género, la discapacidad y el conocimiento de protocolos y normativas. La composición de la escena se centra en una mujer en el centro, con la mano en la barbilla y una expresión de duda. Alrededor de ella, se distribuyen cuatro bocadillos que contienen preguntas en español. Estos bocadillos varían en tamaño y forma, pero todos tienen bordes en negro que contrastan con el fondo blanco. La posición de la mujer en el centro, rodeada por las preguntas, sugiere una reflexión sobre los temas planteados. La disposición de los elementos crea una sensación de diálogo interno y búsqueda de respuestas. El personaje principal es una mujer joven, con cabello largo y rojizo y un flequillo ligero. Su expresión es reflexiva, con las cejas ligeramente levantadas y los ojos mirando hacia abajo. Viste una blusa verde, lo que contrasta con el color de su cabello. Su pose, con la mano en la barbilla, indica un estado de contemplación y duda. La imagen parece ser una ilustración digital con un estilo sencillo y claro. El uso de líneas negras para definir los contornos y el relleno plano de colores en la figura de la mujer y el fondo blanco crean una estética limpia y moderna. La paleta de colores es limitada, lo que contribuye a la claridad de la imagen. Los bocadillos, con sus bordes irregulares, añaden un elemento de dinamismo y conversación a la composición. El entorno es simple y carece de detalles, lo que permite que la atención se centre en la mujer y las preguntas. El fondo blanco contribuye a la limpieza de la imagen y facilita la lectura de los textos en los bocadillos. La ausencia de detalles ambientales enfatiza la importancia del tema de la reflexión y el diálogo interno.') 
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img37.svg', alt='Descripción: La imagen es una ilustración que presenta a una mujer pensativa rodeada de bocadillos con preguntas relacionadas con la diversidad de género, la discapacidad y el conocimiento de protocolos y normativas. La composición de la escena se centra en una mujer en el centro, con la mano en la barbilla y una expresión de duda. Alrededor de ella, se distribuyen cuatro bocadillos que contienen preguntas en español. Estos bocadillos varían en tamaño y forma, pero todos tienen bordes en negro que contrastan con el fondo blanco. La posición de la mujer en el centro, rodeada por las preguntas, sugiere una reflexión sobre los temas planteados. La disposición de los elementos crea una sensación de diálogo interno y búsqueda de respuestas. El personaje principal es una mujer joven, con cabello largo y rojizo y un flequillo ligero. Su expresión es reflexiva, con las cejas ligeramente levantadas y los ojos mirando hacia abajo. Viste una blusa verde, lo que contrasta con el color de su cabello. Su pose, con la mano en la barbilla, indica un estado de contemplación y duda. La imagen parece ser una ilustración digital con un estilo sencillo y claro. El uso de líneas negras para definir los contornos y el relleno plano de colores en la figura de la mujer y el fondo blanco crean una estética limpia y moderna. La paleta de colores es limitada, lo que contribuye a la claridad de la imagen. Los bocadillos, con sus bordes irregulares, añaden un elemento de dinamismo y conversación a la composición. El entorno es simple y carece de detalles, lo que permite que la atención se centre en la mujer y las preguntas. El fondo blanco contribuye a la limpieza de la imagen y facilita la lectura de los textos en los bocadillos. La ausencia de detalles ambientales enfatiza la importancia del tema de la reflexión y el diálogo interno.') 
 
     .bloque-texto-c.color-primario-medio.tarjeta.mb-4
       .row.justify-content-center.align-items-center
@@ -445,17 +461,18 @@
       h5.mb-0  El papel de la interdisciplinariedad en la valoración de apoyos
 
 
-    .titulo-sexto.color-acento-contenido.offset-1(data-aos="fade-left")
+    .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 15.
       i  Interdisciplinariedad en los actores de la valoración de apoyos
-
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img39_1.svg', alt='Descripción: La imagen muestra una escena en interiores donde varias personas están trabajando juntas alrededor de una mesa. Hay tres figuras principales: dos están sentadas mientras escriben en cuadernos y la tercera figura está de pie inclinada hacia la mesa, interactuando con las otras dos. A la izquierda, hay una mujer con el cabello oscuro recogido en una coleta, vestida con una chaqueta azul y una camiseta roja; ella parece estar revisando o tomando notas. En el centro, está un hombre con cabello corto y vestimenta verde, concentrado mientras escribe en un cuaderno abierto frente a él. A la derecha, hay otra figura masculina con cabello oscuro, que lleva una camisa azul y un identificador colgado del cuello; parece estar ofreciendo instrucciones o explicaciones mientras señala o interactúa con la persona del centro. Sobre la mesa hay elementos como hojas de papel y un ordenador portátil de color rosa, lo que sugiere que están realizando una actividad académica o de trabajo colaborativo. En la pared detrás de ellos hay papeles y notas de colores, posiblemente carteles o recordatorios, que agregan un toque organizativo y profesional al ambiente. Los colores predominantes en la imagen son tonos pastel como azul, rosa, amarillo y verde, lo que genera una atmósfera agradable y tranquila. ') 
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema2/img39.svg', alt='Descripción: La imagen muestra una escena en interiores donde varias personas están trabajando juntas alrededor de una mesa. Hay tres figuras principales: dos están sentadas mientras escriben en cuadernos y la tercera figura está de pie inclinada hacia la mesa, interactuando con las otras dos. A la izquierda, hay una mujer con el cabello oscuro recogido en una coleta, vestida con una chaqueta azul y una camiseta roja; ella parece estar revisando o tomando notas. En el centro, está un hombre con cabello corto y vestimenta verde, concentrado mientras escribe en un cuaderno abierto frente a él. A la derecha, hay otra figura masculina con cabello oscuro, que lleva una camisa azul y un identificador colgado del cuello; parece estar ofreciendo instrucciones o explicaciones mientras señala o interactúa con la persona del centro. Sobre la mesa hay elementos como hojas de papel y un ordenador portátil de color rosa, lo que sugiere que están realizando una actividad académica o de trabajo colaborativo. En la pared detrás de ellos hay papeles y notas de colores, posiblemente carteles o recordatorios, que agregan un toque organizativo y profesional al ambiente. Los colores predominantes en la imagen son tonos pastel como azul, rosa, amarillo y verde, lo que genera una atmósfera agradable y tranquila. ') 
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img39_1.svg', alt='Descripción: La imagen muestra una escena en interiores donde varias personas están trabajando juntas alrededor de una mesa. Hay tres figuras principales: dos están sentadas mientras escriben en cuadernos y la tercera figura está de pie inclinada hacia la mesa, interactuando con las otras dos. A la izquierda, hay una mujer con el cabello oscuro recogido en una coleta, vestida con una chaqueta azul y una camiseta roja; ella parece estar revisando o tomando notas. En el centro, está un hombre con cabello corto y vestimenta verde, concentrado mientras escribe en un cuaderno abierto frente a él. A la derecha, hay otra figura masculina con cabello oscuro, que lleva una camisa azul y un identificador colgado del cuello; parece estar ofreciendo instrucciones o explicaciones mientras señala o interactúa con la persona del centro. Sobre la mesa hay elementos como hojas de papel y un ordenador portátil de color rosa, lo que sugiere que están realizando una actividad académica o de trabajo colaborativo. En la pared detrás de ellos hay papeles y notas de colores, posiblemente carteles o recordatorios, que agregan un toque organizativo y profesional al ambiente. Los colores predominantes en la imagen son tonos pastel como azul, rosa, amarillo y verde, lo que genera una atmósfera agradable y tranquila. ') 
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema2/img39.svg', alt='Descripción: La imagen muestra una escena en interiores donde varias personas están trabajando juntas alrededor de una mesa. Hay tres figuras principales: dos están sentadas mientras escriben en cuadernos y la tercera figura está de pie inclinada hacia la mesa, interactuando con las otras dos. A la izquierda, hay una mujer con el cabello oscuro recogido en una coleta, vestida con una chaqueta azul y una camiseta roja; ella parece estar revisando o tomando notas. En el centro, está un hombre con cabello corto y vestimenta verde, concentrado mientras escribe en un cuaderno abierto frente a él. A la derecha, hay otra figura masculina con cabello oscuro, que lleva una camisa azul y un identificador colgado del cuello; parece estar ofreciendo instrucciones o explicaciones mientras señala o interactúa con la persona del centro. Sobre la mesa hay elementos como hojas de papel y un ordenador portátil de color rosa, lo que sugiere que están realizando una actividad académica o de trabajo colaborativo. En la pared detrás de ellos hay papeles y notas de colores, posiblemente carteles o recordatorios, que agregan un toque organizativo y profesional al ambiente. Los colores predominantes en la imagen son tonos pastel como azul, rosa, amarillo y verde, lo que genera una atmósfera agradable y tranquila. ') 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p.mb-0 En el marco del tema de la interdisciplinariedad, se comparte el siguiente #[i podcast], el cual aborda perspectivas diversas y complementarias con respecto al tema:

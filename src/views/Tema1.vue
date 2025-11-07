@@ -68,7 +68,7 @@
             .bloque-texto-gg__img(
               :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img5.png')})`}"
             )
-            .bloque-texto-gg__texto.p-2
+            .bloque-texto-gg__texto.mt-5.mt-lg-0.p-2
               p.mb-0 El ciudadano mexicano Ramiro Hernández Llanas quien fue ejecutado en Texas pese a las pruebas que indicaba que su discapacidad intelectual, evaluada en seis pruebas diferentes de cociente intelectual en la última década, convertía su pena de muerte en inconstitucional. (Amnistía Internacional, 2014).
 
     .tarjeta--BG03.pe-5.ps-4.mb-5
@@ -109,13 +109,15 @@
       h5 Figura 2.
       i Representación del modelo médico o rehabilitador
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img10_1.svg', alt=' La imagen muestra a un grupo de profesionales médicos y un paciente en silla de ruedas. Hay dos médicos masculinos, ambos con batas blancas de laboratorio y batas azules. El primer médico está de pie y sostiene una tableta, mientras que el segundo médico también está de pie y tiene la mano extendida hacia el paciente sentado en la silla de ruedas. A la izquierda de los dos médicos, hay una enfermera o técnica vestida con un uniforme verde azulado, con el cabello recogido y un estetoscopio alrededor del cuello. Lleva un portapapeles en el brazo izquierdo. Al fondo, se aprecia a otra mujer que podría ser otro miembro del equipo médico, posiblemente otra enfermera o técnico, también con bata verde azulado. Su postura sugiere que puede estar interactuando con el grupo o tal vez observando la escena. El grupo está todo sobre un fondo liso de color pastel que no distrae de las figuras en primer plano. La atmósfera general es profesional pero accesible, representada a través del lenguaje corporal y la vestimenta de los personajes, lo que sugiere un entorno médico positivo donde se brinda atención y probablemente se discute.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img10.svg', alt=' La imagen muestra a un grupo de profesionales médicos y un paciente en silla de ruedas. Hay dos médicos masculinos, ambos con batas blancas de laboratorio y batas azules. El primer médico está de pie y sostiene una tableta, mientras que el segundo médico también está de pie y tiene la mano extendida hacia el paciente sentado en la silla de ruedas. A la izquierda de los dos médicos, hay una enfermera o técnica vestida con un uniforme verde azulado, con el cabello recogido y un estetoscopio alrededor del cuello. Lleva un portapapeles en el brazo izquierdo. Al fondo, se aprecia a otra mujer que podría ser otro miembro del equipo médico, posiblemente otra enfermera o técnico, también con bata verde azulado. Su postura sugiere que puede estar interactuando con el grupo o tal vez observando la escena. El grupo está todo sobre un fondo liso de color pastel que no distrae de las figuras en primer plano. La atmósfera general es profesional pero accesible, representada a través del lenguaje corporal y la vestimenta de los personajes, lo que sugiere un entorno médico positivo donde se brinda atención y probablemente se discute.')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img10_1.svg', alt=' La imagen muestra a un grupo de profesionales médicos y un paciente en silla de ruedas. Hay dos médicos masculinos, ambos con batas blancas de laboratorio y batas azules. El primer médico está de pie y sostiene una tableta, mientras que el segundo médico también está de pie y tiene la mano extendida hacia el paciente sentado en la silla de ruedas. A la izquierda de los dos médicos, hay una enfermera o técnica vestida con un uniforme verde azulado, con el cabello recogido y un estetoscopio alrededor del cuello. Lleva un portapapeles en el brazo izquierdo. Al fondo, se aprecia a otra mujer que podría ser otro miembro del equipo médico, posiblemente otra enfermera o técnico, también con bata verde azulado. Su postura sugiere que puede estar interactuando con el grupo o tal vez observando la escena. El grupo está todo sobre un fondo liso de color pastel que no distrae de las figuras en primer plano. La atmósfera general es profesional pero accesible, representada a través del lenguaje corporal y la vestimenta de los personajes, lo que sugiere un entorno médico positivo donde se brinda atención y probablemente se discute.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img10.svg', alt=' La imagen muestra a un grupo de profesionales médicos y un paciente en silla de ruedas. Hay dos médicos masculinos, ambos con batas blancas de laboratorio y batas azules. El primer médico está de pie y sostiene una tableta, mientras que el segundo médico también está de pie y tiene la mano extendida hacia el paciente sentado en la silla de ruedas. A la izquierda de los dos médicos, hay una enfermera o técnica vestida con un uniforme verde azulado, con el cabello recogido y un estetoscopio alrededor del cuello. Lleva un portapapeles en el brazo izquierdo. Al fondo, se aprecia a otra mujer que podría ser otro miembro del equipo médico, posiblemente otra enfermera o técnico, también con bata verde azulado. Su postura sugiere que puede estar interactuando con el grupo o tal vez observando la escena. El grupo está todo sobre un fondo liso de color pastel que no distrae de las figuras en primer plano. La atmósfera general es profesional pero accesible, representada a través del lenguaje corporal y la vestimenta de los personajes, lo que sugiere un entorno médico positivo donde se brinda atención y probablemente se discute.')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
@@ -302,12 +304,14 @@
       i Representación del modelo social
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img22_1.svg', alt='Esta imagen muestra un grupo de niños jugando al aire libre en un círculo mientras se toman de las manos. Están ubicados en un espacio verde, probablemente un campo o parque y todos parecen estar disfrutando del momento juntos. Los niños representan una diversidad de habilidades físicas, destacando inclusividad. Por ejemplo, uno de ellos está sentado en una silla de ruedas en el centro del círculo, otro utiliza muletas y hay uno con un bastón. Sus expresiones faciales y posturas transmiten alegría, cooperación y unidad. Las vestimentas de los niños son coloridas, incluyendo tonos de rojo, azul, verde y rosa, y el diseño de sus atuendos es informal y amigable, adaptado a la escena infantil de juego. Los trazos de la ilustración son caricaturescos, con líneas suaves que sugieren un ambiente amistoso y accesible. También hay un fondo que combina gradientes de verde y amarillo suave, con curvas blancas que enmarcan la escena. En general, la atmósfera es cálida, positiva y transmite un mensaje de inclusión y diversión compartida.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img22_2.svg', alt='Esta imagen muestra un grupo de niños jugando al aire libre en un círculo mientras se toman de las manos. Están ubicados en un espacio verde, probablemente un campo o parque y todos parecen estar disfrutando del momento juntos. Los niños representan una diversidad de habilidades físicas, destacando inclusividad. Por ejemplo, uno de ellos está sentado en una silla de ruedas en el centro del círculo, otro utiliza muletas y hay uno con un bastón. Sus expresiones faciales y posturas transmiten alegría, cooperación y unidad. Las vestimentas de los niños son coloridas, incluyendo tonos de rojo, azul, verde y rosa, y el diseño de sus atuendos es informal y amigable, adaptado a la escena infantil de juego. Los trazos de la ilustración son caricaturescos, con líneas suaves que sugieren un ambiente amistoso y accesible. También hay un fondo que combina gradientes de verde y amarillo suave, con curvas blancas que enmarcan la escena. En general, la atmósfera es cálida, positiva y transmite un mensaje de inclusión y diversión compartida.')
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img22_1.svg', alt='Esta imagen muestra un grupo de niños jugando al aire libre en un círculo mientras se toman de las manos. Están ubicados en un espacio verde, probablemente un campo o parque y todos parecen estar disfrutando del momento juntos. Los niños representan una diversidad de habilidades físicas, destacando inclusividad. Por ejemplo, uno de ellos está sentado en una silla de ruedas en el centro del círculo, otro utiliza muletas y hay uno con un bastón. Sus expresiones faciales y posturas transmiten alegría, cooperación y unidad. Las vestimentas de los niños son coloridas, incluyendo tonos de rojo, azul, verde y rosa, y el diseño de sus atuendos es informal y amigable, adaptado a la escena infantil de juego. Los trazos de la ilustración son caricaturescos, con líneas suaves que sugieren un ambiente amistoso y accesible. También hay un fondo que combina gradientes de verde y amarillo suave, con curvas blancas que enmarcan la escena. En general, la atmósfera es cálida, positiva y transmite un mensaje de inclusión y diversión compartida.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img22_2.svg', alt='Esta imagen muestra un grupo de niños jugando al aire libre en un círculo mientras se toman de las manos. Están ubicados en un espacio verde, probablemente un campo o parque y todos parecen estar disfrutando del momento juntos. Los niños representan una diversidad de habilidades físicas, destacando inclusividad. Por ejemplo, uno de ellos está sentado en una silla de ruedas en el centro del círculo, otro utiliza muletas y hay uno con un bastón. Sus expresiones faciales y posturas transmiten alegría, cooperación y unidad. Las vestimentas de los niños son coloridas, incluyendo tonos de rojo, azul, verde y rosa, y el diseño de sus atuendos es informal y amigable, adaptado a la escena infantil de juego. Los trazos de la ilustración son caricaturescos, con líneas suaves que sugieren un ambiente amistoso y accesible. También hay un fondo que combina gradientes de verde y amarillo suave, con curvas blancas que enmarcan la escena. En general, la atmósfera es cálida, positiva y transmite un mensaje de inclusión y diversión compartida.')
     .row.justify-content-center.mb-4
       .col-lg-9.mb-4.mb-lg-0
         p(data-aos="fade-left") Según Victoria (2013) este modelo surge de disciplinas y prácticas sociales y políticas, con un enfoque de derechos; da cuenta que la discapacidad no tiene origen ni religioso ni científico, sino que en gran medida corresponde a factores sociales. Considera que la discapacidad no es un asunto de la persona, es más consecuencia de las barreras y la exclusión que impone la sociedad a todo aquel que considera “distinto” e “incapaz”; resalta la definición de la discapacidad como un asunto social, que deviene de la interacción entre las personas y las condiciones que le ofrece a su favor o no, una sociedad. De igual manera, está enfocado en la dignidad humana, la autonomía, la independencia, la libertad y la capacidad de decisión de las personas con discapacidad. Desde esta concepción, las prácticas sociales están centradas en el diseño de un mundo para todos, todas y todes, siendo la accesibilidad factor determinante en la eliminación de barreras y que conlleva a la inclusión de las personas en igualdad de oportunidades y a la participación plena en la sociedad.
@@ -380,7 +384,7 @@
         .row.align-items-center.bloque-texto-c.color-primario-claro.p-4.mb-4
           .col-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema1/img30.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img30_2.svg', alt='Imagen decorativa')
           .col-10
             p.mb-0(data-aos="fade-left") También hay que mencionar que la evolución de los Derechos Humanos de 1948, ha sido evidente y notoria, en tanto se amplió el concepto a cada una de las personas que habita la tierra, al menos desde el punto de vista de las legislaciones y en especial de los tratados internacionales de naciones unidas. se encuentran así declaraciones, tratados y convenciones y, a su vez, textos vinculantes y no vinculantes para los 
               a.lnk(@click="modal1 = true") Estados.
@@ -399,7 +403,7 @@
             |  En este punto se alude a la vinculación de algunos Estados para tener en cuenta en su ordenamiento jurídico, los documentos no vinculantes, son recomendaciones que guían, pero que su eficacia depende de la buena voluntad de cada uno de los Estados.
     .tarjeta--BG02.p-5
       p.mb-4(data-aos="fade-left") Los documentos vinculantes son:
-      SlyderF.color-acento-botones.mb-5(columnas="col-lg-6 col-xl-4")
+      SlyderF.color-acento-botones.mb-0(columnas="col-lg-6 col-xl-4")
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
@@ -437,7 +441,7 @@
           p.text-center.mb-0 Convención sobre Derechos de las Personas con Discapacidad y los Convenios de la Organización Internacional del Trabajo (OIT)
 
 
-    p.mb-4(data-aos="fade-left") Estos instrumentos ampliaron el concepto de ser humano, eliminando esas raíces eurocéntricas que privilegiaban la razón y que, en muchos casos, desconocían a las otras culturas o pensamientos diferentes. Se advierte que es vinculante en el sentido que han sido ratificados por los Estados; es decir, son vinculantes para los que los ratifican y no lo son para los que los desconocen, ejemplo de ello es la Convención Internacional sobre la Eliminación de todas las Formas de Discriminación contra la Mujer, que no ha sido ratificada por los países árabes, dejando un manto de dudas acerca de la obligatoriedad del derecho internacional.
+    p.mb-4(style="margin-top: -27px")(data-aos="fade-left") Estos instrumentos ampliaron el concepto de ser humano, eliminando esas raíces eurocéntricas que privilegiaban la razón y que, en muchos casos, desconocían a las otras culturas o pensamientos diferentes. Se advierte que es vinculante en el sentido que han sido ratificados por los Estados; es decir, son vinculantes para los que los ratifican y no lo son para los que los desconocen, ejemplo de ello es la Convención Internacional sobre la Eliminación de todas las Formas de Discriminación contra la Mujer, que no ha sido ratificada por los países árabes, dejando un manto de dudas acerca de la obligatoriedad del derecho internacional.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
         p(data-aos="fade-left") Ahora bien, los documentos no vinculantes, son recomendaciones que guían, pero que su eficacia depende de la voluntad de cada uno de los Estados; se encuentran entre ellos:  
@@ -449,19 +453,19 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-user
-                | #[b 4 de diciembre de 1986] - La declaración sobre el derecho al desarrollo. 
+                p.mb-0 #[b 4 de diciembre de 1986] - La declaración sobre el derecho al desarrollo. 
               li 
                 i.fas.fa-user
-                | #[b 9 de diciembre de 1975] - La declaración de los derechos de los impedidos. 
+                p.mb-0  #[b 9 de diciembre de 1975] - La declaración de los derechos de los impedidos. 
               li 
                 i.fas.fa-user
-                | #[b 20 de diciembre de 1971] - La declaración de los derechos del retrasado mental. 
+                p.mb-0  #[b 20 de diciembre de 1971] - La declaración de los derechos del retrasado mental. 
               li 
                 i.fas.fa-user
-                | #[b 11 de diciembre del 1969] - La declaración sobre el progreso y el desarrollo social. 
+                p.mb-0  #[b 11 de diciembre del 1969] - La declaración sobre el progreso y el desarrollo social. 
               li 
                 i.fas.fa-user
-                | #[b 27 de junio del 2001] - La declaración de compromiso en la lucha contra el VIH/ SIDA.
+                p.mb-0  #[b 27 de junio del 2001] - La declaración de compromiso en la lucha contra el VIH/ SIDA.
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema1/img39.png', alt='Imagen decorativa')
@@ -585,17 +589,17 @@
               .d-flex.justify-content-end.align-items-center
                 span - (ONU, 2006).
                 i.fas.fa-quote-right.ms-2
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
           .bloque-texto-c.color-primario-beige.px-4.px-lg-0
             .row.justify-content-center.align-items-center
               .col-lg-3.col-10.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema1/img47.png', alt='Texto que describa la imagen')
-              .col-lg-9
+              .col-lg-8
                 p.mb-0(data-aos="fade-left") Es imperativo que, como personas funcionarias públicas, se conozca en profundidad y se apliquen los lineamientos dados en los documentos vinculantes (que son adoptados como Estado en el ordenamiento jurídico) y los no vinculantes (que son recomendaciones dadas), para hacer efectiva la inclusión y respetar los derechos de todas las personas con discapacidad.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(style="margin-top: -27px")
       .col-lg-10
         p(data-aos="fade-left") La anterior definición introduce en la discusión significativos elementos. Entendiendo que la discapacidad es un concepto en construcción, no propone una verdad, sino que muestra una situación actual, donde la deficiencia y la discapacidad son dos cosas distintas: la primera la poseen las personas y, la segunda, las genera el entorno; así, al referirse a barreras actitudinales y físicas, se dirá que la discapacidad puede ser generada por las personas que integran la sociedad, con sus comportamientos y exclusiones, reconoce igualmente las barreras físicas que pone en medio, a las personas con discapacidad para su adecuado desplazamiento y trabajo, entre otros. 
         p.mb-0(data-aos="fade-left") A continuación, se presentan dos situaciones, que permiten reflexionar sobre el tema:
@@ -603,28 +607,31 @@
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 4.
       i  Diálogo entre personas con discapacidad
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img48_1.svg', alt='Descripción: Una ilustración en estilo de dibujo animado retrata a dos personas con discapacidades en un diálogo, transmitiendo perspectivas contrastantes sobre sus limitaciones. La composición muestra dos figuras sobre un fondo blanco. A la izquierda, un hombre con una pierna enyesada y muletas habla, mientras que, a la derecha, una niña en silla de ruedas levanta la mano, expresando su preocupación. La disposición yuxtapone las perspectivas de los individuos a través de burbujas de diálogo sobre sus cabezas. El entorno es minimalista, centrado en los personajes y sus interacciones. La ausencia de un fondo detallado mantiene la atención en los personajes y el mensaje que transmiten. Las escaleras en el fondo pueden interpretarse como una barrera que enfrenta la niña, contrastando con la movilidad del hombre gracias a las muletas. La iluminación es neutra, sin sombras ni efectos de luz complejos. La simplicidad del entorno centra la atención en el mensaje.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img48.svg', alt='Descripción: Una ilustración en estilo de dibujo animado retrata a dos personas con discapacidades en un diálogo, transmitiendo perspectivas contrastantes sobre sus limitaciones. La composición muestra dos figuras sobre un fondo blanco. A la izquierda, un hombre con una pierna enyesada y muletas habla, mientras que, a la derecha, una niña en silla de ruedas levanta la mano, expresando su preocupación. La disposición yuxtapone las perspectivas de los individuos a través de burbujas de diálogo sobre sus cabezas. El entorno es minimalista, centrado en los personajes y sus interacciones. La ausencia de un fondo detallado mantiene la atención en los personajes y el mensaje que transmiten. Las escaleras en el fondo pueden interpretarse como una barrera que enfrenta la niña, contrastando con la movilidad del hombre gracias a las muletas. La iluminación es neutra, sin sombras ni efectos de luz complejos. La simplicidad del entorno centra la atención en el mensaje.')
-    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img48_1.svg', alt='Descripción: Una ilustración en estilo de dibujo animado retrata a dos personas con discapacidades en un diálogo, transmitiendo perspectivas contrastantes sobre sus limitaciones. La composición muestra dos figuras sobre un fondo blanco. A la izquierda, un hombre con una pierna enyesada y muletas habla, mientras que, a la derecha, una niña en silla de ruedas levanta la mano, expresando su preocupación. La disposición yuxtapone las perspectivas de los individuos a través de burbujas de diálogo sobre sus cabezas. El entorno es minimalista, centrado en los personajes y sus interacciones. La ausencia de un fondo detallado mantiene la atención en los personajes y el mensaje que transmiten. Las escaleras en el fondo pueden interpretarse como una barrera que enfrenta la niña, contrastando con la movilidad del hombre gracias a las muletas. La iluminación es neutra, sin sombras ni efectos de luz complejos. La simplicidad del entorno centra la atención en el mensaje.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img48.svg', alt='Descripción: Una ilustración en estilo de dibujo animado retrata a dos personas con discapacidades en un diálogo, transmitiendo perspectivas contrastantes sobre sus limitaciones. La composición muestra dos figuras sobre un fondo blanco. A la izquierda, un hombre con una pierna enyesada y muletas habla, mientras que, a la derecha, una niña en silla de ruedas levanta la mano, expresando su preocupación. La disposición yuxtapone las perspectivas de los individuos a través de burbujas de diálogo sobre sus cabezas. El entorno es minimalista, centrado en los personajes y sus interacciones. La ausencia de un fondo detallado mantiene la atención en los personajes y el mensaje que transmiten. Las escaleras en el fondo pueden interpretarse como una barrera que enfrenta la niña, contrastando con la movilidad del hombre gracias a las muletas. La iluminación es neutra, sin sombras ni efectos de luz complejos. La simplicidad del entorno centra la atención en el mensaje.')
+        
     p.mb-4(data-aos="fade-left") Estos elementos permiten asegurar que la Convención de Naciones Unidas, introduce un nuevo nivel de exigibilidad y de responsabilidad con el otro y la otra, implicando no solamente a los Estados, sino también a las instituciones públicas y privadas, a las sociedades y a las personas individualmente consideradas. Es por ello que el cambio no consiste solo en abandonar un modelo de enfermedad, sino más bien, enfatizar en la promoción de las potencialidades y el reconocimiento de las capacidades, así, se deja de pensar en lo que no se tiene y se explota lo que si se posee. 
 
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 5.
       i  Diálogo sobre la promoción de las discapacidades
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img49_1.svg', alt='Descripción: Una ilustración digital simple muestra a una mujer pensativa al lado de un bocadillo que contiene una declaración sobre la promoción de las capacidades de las personas en el servicio público. La composición de la imagen presenta dos elementos principales: un bocadillo de diálogo en la parte superior izquierda y una ilustración de una mujer en la parte inferior derecha. El bocadillo contiene texto en español y el diseño de este sugiere que la pregunta está siendo planteada. La mujer está colocada en la parte inferior derecha, con la mano en la barbilla, expresando pensamiento o duda. La interacción visual principal es entre el texto en el bocadillo y la expresión de la mujer, sugiriendo que está reflexionando sobre el mensaje. La composición es sencilla y directa, con un fondo blanco que resalta los dos elementos principales. El personaje principal es una mujer joven, que parece estar en sus veintes o treintas. Tiene pelo largo y rojizo, con una expresión de preocupación o duda. Su pose, con la mano en la barbilla, indica contemplación. Viste una camiseta verde. La imagen de la mujer transmite una sensación de reflexión y consideración. El bocadillo contiene texto, en fuente negra, que expresa una pregunta o una reflexión sobre la promoción de las capacidades de las personas dentro del servicio público. El estilo de la imagen es plano y simplificado, con contornos marcados y colores sólidos. El diseño recuerda al arte vectorial o a la ilustración digital moderna. El estilo es limpio y directo, lo que sugiere que está destinado a ser comprensible y fácil de entender. El uso de colores es limitado y predominan los tonos pastel. El fondo blanco y la ausencia de detalles ambientales dirigen la atención del espectador a los dos elementos principales de la imagen: la pregunta en el bocadillo y la reflexión de la mujer. La iluminación es plana y uniforme, sin sombras ni gradaciones. La atmósfera general es de reflexión, contemplación y posible incertidumbre relacionada con la cuestión planteada en el texto.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img49.svg', alt='Descripción: Una ilustración en estilo de dibujo animado retrata a dos personas con discapacidades en un diálogo, transmitiendo perspectivas contrastantes sobre sus limitaciones. La composición muestra dos figuras sobre un fondo blanco. A la izquierda, un hombre con una pierna enyesada y muletas habla, mientras que, a la derecha, una niña en silla de ruedas levanta la mano, expresando su preocupación. La disposición yuxtapone las perspectivas de los individuos a través de burbujas de diálogo sobre sus cabezas. El entorno es minimalista, centrado en los personajes y sus interacciones. La ausencia de un fondo detallado mantiene la atención en los personajes y el mensaje que transmiten. Las escaleras en el fondo pueden interpretarse como una barrera que enfrenta la niña, contrastando con la movilidad del hombre gracias a las muletas. La iluminación es neutra, sin sombras ni efectos de luz complejos. La simplicidad del entorno centra la atención en el mensaje.')
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img49_1.svg', alt='Descripción: Una ilustración digital simple muestra a una mujer pensativa al lado de un bocadillo que contiene una declaración sobre la promoción de las capacidades de las personas en el servicio público. La composición de la imagen presenta dos elementos principales: un bocadillo de diálogo en la parte superior izquierda y una ilustración de una mujer en la parte inferior derecha. El bocadillo contiene texto en español y el diseño de este sugiere que la pregunta está siendo planteada. La mujer está colocada en la parte inferior derecha, con la mano en la barbilla, expresando pensamiento o duda. La interacción visual principal es entre el texto en el bocadillo y la expresión de la mujer, sugiriendo que está reflexionando sobre el mensaje. La composición es sencilla y directa, con un fondo blanco que resalta los dos elementos principales. El personaje principal es una mujer joven, que parece estar en sus veintes o treintas. Tiene pelo largo y rojizo, con una expresión de preocupación o duda. Su pose, con la mano en la barbilla, indica contemplación. Viste una camiseta verde. La imagen de la mujer transmite una sensación de reflexión y consideración. El bocadillo contiene texto, en fuente negra, que expresa una pregunta o una reflexión sobre la promoción de las capacidades de las personas dentro del servicio público. El estilo de la imagen es plano y simplificado, con contornos marcados y colores sólidos. El diseño recuerda al arte vectorial o a la ilustración digital moderna. El estilo es limpio y directo, lo que sugiere que está destinado a ser comprensible y fácil de entender. El uso de colores es limitado y predominan los tonos pastel. El fondo blanco y la ausencia de detalles ambientales dirigen la atención del espectador a los dos elementos principales de la imagen: la pregunta en el bocadillo y la reflexión de la mujer. La iluminación es plana y uniforme, sin sombras ni gradaciones. La atmósfera general es de reflexión, contemplación y posible incertidumbre relacionada con la cuestión planteada en el texto.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img49.svg', alt='Descripción: Una ilustración en estilo de dibujo animado retrata a dos personas con discapacidades en un diálogo, transmitiendo perspectivas contrastantes sobre sus limitaciones. La composición muestra dos figuras sobre un fondo blanco. A la izquierda, un hombre con una pierna enyesada y muletas habla, mientras que, a la derecha, una niña en silla de ruedas levanta la mano, expresando su preocupación. La disposición yuxtapone las perspectivas de los individuos a través de burbujas de diálogo sobre sus cabezas. El entorno es minimalista, centrado en los personajes y sus interacciones. La ausencia de un fondo detallado mantiene la atención en los personajes y el mensaje que transmiten. Las escaleras en el fondo pueden interpretarse como una barrera que enfrenta la niña, contrastando con la movilidad del hombre gracias a las muletas. La iluminación es neutra, sin sombras ni efectos de luz complejos. La simplicidad del entorno centra la atención en el mensaje.')
     
     p.mb-4(data-aos="fade-left") Otro elemento clave para el análisis del enfoque de derechos es la identificación de los pilares sobre los cuales se fundamenta la Convención sobre los Derechos de las Personas con Discapacidad (ONU, 2006). Estos pilares permiten comprender cómo se garantiza la inclusión, la igualdad y la dignidad de esta población. Por lo anterior, se deben tener presente los siguientes pilares: 
     .row.justify-content-center.align-items-center.mb-5
@@ -661,10 +668,10 @@
         .bloque-texto-c.color-primario-medio.p-4
           p(data-aos="fade-left") En el caso específico del derecho al empleo, esta idea cobra especial relevancia. Los puestos de trabajo deben contar con espacios, herramientas y condiciones adecuadas que permitan a cualquier persona desempeñar sus funciones sin depender de terceros. No es razonable suponer que una persona con una discapacidad física pueda cumplir con sus responsabilidades si su oficina, ubicada en un quinto piso, no cuenta con ascensor ni rampa de acceso. De igual forma, sería inviable que una persona ciega desempeñe sus tareas en una oficina donde el computador carece de un lector de pantalla. Estos ejemplos evidencian que, si el entorno impone barreras, la persona con discapacidad no podrá ejercer su empleo de manera plena. Es importante subrayar que un desempeño laboral limitado en estos casos no se debe a la discapacidad en sí, sino a las condiciones del entorno que impiden el acceso o el uso adecuado de los recursos necesarios.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
         p Es precisamente aquí donde la accesibilidad adquiere un papel protagónico: es el principio que permite acceder a los espacios, a la información y a las herramientas necesarias, garantizando de manera efectiva el derecho al trabajo. Para lograrlo, la Convención sobre los Derechos de las Personas con Discapacidad, ha instado a los Estados miembros a implementar acciones afirmativas que aseguren el cumplimiento de esta disposición.
-        .row.align-items-center.bloque-texto-c.color-primario-claro.p-3.mb-4
+        .row.align-items-center.bloque-texto-c.color-primario-claro.p-3
           .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img53.svg', alt='Imagen decorativa')
@@ -673,6 +680,7 @@
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema1/img52.png', alt='Texto que describa la imagen')
+
     p.mb-4(data-aos="fade-left") Sin embargo, dicho informe advierte una debilidad persistente: la excesiva confianza depositada en la legislación, sin considerar las condiciones reales y concretas de la sociedad colombiana. En relación con el derecho al trabajo, la observación señala:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -777,96 +785,99 @@
           p.mb-0.text-center Apoyar es distinto a decidir por otro. Apoyar es creer que el otro es un ser humano integral y dentro de esa unidad está ser libre, como lo muestran las distintas declaraciones de derechos humanos y todas las convenciones.
     p.mb-4(data-aos="fade-left") Hasta aquí se han tratado cuatro pilares de la convención, que son fundamentales para el reconocimiento de las personas con discapacidad, así como de sus derechos. Y como resumen, a continuación, basado en las Naciones Unidas, se detalla cada uno:  
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.mb-2
+      .col-lg-6.mb-4.mb-lg-0
+        .tarjeta-avatar(style="padding-top: 0px !important;").h-100          
+            .tarjeta.color-primarios.w-100(style="padding-top: 0px !important;")
+              img(src='@/assets/curso/temas/tema1/img61.png', alt='Imagen decorativa')
+              .p-4
+                p.text-bold Sujetos de derecho
+                ul.lista-ul
+                  li
+                    ul
+                      li.mb--44
+                        i.lista-ul__vineta
+                        p.mb--44 Goce pleno y condiciones de igualdad en todos los derechos y libertades fundamentales.
+                      li.mb--44
+                        i.lista-ul__vineta
+                        p.mb--44 Respeto por la dignidad humana.
+                      li.mb--44
+                        i.lista-ul__vineta
+                        p.mb--44 Autodeterminación.
+            
       .col-lg-6
-        .bloque-texto-c.color-primario.tarjeta.h-100       
-          figure
-            img(src='@/assets/curso/temas/tema1/img61.png', alt='Imagen decorativa')
-          .p-4
-            p.text-bold Sujetos de derecho
-            ul.lista-ul
-              li
-                ul
+        .tarjeta-avatar(style="padding-top: 0px !important;").h-100            
+            .tarjeta.color-primarios.w-100(style="padding-top: 0px !important;")
+              img(src='@/assets/curso/temas/tema1/img62.png', alt='Imagen decorativa')
+              .p-4
+                p.text-bold Igualdad
+                ul.lista-ul
                   li.mb--44
-                    i.lista-ul__vineta
-                    p.mb--44 Goce pleno y condiciones de igualdad en todos los derechos y libertades fundamentales.
+                    ul
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | No discriminación.
+                p.mb-0 Diferencias entre:
+                ul.lista-ul
                   li.mb--44
-                    i.lista-ul__vineta
-                    p.mb--44 Respeto por la dignidad humana.
+                    ul
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Igualdad formal: ante la ley, ej: la ley dice que Carlos, con discapacidad mental tiene derecho al empleo.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Igualdad material: en la realidad, se requiere exigencia de garantía ante el Estado, ej: Carlos es excluido del sistema laboral.
+            
+    .row.mb-4
+      .col-lg-6.mb-4.mb-lg-0
+        .tarjeta-avatar(style="padding-top: 0px !important;").h-100          
+            .tarjeta.color-primarios.w-100(style="padding-top: 0px !important;")
+              img(src='@/assets/curso/temas/tema1/img63.png', alt='Imagen decorativa')
+              .p-4
+                p.text-bold Accesibilidad
+                ul.lista-ul
                   li.mb--44
-                    i.lista-ul__vineta
-                    p.mb--44 Autodeterminación.
+                    ul
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Adaptaciones físicas.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Adaptaciones en sistemas de transporte.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Adaptaciones en sistemas de información y comunicación.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Ajustes razonables.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Acciones afirmativas.
+            
       .col-lg-6
-        .bloque-texto-c.color-primario.tarjeta.h-100
-          figure
-            img(src='@/assets/curso/temas/tema1/img62.png', alt='Imagen decorativa')
-          .p-4
-            p.text-bold Igualdad
-            ul.lista-ul
-              li.mb--44
-                ul
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | No discriminación.
-            p.mb-0 Diferencias entre:
-            ul.lista-ul
-              li.mb--44
-                ul
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Igualdad formal: ante la ley, ej: la ley dice que Carlos, con discapacidad mental tiene derecho al empleo.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Igualdad material: en la realidad, se requiere exigencia de garantía ante el Estado, ej: Carlos es excluido del sistema laboral.
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
-        .bloque-texto-c.color-primario.tarjeta.h-100
-          figure
-            img(src='@/assets/curso/temas/tema1/img63.png', alt='Imagen decorativa')
-          .p-4
-            p.text-bold Accesibilidad
-            ul.lista-ul
-              li.mb--44
-                ul
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Adaptaciones físicas.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Adaptaciones en sistemas de transporte.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Adaptaciones en sistemas de información y comunicación.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Ajustes razonables.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Acciones afirmativas.
-      .col-lg-6
-        .bloque-texto-c.color-primario.tarjeta.h-100
-          figure
-            img(src='@/assets/curso/temas/tema1/img64.png', alt='Imagen decorativa')
-          .p-4
-            p.text-bold Cambio de términos
-            ul.lista-ul
-              li.mb--44
-                ul
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | En lugar de discapacidad se habla de capacidad.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Reconocimiento de la capacidad jurídica (libertad y autonomía para elegir y tomar decisiones).
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Lenguaje inclusivo.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Voz personas con discapacidad.
-                  li.mb--44 
-                    i.lista-ul__vineta
-                    | Apoyo para toma de decisiones.
+        .tarjeta-avatar(style="padding-top: 0px !important;").h-100            
+            .tarjeta.color-primarios.w-100(style="padding-top: 0px !important;")
+              img(src='@/assets/curso/temas/tema1/img64.png', alt='Imagen decorativa')
+              .p-4
+                p.text-bold Igualdad
+                ul.lista-ul
+                  li.mb--44
+                    ul
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | No discriminación.
+                p.mb-0 Diferencias entre:
+                ul.lista-ul
+                  li.mb--44
+                    ul
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Igualdad formal: ante la ley, ej: la ley dice que Carlos, con discapacidad mental tiene derecho al empleo.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Igualdad material: en la realidad, se requiere exigencia de garantía ante el Estado, ej: Carlos es excluido del sistema laboral.
+    
+    
 
     p.mb-4(data-aos="fade-left") Estos cuatro pilares —el reconocimiento como sujetos de derechos en igualdad de condiciones, la accesibilidad y el ejercicio pleno de la capacidad jurídica— son los que nutren, sustentan y garantizan el conjunto de derechos consagrados en la convención. Gracias a ellos, se hace posible el acceso efectivo a derechos fundamentales como la salud, la educación, el empleo, la recreación y la conformación de una familia, entre otros.
     
@@ -898,10 +909,10 @@
           .row.justify-content-center
             .col-lg-6
               h4.text-center ¿Qué modelo se privilegia al recibir y atender a personas con discapacidad en el ejercicio como persona facilitadora de la valoración de apoyos?
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p(data-aos="fade-left") Esta pregunta es clave, ya que el enfoque adoptado determinará la calidad y la integralidad de la atención brindada.
-        p.mb-4(data-aos="fade-left") A continuación, se presenta una recapitulación que identifica el énfasis de cada uno de estos modelos de discapacidad, destacando los aspectos más representativos en sus respectivas épocas: 
+        p.mb-0(data-aos="fade-left") A continuación, se presenta una recapitulación que identifica el énfasis de cada uno de estos modelos de discapacidad, destacando los aspectos más representativos en sus respectivas épocas: 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
@@ -992,7 +1003,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p(data-aos="fade-left") Se destaca la importancia de devolver a las personas con discapacidad su plena condición humana, valorándolas por lo que son y no únicamente por lo que el derecho establece sobre ellas. En este sentido, resultan especialmente pertinentes los planteamientos de Sen (2000) y los aportes de Martha Nussbaum (2007), quienes han desarrollado el denominado enfoque de capacidades. Esta perspectiva propone una mirada más amplia y humana del desarrollo, entendida no solo como un concepto económico, sino como la posibilidad real de que las personas vivan una vida digna.
-        p(data-aos="fade-left") Sen (2000) señala que, si bien la riqueza es necesaria para financiar el Estado, el desarrollo no puede medirse exclusivamente por indicadores como el ingreso per cápita o el flujo de divisas. Lo esencial es que la población experimente de manera tangible los beneficios de esa riqueza, lo cual se traduce en calidad de vida. Para ilustrar esta idea, Sen propone un ejemplo: 
+        p.mb-0(data-aos="fade-left") Sen (2000) señala que, si bien la riqueza es necesaria para financiar el Estado, el desarrollo no puede medirse exclusivamente por indicadores como el ingreso per cápita o el flujo de divisas. Lo esencial es que la población experimente de manera tangible los beneficios de esa riqueza, lo cual se traduce en calidad de vida. Para ilustrar esta idea, Sen propone un ejemplo: 
 
       .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
         figure
@@ -1195,13 +1206,15 @@
       h5 Figura 6.
       i Dudas sobre personas con discapacidad
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.movil(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img90_1.svg', alt='Descripción: Una ilustración de estilo gráfico presenta a una mujer pensativa junto a un bocadillo que plantea una pregunta sobre las barreras para las personas con discapacidad. La composición se organiza en dos elementos principales: un bocadillo de diálogo negro con un texto en español y una ilustración de una mujer a la derecha. El bocadillo ocupa gran parte del lado izquierdo, con una forma que sugiere una conversación. La mujer está posicionada en la parte inferior derecha, mirando hacia el bocadillo, creando una conexión visual. La composición está equilibrada y la distribución del espacio es armónica. El personaje principal es una mujer joven, con pelo largo y rojizo. Se le muestra con una expresión de reflexión, sosteniendo su barbilla con la mano. Viste una blusa verde. Sobre su cabeza, aparecen dos signos de interrogación amarillos, lo que sugiere que la mujer está pensando o tiene dudas. El bocadillo contiene texto en español. El estilo artístico es simple, plano y gráfico, con líneas negras gruesas que definen los contornos y los elementos. Los colores son planos, con una paleta de tonos suaves y sin gradientes. El fondo es blanco. La ejecución técnica es sencilla y funcional, con un diseño de estilo de ilustración de libro de texto. El entorno es mínimo, sin detalles que distraigan. La iluminación es suave, sin sombras marcadas. La atmósfera general es directa y concisa, con la intención de presentar la información de forma clara.')
-      .col-lg-10.desktop(data-aos="zoom-in")
-        figure
-          img(src='@/assets/curso/temas/tema1/img90.svg', alt='Descripción: Una ilustración de estilo gráfico presenta a una mujer pensativa junto a un bocadillo que plantea una pregunta sobre las barreras para las personas con discapacidad. La composición se organiza en dos elementos principales: un bocadillo de diálogo negro con un texto en español y una ilustración de una mujer a la derecha. El bocadillo ocupa gran parte del lado izquierdo, con una forma que sugiere una conversación. La mujer está posicionada en la parte inferior derecha, mirando hacia el bocadillo, creando una conexión visual. La composición está equilibrada y la distribución del espacio es armónica. El personaje principal es una mujer joven, con pelo largo y rojizo. Se le muestra con una expresión de reflexión, sosteniendo su barbilla con la mano. Viste una blusa verde. Sobre su cabeza, aparecen dos signos de interrogación amarillos, lo que sugiere que la mujer está pensando o tiene dudas. El bocadillo contiene texto en español. El estilo artístico es simple, plano y gráfico, con líneas negras gruesas que definen los contornos y los elementos. Los colores son planos, con una paleta de tonos suaves y sin gradientes. El fondo es blanco. La ejecución técnica es sencilla y funcional, con un diseño de estilo de ilustración de libro de texto. El entorno es mínimo, sin detalles que distraigan. La iluminación es suave, sin sombras marcadas. La atmósfera general es directa y concisa, con la intención de presentar la información de forma clara.')
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10.tarjeta--BG12.tarjeta.p-4
+        .row.justify-content-center.align-items-center
+          .col-lg-10.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img90_1.svg', alt='Descripción: Una ilustración de estilo gráfico presenta a una mujer pensativa junto a un bocadillo que plantea una pregunta sobre las barreras para las personas con discapacidad. La composición se organiza en dos elementos principales: un bocadillo de diálogo negro con un texto en español y una ilustración de una mujer a la derecha. El bocadillo ocupa gran parte del lado izquierdo, con una forma que sugiere una conversación. La mujer está posicionada en la parte inferior derecha, mirando hacia el bocadillo, creando una conexión visual. La composición está equilibrada y la distribución del espacio es armónica. El personaje principal es una mujer joven, con pelo largo y rojizo. Se le muestra con una expresión de reflexión, sosteniendo su barbilla con la mano. Viste una blusa verde. Sobre su cabeza, aparecen dos signos de interrogación amarillos, lo que sugiere que la mujer está pensando o tiene dudas. El bocadillo contiene texto en español. El estilo artístico es simple, plano y gráfico, con líneas negras gruesas que definen los contornos y los elementos. Los colores son planos, con una paleta de tonos suaves y sin gradientes. El fondo es blanco. La ejecución técnica es sencilla y funcional, con un diseño de estilo de ilustración de libro de texto. El entorno es mínimo, sin detalles que distraigan. La iluminación es suave, sin sombras marcadas. La atmósfera general es directa y concisa, con la intención de presentar la información de forma clara.')
+          .col-lg-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img90.svg', alt='Descripción: Una ilustración de estilo gráfico presenta a una mujer pensativa junto a un bocadillo que plantea una pregunta sobre las barreras para las personas con discapacidad. La composición se organiza en dos elementos principales: un bocadillo de diálogo negro con un texto en español y una ilustración de una mujer a la derecha. El bocadillo ocupa gran parte del lado izquierdo, con una forma que sugiere una conversación. La mujer está posicionada en la parte inferior derecha, mirando hacia el bocadillo, creando una conexión visual. La composición está equilibrada y la distribución del espacio es armónica. El personaje principal es una mujer joven, con pelo largo y rojizo. Se le muestra con una expresión de reflexión, sosteniendo su barbilla con la mano. Viste una blusa verde. Sobre su cabeza, aparecen dos signos de interrogación amarillos, lo que sugiere que la mujer está pensando o tiene dudas. El bocadillo contiene texto en español. El estilo artístico es simple, plano y gráfico, con líneas negras gruesas que definen los contornos y los elementos. Los colores son planos, con una paleta de tonos suaves y sin gradientes. El fondo es blanco. La ejecución técnica es sencilla y funcional, con un diseño de estilo de ilustración de libro de texto. El entorno es mínimo, sin detalles que distraigan. La iluminación es suave, sin sombras marcadas. La atmósfera general es directa y concisa, con la intención de presentar la información de forma clara.')
     p.mb-4(data-aos="fade-left") Para concluir este apartado, se recomienda escuchar el siguiente #[i podcast], el cual complementa los contenidos abordados:
     
     .row.justify-content-center
