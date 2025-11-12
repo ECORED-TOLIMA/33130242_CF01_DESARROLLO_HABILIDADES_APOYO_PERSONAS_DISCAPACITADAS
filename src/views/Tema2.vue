@@ -102,7 +102,7 @@
       h5 Figura 8.
       i  Personas facilitadoras en la familia
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-10.tarjeta--BG12.tarjeta.p-4
         .row.justify-content-center.align-items-center
           .col-lg-10.movil(data-aos="zoom-in")
@@ -291,7 +291,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img28.svg', alt='Descripción: La imagen muestra una escena en interiores donde un grupo de cinco personas, aparentemente de género mixto, está reunido en círculo, sentadas en sillas negras. La habitación tiene paredes de color beige y grandes ventanas con paneles que permiten la entrada de luz natural, creando un ambiente cálido y acogedor. Dos plantas en macetas rojas con hojas verdes están dispuestas en los extremos izquierdo y derecho, dando un toque de frescura y decoración al espacio.')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
         p En la atención a personas con discapacidad, tal vez se haya encontrado con que si bien, hay asuntos que competen a su disciplina, hay otros en los cuales requiere apoyo de otras, como por ejemplo; la psicología, el trabajo social y en general las profesiones relacionadas con las ciencias sociales y humanas. Esto es importante identificarlo, porque cuando se realiza la valoración de apoyos, hay unos aspectos que se deben tener en cuenta por parte de la persona facilitadora y son los denominados aspectos interdisciplinarios.
 
@@ -323,7 +323,6 @@
       h5 Figura 12.
       i  Inquietudes sobre la red de apoyo familiar
 
-
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.tarjeta--BG12.tarjeta.p-4
           
@@ -335,7 +334,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img30.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con el apoyo social y la discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan cinco burbujas de diálogo que contienen preguntas relacionadas con la red de apoyo familiar, comunitario, las capacidades para tomar decisiones, la persona con discapacidad y los requerimientos de apoyo. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. Las burbujas de diálogo contienen texto claro y legible, formulando preguntas sobre la red de apoyo, la persona con discapacidad y sus necesidades, sugiriendo un contexto de reflexión sobre el apoyo y la inclusión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-10
         p.mb-0 Además de lo anterior, es importante conocer de manera suficiente las siguientes esferas y el nivel de funcionamiento de las personas con discapacidad:
 

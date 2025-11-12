@@ -26,7 +26,7 @@
       h5 Figura 1.
       i Representación del modelo de prescindencia
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.tarjeta--BG12.tarjeta.p-4
         .row.justify-content-center.align-items-center
           .col-lg-10.movil(data-aos="zoom-in")
@@ -36,7 +36,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img2.svg', alt='En la imagen se observa una ilustración de estilo caricaturesco ambientada en un escenario al aire libre. A la derecha, hay una persona sentada en una silla de ruedas vestida con una camiseta blanca y zapatillas azules, aparentemente en una situación de vulnerabilidad. A la izquierda, un personaje vestido como un soldado romano, con armadura, túnica amarilla y una capa roja, se encuentra empujando la silla de ruedas hacia un precipicio. Este personaje lleva un casco típico romano con una cresta roja en la parte superior. El fondo presenta un paisaje con tonos amarillos y marrones que representan rocas y tierra, sugiriendo un terreno árido. Sobre el soldado romano aparece un globo de diálogo con el texto: "Para que no sufras mucho, mejor te despeñamos", lo cual añade un tono satírico y oscuro a la imagen. La escena parece ser una crítica o representación humorística de una situación trágica, y el ambiente general transmite una mezcla entre ironía y dramatismo. La ilustración no incluye elementos de naturaleza como árboles o agua, enfocándose totalmente en los personajes.')
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-9.mb-4.mb-lg-0
         p(data-aos="fade-left") Este modelo está guiado por las concepciones de la eugenesia en la antigua Grecia y Roma, donde la discapacidad era percibida desde una perspectiva social y religiosa como un castigo divino o una posesión demoníaca. Esta visión dio origen a dos prácticas predominantes: por un lado, la marginación, que se manifestaba en la pobreza, la exclusión y el aislamiento de las personas con discapacidad en las afueras de las ciudades; y por otro lado, la muerte, aplicada especialmente a niños, niñas y niñes que no cumplían con los patrones esperados por la sociedad.
         .bloque-texto-c.color-secundario.p-4
@@ -62,7 +62,7 @@
         .col-lg-9
           p.mb-0(data-aos="fade-left") La anterior cita, llama la atención en el sentido que, si bien, en la antigüedad se miraba las personas con discapacidad como distintas, no siempre se optaba por la muerte y se comenzaba a mirar la discapacidad como una enfermedad que podía ser tratada. En la actualidad, no se podría asegurar que el modelo de prescindencia ha sido abandonado, se conoce que hay países del mundo, donde se ejecuta a personas con discapacidades cognitivas o intelectuales, que si bien, han cometido delitos, no se les podría aplicar una pena como esta, ya que su forma de actuar va a estar condicionada por el tipo de discapacidad que poseen y esto no es tenido en cuenta, convirtiéndose en una manera “moderna” de prescindencia. 
       p.mb-4(data-aos="fade-left") A continuación, se presenta un ejemplo: 
-      .row.justify-content-center.align-items-center.mb-4
+      .row.justify-content-center.align-items-center
         .col-lg-10
           .bloque-texto-gg.bloque-texto-gg--inverso.color-secundario.p-3
             .bloque-texto-gg__img(
@@ -235,65 +235,66 @@
 
     p.mb-4(data-aos="fade-left") Hasta aquí se ha desarrollado el análisis de los dos primeros modelos que han influido en la forma de pensar la discapacidad: el #[b Modelo de prescindencia] y el #[b Modelo médico]. La concepción de la discapacidad en estos enfoques puede sintetizarse de la siguiente manera, destacando en sus respectivas épocas:  
 
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        .tabla-b.color-acento-botones
-          table
-            thead
-              tr
-                th.text-center Prescindencia
-                th.text-center Médico
-            tbody
-              tr
-                td(data-aos="fade-left") 
-                  p.text-bold Antigüedad
-                  p.text-bold Dos visiones: 
-                  p.text-bold  
-                  ul.lista-ul
-                    li
-                      p.text-bold Primera:
-                    li
-                      ul
-                        li 
-                          i.lista-ul__vineta
-                          | Ante la pérdida funcional o comportamiento distinto, se optaba por la muerte.
-                        li 
-                          i.lista-ul__vineta
-                          | Diferencias físicas o mentales entendidas como castigo. 
-                  ul.lista-ul
-                    li
-                      p.text-bold Segunda:
-                    li
-                      ul
-                        li 
-                          i.lista-ul__vineta
-                          | Relación con enfermedad. 
-                        li 
-                          i.lista-ul__vineta
-                          | Para las discapacidades adquiridas, tratamientos de “base científica”. 
-                  p Aún tiene vigencia.
-                td(data-aos="fade-left") 
-                  ul.lista-ul
-                    li
-                      p.text-bold Siglo XX:
-                    li
-                      ul
-                        li 
-                          i.lista-ul__vineta
-                          | Formas sanitarias que previenen discapacidades.
-                        li 
-                          i.lista-ul__vineta
-                          | Ante discapacidad, la medicina tendría la respuesta. 
-                        li 
-                          i.lista-ul__vineta
-                          | Idea de curar las personas con discapacidad con medicamentos o tratamientos.
-                        li 
-                          i.lista-ul__vineta
-                          | Oportunidad a las personas con discapacidad de exigir sus derechos. 
-                        li 
-                          i.lista-ul__vineta
-                          | La Organización Internacional del Trabajo (OIT) empieza a hablar de la distinción entre discapacidad, deficiencia y persona con discapacidad.
-    
+    .tarjeta--container.row.justify-content-center
+      .col-5.tarjeta.color-primarioss.p-5
+        .row.justify-content-center.mb-4
+          .col-3
+            figure
+              img(src='@/assets/curso/temas/tema1/img92.png', alt='Imagen decorativa')
+        h5.text-center Prescindencia
+        p.text-bold Antigüedad
+          p.text-bold Dos visiones: 
+          p.text-bold  
+          ul.lista-ul
+            li
+              p.text-bold Primera:
+            li
+              ul
+                li 
+                  i.lista-ul__vineta
+                  | Ante la pérdida funcional o comportamiento distinto, se optaba por la muerte.
+                li 
+                  i.lista-ul__vineta
+                  | Diferencias físicas o mentales entendidas como castigo. 
+          ul.lista-ul
+            li
+              p.text-bold Segunda:
+            li
+              ul
+                li 
+                  i.lista-ul__vineta
+                  | Relación con enfermedad. 
+                li 
+                  i.lista-ul__vineta
+                  | Para las discapacidades adquiridas, tratamientos de “base científica”. 
+          p Aún tiene vigencia.
+      .col-5.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-3
+            figure
+              img(src='@/assets/curso/temas/tema1/img93.png', alt='Imagen decorativa')
+        h5.text-center Médico
+        ul.lista-ul
+          li
+            p.text-bold Siglo XX:
+          li
+            ul
+              li 
+                i.lista-ul__vineta
+                | Formas sanitarias que previenen discapacidades.
+              li 
+                i.lista-ul__vineta
+                | Ante discapacidad, la medicina tendría la respuesta. 
+              li 
+                i.lista-ul__vineta
+                | Idea de curar las personas con discapacidad con medicamentos o tratamientos.
+              li 
+                i.lista-ul__vineta
+                | Oportunidad a las personas con discapacidad de exigir sus derechos. 
+              li 
+                i.lista-ul__vineta
+                | La Organización Internacional del Trabajo (OIT) empieza a hablar de la distinción entre discapacidad, deficiencia y persona con discapacidad.
+                      
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Enfoque de derechos: alcances y limitantes
@@ -324,7 +325,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img24.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-left") Para comenzar el análisis del enfoque de derechos, es importante determinar cómo los derechos humanos han favorecido el desarrollo de las personas con discapacidad, aunque no siempre todas las personas del mundo han sido incluidas como receptoras de esta categoría, esto es, no todas las personas han sido incluidas. La condición clásica de derechos humanos parte de la Revolución Francesa, que a su vez tiene origen en el período histórico que se denomina Ilustración, “¡Sapere aude! ¡Ten el valor de servirte de tu propia razón!” (Kant).
+        p.mb-0(data-aos="fade-left") Para comenzar el análisis del enfoque de derechos, es importante determinar cómo los derechos humanos han favorecido el desarrollo de las personas con discapacidad, aunque no siempre todas las personas del mundo han sido incluidas como receptoras de esta categoría, esto es, no todas las personas han sido incluidas. La condición clásica de derechos humanos parte de la Revolución Francesa, que a su vez tiene origen en el período histórico que se denomina Ilustración, “¡#[i Sapere aude]! ¡Ten el valor de servirte de tu propia razón!” (Kant).
 
     .row.justify-content-center.mb-4
       .col-lg-9
@@ -372,7 +373,7 @@
                 img(src='@/assets/curso/temas/tema1/img28.svg', alt='Imagen decorativa')
           p(data-aos="fade-left") Así mismo, la Declaración Universal de los Derechos Humanos de 1948 establece en su Artículo 1 que “Todos los seres humanos nacen libres e iguales en dignidad y derechos, y dotados como están de razón y conciencia”. Sin embargo, esta formulación deja por fuera a un número significativo de personas que no cumplen con estas características, como aquellas con parálisis cerebral severa, que no pueden elegir libremente, adquirir propiedades o expresar su opinión. En consecuencia, se podría interpretar que estas personas no realizan las acciones que el artículo protege y defiende, lo que llevaría a la preocupante conclusión de que serían consideradas como personas sin derechos.
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-9.order-1.order-lg-2.mb-4.mb-lg-0
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
@@ -408,37 +409,37 @@
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img31.svg' alt='Imagen decorativa')
-          p.text-center.mb-0 Carta Internacional de Derechos Humanos
+          p.text-center.mb-0 Carta Internacional de Derechos Humanos.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img32.svg' alt='Imagen decorativa')
-          p.text-center.mb-0 Convención contra la Tortura y otros Tratos Crueles, Inhumanos o Degradantes
+          p.text-center.mb-0 Convención contra la Tortura y otros Tratos Crueles, Inhumanos o Degradantes.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img33.svg' alt='Imagen decorativa')
-          p.text-center.mb-0 Convención Internacional sobre la Eliminación de todas las Formas de Discriminación Racial
+          p.text-center.mb-0 Convención Internacional sobre la Eliminación de todas las Formas de Discriminación Racial.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img34.svg' alt='Imagen decorativa')
-          p.text-center.mb-0 Convención Internacional sobre la Eliminación de todas las Formas de Discriminación Contra la Mujer
+          p.text-center.mb-0 Convención Internacional sobre la Eliminación de todas las Formas de Discriminación Contra la Mujer.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img35.svg' alt='Imagen decorativa')
-          p.text-center.mb-0 Convención sobre Derechos del Niño
+          p.text-center.mb-0 Convención sobre Derechos del Niño.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img36.svg' alt='Imagen decorativa')
-          p.text-center.mb-0 Convención Internacional sobre la Protección de los Derechos de todos los Trabajadores Migratorios y de sus Familiares
+          p.text-center.mb-0 Convención Internacional sobre la Protección de los Derechos de todos los Trabajadores Migratorios y de sus Familiares.
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
               img(src='@/assets/curso/temas/tema1/img37.svg' alt='Imagen decorativa')
-          p.text-center.mb-0 Convención sobre Derechos de las Personas con Discapacidad y los Convenios de la Organización Internacional del Trabajo (OIT)
+          p.text-center.mb-0 Convención sobre Derechos de las Personas con Discapacidad y los Convenios de la Organización Internacional del Trabajo (OIT).
 
 
     p.mb-4(style="margin-top: -27px")(data-aos="fade-left") Estos instrumentos ampliaron el concepto de ser humano, eliminando esas raíces eurocéntricas que privilegiaban la razón y que, en muchos casos, desconocían a las otras culturas o pensamientos diferentes. Se advierte que es vinculante en el sentido que han sido ratificados por los Estados; es decir, son vinculantes para los que los ratifican y no lo son para los que los desconocen, ejemplo de ello es la Convención Internacional sobre la Eliminación de todas las Formas de Discriminación contra la Mujer, que no ha sido ratificada por los países árabes, dejando un manto de dudas acerca de la obligatoriedad del derecho internacional.
@@ -483,8 +484,7 @@
           .col-lg-6
             p.mb-0.text-bold 1789
             p Si bien se habla de derechos humanos, eleva la condición humana a la decisión y a quienes no lo hacen, los llama “incapaces”.
-            p.mb-0.text-bold 1948
-            p Evolución de los derechos humanos
+            p.mb-0.text-bold 1948: Evolución de los derechos humanos
             ul.lista-ul
               li
                 i.fas.fa-angle-right
@@ -653,7 +653,7 @@
 
           div(titulo="Accesibilidad (Artículo 9)")
             p El tercer pilar está en el Artículo 9, que aborda la accesibilidad como condición esencial para el ejercicio de todos los demás derechos. Este artículo establece que:
-            p A fin de que las personas con discapacidad puedan vivir en forma independiente y participar plenamente en todos los aspectos de la vida, los Estados Partes adoptarán medidas pertinentes para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás, al entorno físico, el transporte, la información y las comunicaciones, incluidos los sistemas y las tecnologías de la información y las comunicaciones, y a otros servicios e instalaciones abiertos al público o de uso público, tanto en zonas urbanas como rurales (ONU, 2006)
+            p A fin de que las personas con discapacidad puedan vivir en forma independiente y participar plenamente en todos los aspectos de la vida, los Estados Partes adoptarán medidas pertinentes para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás, al entorno físico, el transporte, la información y las comunicaciones, incluidos los sistemas y las tecnologías de la información y las comunicaciones, y a otros servicios e instalaciones abiertos al público o de uso público, tanto en zonas urbanas como rurales (ONU, 2006).
             p La accesibilidad no solo se refiere a la infraestructura física, sino también al acceso a la información en formatos adaptados (audiovisuales, impresos, digitales), que garanticen la misma cantidad y calidad de información para todas las personas. Un ejemplo claro es el derecho al empleo, donde la accesibilidad debe ser entendida en su dimensión real: desde el entorno físico hasta los procesos de comunicación y adaptación laboral.
       .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-4(data-aos="zoom-in")
         figure
@@ -726,12 +726,12 @@
       .col-lg-9
         p(data-aos="fade-left") Todas estas dificultades relacionadas con la accesibilidad generan vulneraciones en otros derechos fundamentales, como la movilidad, la educación y el empleo. Esto ocurre porque, actualmente, no existe una obligación para los particulares de adaptar sus entornos y puestos de trabajo conforme a los principios del diseño universal. En consecuencia, cualquier iniciativa estatal orientada a fomentar la contratación de personas con discapacidad resulta ineficaz si no se acompañan de adecuaciones estructurales y funcionales en estos espacios.
         p(data-aos="fade-left") El cuarto gran pilar de la convención es el artículo 12, en el que se cambia la terminología, se deja de hablar de discapacidad y se comienza a hablar de capacidad.
-        p.mb-0(data-aos="fade-left") Según el artículo 12, se igual reconocimiento como persona ante la ley por las siguientes acciones: 
+        p.mb-0(data-aos="fade-left") Según el artículo 12, de igual reconocimiento como persona ante la ley por las siguientes acciones: 
     .row.justify-content-center.mb-5
       .col-lg-5.mb-4.mb-lg-0
         .tarjeta--boton.color-primario.tarjeta--BG05.p-4.h-100
           .row.justify-content-center.mb-3
-            .col-lg-3
+            .col-lg-3.col-6.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/img56.svg', alt='Texto que describa la imagen')
           .row.justify-content-center.mb-3
@@ -859,25 +859,25 @@
             .tarjeta.color-primarios.w-100(style="padding-top: 0px !important;")
               img(src='@/assets/curso/temas/tema1/img64.png', alt='Imagen decorativa')
               .p-4
-                p.text-bold Igualdad
+                p.text-bold Cambio de términos
                 ul.lista-ul
                   li.mb--44
                     ul
                       li.mb--44 
                         i.lista-ul__vineta
-                        | No discriminación.
-                p.mb-0 Diferencias entre:
-                ul.lista-ul
-                  li.mb--44
-                    ul
+                        | En lugar de discapacidad se habla de capacidad.
                       li.mb--44 
                         i.lista-ul__vineta
-                        | Igualdad formal: ante la ley, ej: la ley dice que Carlos, con discapacidad mental tiene derecho al empleo.
+                        | Reconocimiento de la capacidad jurídica (libertad y autonomía para elegir y tomar decisiones).
                       li.mb--44 
                         i.lista-ul__vineta
-                        | Igualdad material: en la realidad, se requiere exigencia de garantía ante el Estado, ej: Carlos es excluido del sistema laboral.
-    
-    
+                        | Lenguaje inclusivo.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Voz personas con discapacidad.
+                      li.mb--44 
+                        i.lista-ul__vineta
+                        | Apoyo para toma de decisiones.
 
     p.mb-4(data-aos="fade-left") Estos cuatro pilares —el reconocimiento como sujetos de derechos en igualdad de condiciones, la accesibilidad y el ejercicio pleno de la capacidad jurídica— son los que nutren, sustentan y garantizan el conjunto de derechos consagrados en la convención. Gracias a ellos, se hace posible el acceso efectivo a derechos fundamentales como la salud, la educación, el empleo, la recreación y la conformación de una familia, entre otros.
     
