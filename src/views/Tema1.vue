@@ -792,15 +792,15 @@
                 ul.lista-ul
                   li
                     ul
-                      li.mb--44
+                      li
                         i.lista-ul__vineta
-                        p.mb--44 Goce pleno y condiciones de igualdad en todos los derechos y libertades fundamentales.
-                      li.mb--44
+                        p.mb-0 Goce pleno y condiciones de igualdad en todos los derechos y libertades fundamentales.
+                      li
                         i.lista-ul__vineta
-                        p.mb--44 Respeto por la dignidad humana.
-                      li.mb--44
+                        p.mb-0 Respeto por la dignidad humana.
+                      li
                         i.lista-ul__vineta
-                        p.mb--44 Autodeterminación.
+                        p.mb-0 Autodeterminación.
             
       .col-lg-6
         .tarjeta-avatar(style="padding-top: 0px !important;").h-100            
@@ -809,21 +809,21 @@
               .p-4
                 p.text-bold Igualdad
                 ul.lista-ul
-                  li.mb--44
+                  li
                     ul
-                      li.mb--44 
+                      li 
                         i.lista-ul__vineta
-                        | No discriminación.
+                        p.mb-0 No discriminación.
                 p.mb-0 Diferencias entre:
                 ul.lista-ul
-                  li.mb--44
+                  li
                     ul
-                      li.mb--44 
+                      li 
                         i.lista-ul__vineta
-                        | Igualdad formal: ante la ley, ej: la ley dice que Carlos, con discapacidad mental tiene derecho al empleo.
-                      li.mb--44 
+                        p.mb-0 Igualdad formal: ante la ley, ej: la ley dice que Carlos, con discapacidad mental tiene derecho al empleo.
+                      li 
                         i.lista-ul__vineta
-                        | Igualdad material: en la realidad, se requiere exigencia de garantía ante el Estado, ej: Carlos es excluido del sistema laboral.
+                        p.mb-0 Igualdad material: en la realidad, se requiere exigencia de garantía ante el Estado, ej: Carlos es excluido del sistema laboral.
             
     .row.mb-4
       .col-lg-6.mb-4.mb-lg-0
@@ -833,23 +833,23 @@
               .p-4
                 p.text-bold Accesibilidad
                 ul.lista-ul
-                  li.mb--44
+                  li
                     ul
-                      li.mb--44 
+                      li 
                         i.lista-ul__vineta
-                        | Adaptaciones físicas.
-                      li.mb--44 
+                        p.mb-0 Adaptaciones físicas.
+                      li 
                         i.lista-ul__vineta
-                        | Adaptaciones en sistemas de transporte.
-                      li.mb--44 
+                        p.mb-0 Adaptaciones en sistemas de transporte.
+                      li 
                         i.lista-ul__vineta
-                        | Adaptaciones en sistemas de información y comunicación.
-                      li.mb--44 
+                        p.mb-0 Adaptaciones en sistemas de información y comunicación.
+                      li 
                         i.lista-ul__vineta
-                        | Ajustes razonables.
-                      li.mb--44 
+                        p.mb-0 Ajustes razonables.
+                      li 
                         i.lista-ul__vineta
-                        | Acciones afirmativas.
+                        p.mb-0 Acciones afirmativas.
             
       .col-lg-6
         .tarjeta-avatar(style="padding-top: 0px !important;").h-100            
@@ -858,23 +858,23 @@
               .p-4
                 p.text-bold Cambio de términos
                 ul.lista-ul
-                  li.mb--44
+                  li
                     ul
-                      li.mb--44 
+                      li 
                         i.lista-ul__vineta
-                        | En lugar de discapacidad se habla de capacidad.
-                      li.mb--44 
+                        p.mb-0 En lugar de discapacidad se habla de capacidad.
+                      li 
                         i.lista-ul__vineta
-                        p.mb-0(style="line-height: 1.1") Reconocimiento de la capacidad jurídica (libertad y autonomía para elegir y tomar decisiones).
-                      li.mb--44 
+                        p.mb-0 Reconocimiento de la capacidad jurídica (libertad y autonomía para elegir y tomar decisiones).
+                      li 
                         i.lista-ul__vineta
-                        | Lenguaje inclusivo.
-                      li.mb--44 
+                        p.mb-0 Lenguaje inclusivo.
+                      li 
                         i.lista-ul__vineta
-                        | Voz personas con discapacidad.
-                      li.mb--44 
+                        p.mb-0 Voz personas con discapacidad.
+                      li 
                         i.lista-ul__vineta
-                        | Apoyo para toma de decisiones.
+                        p.mb-0 Apoyo para toma de decisiones.
 
     p.mb-4(data-aos="fade-left") Estos cuatro pilares —el reconocimiento como sujetos de derechos en igualdad de condiciones, la accesibilidad y el ejercicio pleno de la capacidad jurídica— son los que nutren, sustentan y garantizan el conjunto de derechos consagrados en la convención. Gracias a ellos, se hace posible el acceso efectivo a derechos fundamentales como la salud, la educación, el empleo, la recreación y la conformación de una familia, entre otros.
     
