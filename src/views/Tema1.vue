@@ -246,20 +246,24 @@
         p.text-bold Dos visiones: 
         p.text-bold Primera:
         ul.lista-ul
-          li 
-            i.lista-ul__vineta
-            | Ante la pérdida funcional o comportamiento distinto, se optaba por la muerte.
-          li 
-            i.lista-ul__vineta
-            | Diferencias físicas o mentales entendidas como castigo. 
+          li
+            ul
+              li 
+                i.lista-ul__vineta
+                | Ante la pérdida funcional o comportamiento distinto, se optaba por la muerte.
+              li 
+                i.lista-ul__vineta
+                | Diferencias físicas o mentales entendidas como castigo. 
         p.text-bold Segunda:
         ul.lista-ul
-          li 
-            i.lista-ul__vineta
-            | Relación con enfermedad. 
-          li 
-            i.lista-ul__vineta
-            | Para las discapacidades adquiridas, tratamientos de “base científica”. 
+          li
+            ul
+              li 
+                i.lista-ul__vineta
+                | Relación con enfermedad. 
+              li 
+                i.lista-ul__vineta
+                | Para las discapacidades adquiridas, tratamientos de “base científica”. 
           p Aún tiene vigencia.
       .col-lg-5.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
