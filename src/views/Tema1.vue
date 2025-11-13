@@ -236,44 +236,37 @@
     p.mb-4(data-aos="fade-left") Hasta aquí se ha desarrollado el análisis de los dos primeros modelos que han influido en la forma de pensar la discapacidad: el #[b Modelo de prescindencia] y el #[b Modelo médico]. La concepción de la discapacidad en estos enfoques puede sintetizarse de la siguiente manera, destacando en sus respectivas épocas:  
 
     .tarjeta--container.row.justify-content-center
-      .col-5.tarjeta.color-primarioss.p-5
+      .col-lg-5.tarjeta.color-primarioss.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .col-8
             figure
               img(src='@/assets/curso/temas/tema1/img92.png', alt='Imagen decorativa')
-        h5.text-center Prescindencia
+        h4.text-center Prescindencia
         p.text-bold Antigüedad
-          p.text-bold Dos visiones: 
-          p.text-bold  
-          ul.lista-ul
-            li
-              p.text-bold Primera:
-            li
-              ul
-                li 
-                  i.lista-ul__vineta
-                  | Ante la pérdida funcional o comportamiento distinto, se optaba por la muerte.
-                li 
-                  i.lista-ul__vineta
-                  | Diferencias físicas o mentales entendidas como castigo. 
-          ul.lista-ul
-            li
-              p.text-bold Segunda:
-            li
-              ul
-                li 
-                  i.lista-ul__vineta
-                  | Relación con enfermedad. 
-                li 
-                  i.lista-ul__vineta
-                  | Para las discapacidades adquiridas, tratamientos de “base científica”. 
+        p.text-bold Dos visiones: 
+        p.text-bold Primera:
+        ul.lista-ul
+          li 
+            i.lista-ul__vineta
+            | Ante la pérdida funcional o comportamiento distinto, se optaba por la muerte.
+          li 
+            i.lista-ul__vineta
+            | Diferencias físicas o mentales entendidas como castigo. 
+        p.text-bold Segunda:
+        ul.lista-ul
+          li 
+            i.lista-ul__vineta
+            | Relación con enfermedad. 
+          li 
+            i.lista-ul__vineta
+            | Para las discapacidades adquiridas, tratamientos de “base científica”. 
           p Aún tiene vigencia.
-      .col-5.tarjeta.color-secundario.p-5
+      .col-lg-5.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .col-8
             figure
               img(src='@/assets/curso/temas/tema1/img93.png', alt='Imagen decorativa')
-        h5.text-center Médico
+        h4.text-center Médico
         ul.lista-ul
           li
             p.text-bold Siglo XX:
@@ -373,7 +366,7 @@
                 img(src='@/assets/curso/temas/tema1/img28.svg', alt='Imagen decorativa')
           p(data-aos="fade-left") Así mismo, la Declaración Universal de los Derechos Humanos de 1948 establece en su Artículo 1 que “Todos los seres humanos nacen libres e iguales en dignidad y derechos, y dotados como están de razón y conciencia”. Sin embargo, esta formulación deja por fuera a un número significativo de personas que no cumplen con estas características, como aquellas con parálisis cerebral severa, que no pueden elegir libremente, adquirir propiedades o expresar su opinión. En consecuencia, se podría interpretar que estas personas no realizan las acciones que el artículo protege y defiende, lo que llevaría a la preocupante conclusión de que serían consideradas como personas sin derechos.
     
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center
       .col-lg-9.order-1.order-lg-2.mb-4.mb-lg-0
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
@@ -402,7 +395,7 @@
           p
             sup 1
             |  En este punto se alude a la vinculación de algunos Estados para tener en cuenta en su ordenamiento jurídico, los documentos no vinculantes, son recomendaciones que guían, pero que su eficacia depende de la buena voluntad de cada uno de los Estados.
-    .tarjeta--BG02.p-5
+    .tarjeta--BG02.p-5(style="margin-top: -27px")
       p.mb-4(data-aos="fade-left") Los documentos vinculantes son:
       SlyderF.color-acento-botones.mb-0(columnas="col-lg-6 col-xl-4")
         .tarjeta.color-primario.p-4
@@ -868,7 +861,7 @@
                         | En lugar de discapacidad se habla de capacidad.
                       li.mb--44 
                         i.lista-ul__vineta
-                        | Reconocimiento de la capacidad jurídica (libertad y autonomía para elegir y tomar decisiones).
+                        p.mb-0(style="line-height: 1.1") Reconocimiento de la capacidad jurídica (libertad y autonomía para elegir y tomar decisiones).
                       li.mb--44 
                         i.lista-ul__vineta
                         | Lenguaje inclusivo.
