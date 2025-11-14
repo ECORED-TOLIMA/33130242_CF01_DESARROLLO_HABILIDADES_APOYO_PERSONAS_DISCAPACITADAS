@@ -635,7 +635,7 @@
       .col-lg-8.order-lg-1.order-2(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Reconocimiento como sujetos de derechos (Artículo 1)")
-            p El primer pilar se encuentra en el Artículo 1, que establece que las personas con discapacidad son sujetos de derechos y que cualquier forma de exclusión constituye una violación a los derechos humanos. La Convención tiene como propósito: “Promover, proteger y asegurar el goce pleno y en condiciones de igualdad de todos los derechos humanos y libertades fundamentales para todas las personas con discapacidad y promover el respeto de su dignidad inherente.” (ONU, 2006)
+            p El primer pilar se encuentra en el Artículo 1, que establece que las personas con discapacidad son sujetos de derechos y que cualquier forma de exclusión constituye una violación a los derechos humanos. La Convención tiene como propósito: “Promover, proteger y asegurar el goce pleno y en condiciones de igualdad de todos los derechos humanos y libertades fundamentales para todas las personas con discapacidad y promover el respeto de su dignidad inherente.” (ONU, 2006).
             p.mb-0 Este artículo resalta que las personas con discapacidad, independientemente de su condición —incluyendo aquellas con discapacidades cognitivas severas—, poseen dignidad humana. Esto implica que tienen derecho a una vida con autonomía, responsabilidades y entornos adecuados que les permitan dirigir su propio destino.
 
           div(titulo="Igualdad y no discriminación (Artículo 5)")
