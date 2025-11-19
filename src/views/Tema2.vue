@@ -485,8 +485,8 @@
         .tarjeta.clr--pink.p-4.rounded-0.h-100
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-contenido.mb-3(
-              texto="Entendiendo la discapacidad paso a paso"
-              :audio="require('@/assets/actividad/audio/Podcast_02.mp3')"
+              texto="Un enfoque interdisciplinario de la discapacidad"
+              :audio="require('@/assets/actividad/audio/Podcast_002.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
 

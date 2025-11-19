@@ -1223,7 +1223,7 @@
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Entendiendo la discapacidad paso a paso"
-              :audio="require('@/assets/actividad/audio/Podcast_01.mp3')"
+              :audio="require('@/assets/actividad/audio/Podcast_001.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
         
