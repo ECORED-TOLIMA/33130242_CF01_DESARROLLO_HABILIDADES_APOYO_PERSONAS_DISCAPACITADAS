@@ -51,9 +51,9 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La valoración de apoyos es un proceso complejo que requiere la articulación de saberes provenientes de diversas disciplinas, ya que las necesidades de las personas con discapacidad no se limitan a un solo ámbito de la vida. La interdisciplinariedad permite comprender de manera integral las dimensiones sociales, psicológicas, médicas, educativas y jurídicas que influyen en la autonomía y participación de cada persona. Este enfoque favorece la toma de decisiones fundamentadas, la construcción de entornos inclusivos y la garantía de derechos, al promover el diálogo entre profesionales y la consideración de la persona como sujeto activo en su propio proceso de valoración.
     
-    .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-      h5.mb-0  Retos en la realización de la valoración de apoyos
+    separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.2 Retos en la realización de la valoración de apoyos
 
     p.mb-4 Tanto en lo familiar como en lo social se presentan una serie de situaciones que pueden generar retos. Por ello, en este primer tema, se abordarán dichas situaciones, partiendo de las experiencias en atención a personas con discapacidad, desde el Programa de Atención a Personas con Discapacidad (PAPD) de la Universidad de Antioquia y del Ministerio de la Igualdad.
 
@@ -193,9 +193,9 @@
             img(src='@/assets/curso/temas/tema2/img17.png', alt='Imagen decorativa')
       p Reconocer estos desafíos es fundamental para situarlos en el debate y reflexionar sobre las estrategias necesarias para enfrentarlos. Solo así será posible avanzar hacia una implementación efectiva de la Ley 1996 de 2019, que garantice el respeto a la autonomía y dignidad de las personas con discapacidad.
 
-    .titulo.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-      h5.mb-0  Diálogos alrededor del marco legal de la discapacidad
+    separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.3 Diálogos alrededor del marco legal de la discapacidad
 
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 10.
@@ -273,9 +273,9 @@
             .p-4
               p.mb-0 En conclusión, se espera que quienes facilitan la valoración de apoyos conozcan y se apropien del marco normativo que sustenta este proceso, así como del modelo social de la discapacidad. Esto les permitirá contar con herramientas conceptuales y prácticas para enfrentar los retos que surgen durante la implementación de esta figura, garantizando el respeto por la autonomía y los derechos de las personas con discapacidad.
 
-    .titulo.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-      h5.mb-0  Aspectos interdisciplinarios que deben tenerse en cuenta en la valoración de apoyos
+    separador
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.4 Aspectos interdisciplinarios que deben tenerse en cuenta en la valoración de apoyos
     
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 11.
@@ -390,9 +390,9 @@
         figure
           img(src='@/assets/curso/temas/tema2/img34.svg', alt='Imagen decorativa')
 
-    .titulo.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-      h5.mb-0  Aplicación del enfoque de género en la valoración de apoyos
+    separador
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.5 Aplicación del enfoque de género en la valoración de apoyos
 
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Figura 13.
@@ -455,9 +455,9 @@
           figure
             img(src='@/assets/curso/temas/tema2/img38.png', alt='Imagen decorativa')
 
-    .titulo.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
-      h5.mb-0  El papel de la interdisciplinariedad en la valoración de apoyos
+    separador
+    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.6 El papel de la interdisciplinariedad en la valoración de apoyos
 
 
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")

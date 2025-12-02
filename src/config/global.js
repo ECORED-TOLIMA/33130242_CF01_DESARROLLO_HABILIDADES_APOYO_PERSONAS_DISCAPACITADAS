@@ -75,6 +75,34 @@ export default {
             titulo: 'Aspectos interdisciplinarios de la valoración de apoyos',
             hash: 't_2_1',
           },
+          {
+            numero: '2.2',
+            titulo: 'Retos en la realización de la valoración de apoyos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Diálogos alrededor del marco legal de la discapacidad',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo:
+              'Aspectos interdisciplinarios que deben tenerse en cuenta en la valoración de apoyos',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo:
+              'Aplicación del enfoque de género en la valoración de apoyos.',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo:
+              'El papel de la interdisciplinariedad en la valoración de apoyos',
+            hash: 't_2_6',
+          },
         ],
       },
     ],
