@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Este componente aborda el concepto de discapacidad a través de los distintos modelos que han surgido desde la antigüedad hasta la actualidad, incluyendo el modelo de prescindencia, el modelo médico, el enfoque de derechos y el modelo de diversidad funcional. Esta evolución ha permitido reconocer a las personas con discapacidad como sujetos de una vida digna, fundamentada en la autonomía, la independencia, la libertad y la capacidad de decisión. En este contexto, la valoración de apoyos —establecida por la Ley 1996 de 2019— debe realizarse desde un enfoque interdisciplinario, en el que cada disciplina aporta elementos esenciales para construir una valoración integral, enriqueciendo el proceso y permitiendo enfrentar los retos que surgen en distintos ámbitos.
+    p Este componente aborda el concepto de discapacidad a través de los distintos modelos que han surgido desde la antigüedad hasta la actualidad, incluyendo el de prescindencia, el médico, el de derechos y el de diversidad funcional. Esta evolución ha permitido reconocer a las personas con discapacidad como sujetos de una vida digna, fundamentada en la autonomía, la independencia, la libertad y la capacidad de decisión. En este contexto, la valoración de apoyos —establecida por la Ley 1996 de 2019— debe realizarse desde un enfoque interdisciplinario, en el que cada disciplina aporta elementos esenciales para construir una valoración integral, enriqueciendo el proceso y permitiendo enfrentar los retos que surgen en distintos ámbitos.
     
 
     .row.justify-content-center

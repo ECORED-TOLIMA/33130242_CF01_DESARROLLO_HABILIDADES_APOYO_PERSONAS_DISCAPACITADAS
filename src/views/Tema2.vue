@@ -239,28 +239,28 @@
           .row.justify-content-center.mb-3
             .col-4
               img(src='@/assets/curso/temas/tema2/img23.svg' alt="Imagen decorativa")
-          h5.text-center Ley 1346 de 2009
+          h5.text-center Marco de adopción normativa
           p.text-center La convención fue aprobada en Colombia mediante la Ley 1346 de 2009.
 
         .col-md-6.col-lg.tarjeta--tabla.p-4
           .row.justify-content-center.mb-3
             .col-4
               img(src='@/assets/curso/temas/tema2/img24.svg' alt="Imagen decorativa")
-          h5.text-center Ley Estatutaria 1618 de 2013 
+          h5.text-center Disposiciones para la garantía de derechos 
           p.text-center Posteriormente, la Ley Estatutaria 1618 de 2013 estableció mecanismos para garantizar sus derechos.
 
         .col-md-6.col-lg.tarjeta--tabla.p-4
           .row.justify-content-center.mb-3
             .col-4
               img(src='@/assets/curso/temas/tema2/img25.svg' alt="Imagen decorativa")
-          h5.text-center Ley 1996 de 2019
+          h5.text-center Lineamientos sobre autonomía y decisiones
           p.text-center Más adelante, la Ley 1996 de 2019 definió el régimen de capacidad legal para esta población. 
 
         .col-md-6.col-lg.tarjeta--tabla.p-4
           .row.justify-content-center.mb-3
             .col-4
               img(src='@/assets/curso/temas/tema2/img26.svg' alt="Imagen decorativa")
-          h5.text-center Decreto 487 de 2022
+          h5.text-center Reglas para la implementación operativa
           p.text-center Esta última norma fue complementada por decretos reglamentarios, entre los cuales destaca el Decreto 487 de 2022, que regula la prestación del servicio de valoración de apoyos tanto en entidades públicas como privadas.
 
     .row.justify-content-center.align-items-center.mb-4
@@ -338,7 +338,7 @@
       .col-lg-10
         p.mb-0 Además de lo anterior, es importante conocer de manera suficiente las siguientes esferas y el nivel de funcionamiento de las personas con discapacidad:
 
-    .tarjeta--BG11.p-4
+    .tarjeta--BG11.p-4.px-5
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-10
           .bloque-texto-c.color-primario-medio.p-4
@@ -381,11 +381,11 @@
             img(src='@/assets/curso/temas/tema2/img33.png', alt='Imagen decorativa')
         .col-lg-8
           p.mb-0 Realizar un análisis adecuado de estas esferas requiere una mirada psicosocial e interdisciplinaria, centrada en la persona con discapacidad. El análisis sociofamiliar permite reconocer aspectos clave como la estructura familiar, los vínculos afectivos, la trayectoria de vida del grupo familiar, el contexto socioeconómico, los factores de riesgo y de generatividad del sistema familiar, así como identificar a las personas, entidades o redes que conforman el entorno de apoyo, tanto para quienes viven con discapacidad como para quienes ejercen roles de cuidado. El bienestar integral de cada integrante del sistema familiar y las relaciones que se establecen entre ellas influyen directamente en la calidad de vida, siendo elementos fundamentales al momento de realizar la valoración de apoyos y determinar la pertinencia de ciertas personas para brindar acompañamiento en áreas específicas.
-      p.mb-4 En esta misma línea, una contextualización sociofamiliar de las personas con discapacidad, facilita el reconocimiento de las necesidades, motivaciones e intereses de quienes solicitan el informe de valoración de apoyos, permitiendo una comprensión más profunda del entorno en el que se desarrolla la vida cotidiana.
+      p.mb-0 En esta misma línea, una contextualización sociofamiliar de las personas con discapacidad, facilita el reconocimiento de las necesidades, motivaciones e intereses de quienes solicitan el informe de valoración de apoyos, permitiendo una comprensión más profunda del entorno en el que se desarrolla la vida cotidiana.
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
-        p Asimismo, al considerar la interrelación entre la dinámica familiar y los condicionantes de la discapacidad, se comprende que esta puede ejercer una influencia positiva o negativa en el proceso de inclusión. La capacidad interna de la familia para reorganizarse funcionalmente será determinante para superar los obstáculos que surgen a raíz de la discapacidad, tales como barreras físicas, comunicativas, actitudinales, arquitectónicas y socioculturales. Superar estas barreras implica establecer acciones incluyentes que promuevan el ejercicio pleno de los derechos de todas las personas que integran el núcleo familiar (Abad, 2016).
+        p.mb-0 Asimismo, al considerar la interrelación entre la dinámica familiar y los condicionantes de la discapacidad, se comprende que esta puede ejercer una influencia positiva o negativa en el proceso de inclusión. La capacidad interna de la familia para reorganizarse funcionalmente será determinante para superar los obstáculos que surgen a raíz de la discapacidad, tales como barreras físicas, comunicativas, actitudinales, arquitectónicas y socioculturales. Superar estas barreras implica establecer acciones incluyentes que promuevan el ejercicio pleno de los derechos de todas las personas que integran el núcleo familiar (Abad, 2016).
       .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img34.svg', alt='Imagen decorativa')

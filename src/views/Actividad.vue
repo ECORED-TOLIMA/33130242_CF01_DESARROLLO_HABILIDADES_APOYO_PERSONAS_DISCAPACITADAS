@@ -16,7 +16,7 @@ export default {
       tema: 'Generalidades de la discapacidad y la valoración de apoyos',
       titulo: 'Cuestionario',
       introduccion:
-        'Identificar el grado de apropiación de los conocimientos en la valoración de apoyos, teniendo en cuenta la valoración integral de cada persona.',
+        'Objetivo: identificar el grado de apropiación de los conocimientos en la valoración de apoyos y discapacidad, teniendo en cuenta la valoración integral de cada persona.',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -51,7 +51,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -87,572 +87,583 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: 'El modelo médico de discapacidad se centra en:',
+          texto:
+            'El modelo social de la discapacidad tiene en la actualidad un desarrollo pleno en las normas internas colombianas:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Las barreras sociales y actitudinales.',
+              texto:
+                'Sí, porque la convención ratificada por Ley 1346 de 2009 ha modificado y cambiado todas las normas sobre discapacidad en Colombia.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La inclusión y participación.',
+              texto:
+                'Sí, porque la convención, artículo 8, insta al Estado a reconocer plenamente a las personas con discapacidad como sujetos de derechos humanos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'La deficiencia como enfermedad o anormalidad individual.',
+              texto:
+                'Sí, porque la convención ha impulsado avances normativos, pero aún falta preparación institucional y social para garantizar plenamente los derechos de personas con discapacidad.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Los derechos humanos y el enfoque de capacidades.',
+              texto:
+                'Sí, porque basta con que el Estado ajuste la normatividad para garantizar derechos de las personas con discapacidad.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Cuál de los siguientes conceptos se alinea con el enfoque de capacidades?',
+            'El movimiento de vida Independiente es una organización de personas con discapacidad, que busca:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Compensar deficiencias con ayuda médica.',
+              texto:
+                'El otorgamiento formal de derechos a las personas con discapacidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El potencial de las personas para realizar elecciones y llevar una vida digna.',
-              esCorrecta: true,
+                'El reconocimiento pleno de derechos a las personas con discapacidad.',
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Clasificar a las personas según su grado de discapacidad.',
-              esCorrecta: false,
+                'La posibilidad de desarrollarse como seres humanos y vivir con autonomía.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Restringir la participación a quienes no tienen deficiencias.',
+                'El acceso a recursos económicos para garantizar su bienestar.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto:
-            '¿Cuál de las siguientes afirmaciones corresponde al enfoque de derechos?',
+          texto: 'La libertad de las personas con discapacidad consiste en:',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Tratar la discapacidad desde una perspectiva exclusivamente médica.',
+              texto: 'Ejercer su derecho a autodeterminarse libremente.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Otorgar beneficios solo a quienes tienen discapacidad física.',
+                'Prepararse adecuadamente para tomar decisiones informadas.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Promover la igualdad, inclusión y participación de las personas con discapacidad.',
+                'Elegir a alguien con mayor conocimiento para apoyar decisiones.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Asistir a las personas con discapacidad solo si lo solicitan.',
+              texto: 'Ratificar su dependencia por condición de discapacidad.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: '¿Qué caracteriza al modelo de prescindencia?',
+          texto: 'El derecho a la accesibilidad:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Considera la discapacidad como un tema de derechos humanos.',
+                'Es un derecho fundamental que permite a las personas con discapacidad acceder a educación, trabajo y seguridad social en igualdad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Busca eliminar las barreras del entorno.',
+              texto:
+                'Es un derecho inherente a todos los seres humanos, incluyendo a las personas con discapacidad, sin excepción alguna.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Considera a las personas con discapacidad como una carga social o moral.',
+                'Es un derecho humano que complementa todos los derechos, garantizando inclusión plena en todos los aspectos de la vida cotidiana.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Reconoce la diversidad como valor social.',
+              texto:
+                'Es un derecho que poseen las personas, aunque depende de que las instituciones públicas decidan aplicarlo efectivamente en la práctica.	',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Qué enfoque se centra en la dignidad humana y el desarrollo de capacidades?',
+            'Las violencias que sufren las mujeres con discapacidad son las mismas violencias de género que padecen las mujeres en general:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Médico.', esCorrecta: false },
-            { id: 'b', texto: 'Prescindencia.', esCorrecta: false },
-            { id: 'c', texto: 'De capacidades.', esCorrecta: true },
-            { id: 'd', texto: 'Clínico.', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'No, porque tener discapacidad implica, erróneamente, que se poseen menos derechos frente a otras personas en la sociedad..',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'No, porque las familias deciden cuándo y cómo las mujeres con discapacidad acceden a sus derechos, limitando su autonomía..',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sí, porque las mujeres con discapacidad sufren las mismas violencias que otras mujeres, pero su condición hace que permanezcan invisibilizadas y silenciadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sí, porque las mujeres con discapacidad pueden denunciar libremente y son escuchadas por las instituciones del Estado de forma efectiva..',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de los siguientes elementos es un tipo de barrera que afecta a las personas con discapacidad?',
+            'La interdisciplinariedad le ayuda a las personas con discapacidad para:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Barreras culturales solamente.',
+              texto:
+                'Tener terapias según el criterio que defina el psicólogo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Barreras físicas, actitudinales, comunicativas y sociales.',
+              texto: 'Desarrollarse de manera plena como seres humanos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Barreras arquitectónicas exclusivamente.',
+              texto: 'Tener protocolos adecuados de atención médica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Barreras financieras únicamente.',
+              texto: 'Poder salir de sus casas a espacios públicos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
           texto:
-            '¿Cuál es el propósito de los apoyos en el contexto de la discapacidad?',
+            'La persona encargada de realizar una valoración de apoyos debe tener en cuenta:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Sustituir la voluntad de las personas con discapacidad.',
-              esCorrecta: false,
+              texto:
+                'Distintos instrumentos, herramientas y conocimientos jurídicos, psicológicos, sociales, arquitectónicos y de otras disciplinas para apoyar la discapacidad.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Facilitar el ejercicio de la capacidad legal y la toma de decisiones.',
-              esCorrecta: true,
+                'Un conocimiento amplio y profundo de la norma y aplicarla manera exacta y precisa.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Limitar las opciones para evitar errores.',
+              texto:
+                'Dictar un informe a partir de sus propias creencias y convicciones con respecto a la discapacidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Instruir a las personas para adaptarse al entorno.',
+              texto:
+                'Contar con un conocimiento riguroso de diversas profesiones, porque sólo así podrá realizar una atención integral.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: '¿Qué garantiza la implementación de ajustes razonables?',
+          texto:
+            '¿Cuáles son los mayores retos que se presentan por parte de la persona que realiza la evaluación de apoyos?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Uniformidad en la atención médica.',
+              texto:
+                'Falta de conocimiento y ausencia de una normatividad clara y precisa sobre derechos de las personas con discapacidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El goce y ejercicio de derechos en igualdad de condiciones.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Reducción de costos en servicios públicos.',
+                'Desconocimiento en derechos humanos y discapacidad, junto con falta de normatividad clara y precisa en el contexto institucional.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Persistencia de barreras actitudinales familiares, desconocimiento técnico claro y preciso, y falta de legitimación normativa.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Asistencia obligatoria a las personas con discapacidad.',
+              texto:
+                'Falta de interés por parte de personas con discapacidad en defender sus derechos, debido a la apatía frente a la participación.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
           texto:
-            '¿Cuál de los siguientes documentos establece el régimen para el ejercicio de la capacidad legal de las personas con discapacidad mayores de edad en Colombia?',
+            '¿Qué afectación podría tener para una persona con discapacidad no pertenecer a un núcleo familiar conformado y donde se le presten las mayores atenciones posibles?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Ley 1346 de 2009', esCorrecta: false },
-            { id: 'b', texto: 'Ley 1618 de 2013', esCorrecta: false },
-            { id: 'c', texto: 'Ley 1996 de 2019', esCorrecta: true },
-            { id: 'd', texto: 'Ley 1098 de 2006', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'La persona con discapacidad ve limitado su desarrollo humano si no tiene apoyos familiares que promuevan libertad y autodeterminación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Falta de apoyo familiar dificulta la toma de decisiones importantes en la vida diaria de personas con discapacidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'No es indispensable contar con familia que acompañe, más allá del cuidado natural que esta suele brindar a la persona.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sin apoyo familiar, la persona con discapacidad no ejercería derechos, pues la familia es vista como única red responsable.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            '¿Cuál es la función principal de la persona facilitadora en el proceso de valoración de apoyos?',
+            'Las valoraciones de apoyo están orientadas a las personas que deben guiar y acompañar a las personas con discapacidad para la realización de trámites.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Certificar la discapacidad.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Coordinar y llevar a cabo la valoración de apoyos.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Autorizar tratamientos médicos.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Representar legalmente a la persona con discapacidad.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
-          mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
-        },
-        {
-          id: 13,
-          texto:
-            'La aplicación del enfoque de género en la valoración de apoyos permite:',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Homogeneizar los apoyos sin distinción.',
+              texto:
+                'Sí, porque para las personas con discapacidad es importante contar con alguien que las guíe en la toma de decisiones. ',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Reconocer y responder a desigualdades específicas entre mujeres y hombres con discapacidad.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Excluir a los hombres del proceso.',
+                'Sí, porque estar cerca de alguien de confianza les permite desarrollarse mejor y tomar decisiones con mayor seguridad y apoyo. ',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'No, porque en las valoraciones de apoyo también se consideran ajustes razonables para facilitar decisiones con información clara y completa. ',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Dar prioridad solo a niños con discapacidad.',
+              texto:
+                'No, porque quienes acompañan decisiones son personas designadas por un juez, responsables de apoyar en todos los ámbitos necesarios. ',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto: 'El modelo de la diversidad funcional es:',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una explicación conceptual acerca de los derechos humanos de las personas con discapacidad. ',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Una explicación conceptual dice que las expresiones físicas, psíquicas y sensoriales de las personas no hacen parte de la naturaleza humana, sino que son alteraciones que deben corregirse. ',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una explicación conceptual que plantea que las deficiencias físicas, psíquicas y sensoriales son una expresión de la diversidad humana.	 ',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Una explicación conceptual acerca de la prescindencia. ',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            '¿Qué tipo de barrera impide o dificulta el acceso a la información y al proceso comunicativo?',
+            'No es un pilar de la Convención sobre los Derechos de las Personas con Discapacidad:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Barreras físicas.', esCorrecta: false },
-            { id: 'b', texto: 'Barreras actitudinales.', esCorrecta: false },
-            { id: 'c', texto: 'Barreras comunicativas.', esCorrecta: true },
-            { id: 'd', texto: 'Barreras legales.', esCorrecta: false },
+            { id: 'a', texto: 'El derecho a la igualdad.', esCorrecta: false },
+            { id: 'b', texto: 'La capacidad jurídica.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'El derecho a la accesibilidad.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'El derecho al trabajo.', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto: 'El diseño universal busca:',
+          texto:
+            'Las personas con discapacidad poseen _______________ espacio, derecho, goce y disfrute de su capacidad jurídica.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Diseñar herramientas para personas sin discapacidad.',
-              esCorrecta: false,
+              texto: 'Pleno.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Adaptar productos existentes a cada discapacidad.',
+              texto: 'Relativo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'Concebir entornos y productos utilizables por todos desde el origen.',
-              esCorrecta: true,
+              texto: 'Parcial.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Establecer protocolos médicos universales.',
+              texto: 'Medio.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
-          texto: '¿Cuál es el objetivo principal de las acciones afirmativas?',
+          texto:
+            'Las personas con discapacidad en Colombia enfrentan _______ al interactuar con funcionarios, familia, sociedad e instituciones, lo que limita su desarrollo pleno y el ejercicio efectivo de sus derechos.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Privilegiar a ciertos grupos por encima de otros.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Eliminar desigualdades y barreras hacia personas con discapacidad.',
+              texto: 'Barreras.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Dificultades.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto:
-                'Eximir de responsabilidades legales a las personas con discapacidad.',
+              texto: 'Limitaciones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Limitar el acceso de personas sin discapacidad a ciertos beneficios.',
+              texto: 'Prórrogas.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
           texto:
-            '¿Qué define la capacidad jurídica según la Corte Constitucional colombiana?',
+            'La Convención de Derechos de las Personas con Discapacidad de Naciones Unidas (2006), ratificada en Colombia mediante Ley 1346 de 2009, desarrolla todos los derechos fundamentales de estas personas.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'La posibilidad de obtener un certificado de discapacidad.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'La aptitud para realizar actos jurídicos sin necesidad de apoyo.',
+              texto: 'Falso',
               esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'El nivel de conocimiento en derecho civil.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'La autorización expresa de un familiar o tutor.',
-              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
           texto:
-            '¿Qué documento internacional establece principios sobre discapacidad y derechos humanos?',
+            'El concepto de discapacidad es un concepto que une la capacidad jurídica y el tipo de discapacidad. ',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Convención sobre los Derechos del Niño.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Convención sobre los Derechos de las Personas con Discapacidad.',
+              texto: 'Falso',
               esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Declaración de Río sobre el Medio Ambiente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Carta de las Naciones Unidas.',
-              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
-          texto: 'El concepto de autonomía en el contexto legal implica:',
+          texto:
+            'La discapacidad psicosocial es una discapacidad que resulta invisible a la vista, de allí que sus mayores barreras están puestas en las barreras actitudinales.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'La decisión de un juez sobre el destino de una persona con discapacidad.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'La autodeterminación y toma de decisiones conforme a deseos y preferencias.',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto:
-                'La intervención obligatoria de un tercero en decisiones personales.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'La limitación legal de la voluntad de las personas con discapacidad.',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
-          texto:
-            '¿Qué busca la valoración de apoyos según la Ley 1996 de 2019?',
+          texto: 'La valoración de apoyos es solamente un requisito normativo.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Determinar el grado de discapacidad.',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Asignar un tutor legal permanente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto:
-                'Establecer los apoyos necesarios para el ejercicio de la capacidad legal.',
+              texto: 'Falso',
               esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Clasificar a las personas según su condición médica.',
-              esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+            'Tiene un claro entendimiento del componente formativo.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },

@@ -11,7 +11,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-lg-1.order-2
-        p(data-aos="fade-left") Seguramente en la vida personal como en el quehacer como persona facilitadora de la valoración de apoyos, se haya escuchado una serie de imaginarios y prejuicios en torno a la discapacidad, entre ellos que la “discapacidad es una enfermedad”, que “una persona con discapacidad no puede tomar decisiones por sí misma”, asunto que resulta problemático, dado que con ello se les está desconociendo como sujetos de derechos, capaces y libres, con capacidad decidir, de actuar y de gozar de los derechos que todas las personas en el mundo tienen.
+        p(data-aos="fade-left") Seguramente en la vida personal como en el quehacer como persona facilitadora de la valoración de apoyos, se haya escuchado una serie de imaginarios y prejuicios en torno a la discapacidad, entre ellos que la “discapacidad es una enfermedad”, que “una persona con discapacidad no puede tomar decisiones por sí misma”, asunto que resulta problemático, dado que con ello se les está desconociendo como sujetos de derechos, capaces y libres, con capacidad de decidir, de actuar y de gozar de los derechos que todas las personas en el mundo tienen.
         .row.justify-content-center.align-items-center
           .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="zoom-in")
             figure
