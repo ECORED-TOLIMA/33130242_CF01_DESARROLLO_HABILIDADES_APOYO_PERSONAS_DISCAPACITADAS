@@ -176,7 +176,7 @@ export default {
     },
     {
       tema:
-        '2.1.3. Aspectos interdisciplinarios que deben tenerse en cuenta en la valoración de apoyos',
+        '2.4. Aspectos interdisciplinarios que deben tenerse en cuenta en la valoración de apoyos',
       referencia:
         'Abad Salgado, A. M. (2016). Familia y discapacidad: consideraciones apreciativas desde la inclusión. <em>Latinoamericana de Estudios de Familia</em>, 8, 58–77.',
       tipo: 'Artículo de Revista',
