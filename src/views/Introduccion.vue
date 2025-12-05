@@ -48,19 +48,19 @@
           img(src='@/assets/curso/temas/intro/img5.svg' alt='AvatarTop')
           .tarjeta.color-primario.tarjeta.color1.w-100
             .text-black.p-4
-              h4.text-center “Es que él no sabe, no entiende, no lee, yo soy la que le hago todo, soy yo la que tengo que hacer las cosas por él”.
+              p.text-center.text-bold.mb-0 “Es que él no sabe, no entiende, no lee, yo soy la que le hago todo, soy yo la que tengo que hacer las cosas por él”.
       .col-lg-4.mb-4.col-md-6.col-sm-8.mb-4(data-aos="fade-left")
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/intro/img6.svg' alt='AvatarTop')
           .tarjeta.color-primario.tarjeta.color1.w-100
             .text-black.p-4
-              h4.text-center “Nadie puede cuidarlo o cuidarla mejor que yo, yo soy su madre y sé mejor que nadie qué necesita, obvio que tengo que ser yo la persona de apoyo".
+              p.text-center.text-bold.mb-0 “Nadie puede cuidarlo o cuidarla mejor que yo, yo soy su madre y sé mejor que nadie qué necesita, obvio que tengo que ser yo la persona de apoyo".
       .col-lg-4.mb-4.col-md-6.col-sm-8.mb-4(data-aos="fade-left")
         .tarjeta-avatar.h-100
           img(src='@/assets/curso/temas/intro/img7.svg' alt='AvatarTop')
           .tarjeta.color-primario.tarjeta.color1.w-100
             .text-black.p-4
-              h4.text-center “Pobrecito es que a mí me toca hacerle todo”.
+              p.text-center.text-bold.mb-0 “Pobrecito es que a mí me toca hacerle todo”.
     p.mb-4(data-aos="fade-left") Frases como estás reflejan que algunas familias ven a la persona con discapacidad desde la carga del cuidado, no como una persona con derechos y capacidades. Estas barreras actitudinales, quizás puedan ser atemorizantes o condicionantes al momento de realizar las valoraciones de apoyo, pues no siempre la familia por tener un lazo de consanguineidad o afinidad es la mejor opción para asumir el rol de persona de apoyo.
     .tarjeta--BG01.p-4
       .row.justify-content-center.align-items-center
